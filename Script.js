@@ -28,10 +28,15 @@ function loadTableData(teams) {
   tableBody.innerHTML = ""; // Pulisce la tabella
 
   teams.forEach((team, index) => {
+    // Calcola la differenza reti
+    const goalDifference = team.goalsFor - team.goalsAgainst;
+
     const row = tableBody.insertRow();
     row.innerHTML = ` 
       <td>${index + 1}</td>
-      <td><img src="${team.image}" alt="${team.name}" width="30" height="30"> ${team.name}</td>
+      <td><img src="${team.image}" alt="${team.name}" width="30" height="30"> ${
+      team.name
+    }</td>
       <td>${team.points}</td>
       <td>${team.matchesPlayed}</td>
       <td>${team.wins}</td>
@@ -39,7 +44,7 @@ function loadTableData(teams) {
       <td>${team.losses}</td>
       <td>${team.goalsFor}</td>
       <td>${team.goalsAgainst}</td>
-      <td>${team.goalsFor - team.goalsAgainst}</td> <!-- Differenza reti calcolata -->
+      <td>${goalDifference}</td> <!-- Differenza reti calcolata -->
     `;
   });
 }
@@ -47,8 +52,14 @@ function loadTableData(teams) {
 // Funzione per ordinare la tabella
 function sortTable(criteria) {
   const sortedTeams = [...teamsData.teams].sort((a, b) => {
+    // Calcola la differenza reti prima di ordinare
+    const aGoalDifference = a.goalsFor - a.goalsAgainst,
+      bGoalDifference = b.goalsFor - b.goalsAgainst;
+
+    // Gestisci l'ordinamento per vari criteri
+    if (criteria === "goalDifference") return bGoalDifference - aGoalDifference; // Ordinamento decrescente per la differenza reti
+
     if (
-      criteria === "goalDifference" ||
       criteria === "points" ||
       criteria === "wins" ||
       criteria === "goalsFor" ||
@@ -57,6 +68,7 @@ function sortTable(criteria) {
       criteria === "draws"
     )
       return (b[criteria] || 0) - (a[criteria] || 0); // Ordinamento decrescente, evitando NaN
+
     return a[criteria].localeCompare(b[criteria]); // Ordinamento alfabetico
   });
 

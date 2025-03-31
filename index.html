@@ -20,26 +20,6 @@
         alt="Serie A"
         class="serie"
       />
-      <div id="sorting-criteria" class="sorting-criteria">
-        Ordinato per: Nessun criterio selezionato
-      </div>
-      <table id="league-table">
-        <thead>
-          <tr>
-            <th>Posizione</th>
-            <th>Squadra</th>
-            <th>Punti</th>
-            <th>Giocate</th>
-            <th>Vittorie</th>
-            <th>Pareggi</th>
-            <th>Sconfitte</th>
-            <th>Gol Fatti</th>
-            <th>Gol Subiti</th>
-            <th>Diff. Gol</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
       <div class="controls">
         <button data-criteria="points" onclick="sortTable('points')">
           Ordina per Punti
@@ -73,6 +53,30 @@
           Ordina per Nome
         </button>
       </div>
+
+      <div id="sorting-criteria" class="sorting-criteria">
+        Ordinato per: Nessun criterio selezionato
+      </div>
+
+      <br />
+
+      <table id="league-table">
+        <thead>
+          <tr>
+            <th>Posizione</th>
+            <th>Squadra</th>
+            <th>Punti</th>
+            <th>Giocate</th>
+            <th>Vittorie</th>
+            <th>Pareggi</th>
+            <th>Sconfitte</th>
+            <th>Gol Fatti</th>
+            <th>Gol Subiti</th>
+            <th>Diff. Gol</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
   </body>
 </html>
