@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classifica Serie A</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Classifica Serie A</h1>
+      <div id="sorting-criteria" class="sorting-criteria">
+        Ordinato per: Nessun criterio selezionato
+      </div>
+      <table id="league-table">
+        <thead>
+          <tr>
+            <th>Posizione</th>
+            <th>Squadra</th>
+            <th>Punti</th>
+            <th>Giocate</th>
+            <th>Vittorie</th>
+            <th>Pareggi</th>
+            <th>Sconfitte</th>
+            <th>Gol Fatti</th>
+            <th>Gol Subiti</th>
+            <th>Diff. Gol</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div class="controls">
+        <button data-criteria="points" onclick="sortTable('points')">
+          Ordina per Punti
+        </button>
+        <button data-criteria="wins" onclick="sortTable('wins')">
+          Ordina per Vittorie
+        </button>
+        <button
+          data-criteria="goalDifference"
+          onclick="sortTable('goalDifference')"
+        >
+          Ordina per Differenza Reti
+        </button>
+        <button data-criteria="goalsFor" onclick="sortTable('goalsFor')">
+          Ordina per Gol Fatti
+        </button>
+        <button
+          data-criteria="goalsAgainst"
+          onclick="sortTable('goalsAgainst')"
+        >
+          Ordina per Gol Subiti
+        </button>
+        <button data-criteria="losses" onclick="sortTable('losses')">
+          Ordina per Sconfitte
+        </button>
+        <br />
+        <button data-criteria="draws" onclick="sortTable('draws')">
+          Ordina per Pareggi
+        </button>
+        <button data-criteria="name" onclick="sortTable('name')">
+          Ordina per Nome
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

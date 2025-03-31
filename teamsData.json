@@ -1,0 +1,37 @@
+{
+  "teams": [
+    {
+      "name": "Juventus",
+      "points": 80,
+      "matchesPlayed": 38,
+      "wins": 24,
+      "draws": 8,
+      "losses": 6,
+      "goalsFor": 70,
+      "goalsAgainst": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_Juventus.svg"
+    },
+    {
+      "name": "Inter Milan",
+      "points": 78,
+      "matchesPlayed": 38,
+      "wins": 23,
+      "draws": 9,
+      "losses": 6,
+      "goalsFor": 75,
+      "goalsAgainst": 34,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Inter_Milan_logo.svg"
+    },
+    {
+      "name": "AC Milan",
+      "points": 72,
+      "matchesPlayed": 38,
+      "wins": 21,
+      "draws": 9,
+      "losses": 8,
+      "goalsFor": 65,
+      "goalsAgainst": 40,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/AC_Milan_logo.svg"
+    }
+  ]
+}
