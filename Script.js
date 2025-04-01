@@ -83,9 +83,8 @@ function loadTableData(teams) {
     } else if (index >= teams.length - 3) {
       row.classList.add("relegation-zone");
       row.dataset.zone = "relegation";
-    } else {
+    } else 
       row.dataset.zone = "none";
-    }
 
     // Inserisci i dati nella riga
     row.innerHTML = `
