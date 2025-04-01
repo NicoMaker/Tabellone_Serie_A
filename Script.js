@@ -2,13 +2,15 @@
 let teamsData = [],
   criteriaLabels = {},
   currentSortCriteria = "points",
-  currentFilter = "all"; // Nuovo: tiene traccia del filtro attuale
+  currentFilter = "all", // Tiene traccia del filtro attuale
+  searchTerm = ""; // Nuova variabile per il termine di ricerca
 
 // Funzione per caricare i dati da un file JSON
 async function loadTeamsData() {
   try {
     showLoading(true);
     hideError();
+    hideNoResults(); // Nascondi il messaggio "nessun risultato"
 
     // Carica i dati delle squadre
     const teamsResponse = await fetch("JSON/teamsData.json");
@@ -56,12 +58,35 @@ function hideError() {
   errorMessage.style.display = "none";
 }
 
+// Nuova funzione per mostrare il messaggio "nessun risultato"
+function showNoResults() {
+  const noResultsMessage = document.getElementById("no-results-message");
+  noResultsMessage.style.display = "flex";
+}
+
+// Nuova funzione per nascondere il messaggio "nessun risultato"
+function hideNoResults() {
+  const noResultsMessage = document.getElementById("no-results-message");
+  if (noResultsMessage) {
+    noResultsMessage.style.display = "none";
+  }
+}
+
 // Funzione per caricare i dati nella tabella
 function loadTableData(teams) {
   const tableBody = document
     .getElementById("league-table")
     .getElementsByTagName("tbody")[0];
   tableBody.innerHTML = ""; // Pulisce la tabella
+
+  // Se non ci sono squadre da mostrare, mostra il messaggio "nessun risultato"
+  if (teams.length === 0) {
+    showNoResults();
+    return;
+  }
+
+  // Altrimenti, nascondi il messaggio "nessun risultato"
+  hideNoResults();
 
   teams.forEach((team, index) => {
     // Calcola la differenza reti
@@ -109,30 +134,30 @@ function sortTable(criteria) {
 
   const sortedTeams = [...teamsData.teams].sort((a, b) => {
     // Calcola la differenza reti prima di ordinare
-    const aGoalDifference = a.goalsFor - a.goalsAgainst;
-    const bGoalDifference = b.goalsFor - b.goalsAgainst;
+    const aGoalDifference = a.goalsFor - a.goalsAgainst,
+      bGoalDifference = b.goalsFor - b.goalsAgainst;
 
     // Gestisci l'ordinamento per vari criteri
-    if (criteria === "goalDifference") {
-      return bGoalDifference - aGoalDifference;
-    }
+    if (criteria === "goalDifference") return bGoalDifference - aGoalDifference;
 
-    if (criteria === "name") {
-      return a[criteria].localeCompare(b[criteria]); // Ordinamento alfabetico
-    }
+    if (criteria === "name") return a[criteria].localeCompare(b[criteria]); // Ordinamento alfabetico
 
     // Per tutti gli altri criteri numerici (ordinamento decrescente)
     return (b[criteria] || 0) - (a[criteria] || 0);
   });
 
-  loadTableData(sortedTeams);
+  // Applica il filtro di ricerca se c'è un termine di ricerca
+  const filteredTeams = searchTerm 
+    ? sortedTeams.filter(team => 
+        team.name.toLowerCase().includes(searchTerm.toLowerCase()))
+    : sortedTeams;
+
+  loadTableData(filteredTeams);
   highlightSelectedButton(criteria);
   displaySortingCriteria(criteria);
 
   // Riapplica il filtro corrente dopo l'ordinamento
-  if (currentFilter !== "all") {
-    filterTableByZone(currentFilter);
-  }
+  if (currentFilter !== "all") filterTableByZone(currentFilter);
 }
 
 // Funzione per evidenziare il pulsante selezionato
@@ -153,7 +178,7 @@ function displaySortingCriteria(criteria) {
     criteriaLabels[criteria] || "Nessun criterio selezionato";
 }
 
-// Nuova funzione per filtrare la tabella per zona
+// Funzione per filtrare la tabella per zona
 function filterTableByZone(zone) {
   currentFilter = zone;
 
@@ -189,6 +214,33 @@ function highlightLegendItem(zone) {
       .querySelector(`.legend-item.${zone}`)
       .classList.add("selected-legend");
   }
+}
+
+// Nuova funzione per cercare le squadre
+function searchTeams(term) {
+  searchTerm = term.trim();
+  
+  // Mostra il loader durante la ricerca
+  showLoading(true);
+  
+  // Simula un ritardo di ricerca per mostrare il loader
+  setTimeout(() => {
+    // Filtra le squadre in base al termine di ricerca
+    const filteredTeams = teamsData.teams.filter(team => 
+      team.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    
+    // Carica i dati filtrati nella tabella
+    loadTableData(filteredTeams);
+    
+    // Nascondi il loader
+    showLoading(false);
+    
+    // Se non ci sono risultati, mostra il messaggio "nessun risultato"
+    if (filteredTeams.length === 0) {
+      showNoResults();
+    }
+  }, 500); // Ritardo di 500ms per mostrare l'animazione
 }
 
 // Aggiungi event listener ai pulsanti di ordinamento
@@ -230,6 +282,14 @@ document.addEventListener("DOMContentLoaded", () => {
     filterTableByZone("all");
   });
   legend.appendChild(resetButton);
+
+  // Aggiungi event listener al campo di ricerca
+  const searchInput = document.getElementById("search-input");
+  if (searchInput) {
+    searchInput.addEventListener("input", function() {
+      searchTeams(this.value);
+    });
+  }
 
   // Carica i dati iniziali
   loadTeamsData();

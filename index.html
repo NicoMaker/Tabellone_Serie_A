@@ -44,12 +44,48 @@
         <div id="sorting-criteria" class="sorting-criteria">
           Ordinato per: <span>Punti</span>
         </div>
+
+        <!-- Nuova barra di ricerca -->
+        <div class="search-container">
+          <input
+            type="text"
+            id="search-input"
+            class="search-input"
+            placeholder="Cerca squadra..."
+          />
+          <svg
+            class="search-icon"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
       </div>
 
       <div class="table-container">
         <div class="loading-overlay" id="loading-overlay">
           <div class="spinner"></div>
           <p>Caricamento dati...</p>
+        </div>
+
+        <!-- Nuovo messaggio "nessun risultato" -->
+        <div class="no-results-message" id="no-results-message">
+          <div class="no-results-spinner"></div>
+          <h3>Nessun risultato trovato</h3>
+          <p>
+            La tua ricerca non ha prodotto risultati. Prova con un altro termine
+            o cancella la ricerca.
+          </p>
         </div>
 
         <div class="legend">
