@@ -83,8 +83,7 @@ function loadTableData(teams) {
     } else if (index >= teams.length - 3) {
       row.classList.add("relegation-zone");
       row.dataset.zone = "relegation";
-    } else 
-      row.dataset.zone = "none";
+    } else row.dataset.zone = "none";
 
     // Inserisci i dati nella riga
     row.innerHTML = `
@@ -173,11 +172,8 @@ function filterTableByZone(zone) {
   // Altrimenti, filtra per zona
   const rows = document.querySelectorAll("#league-table tbody tr");
   rows.forEach((row) => {
-    if (row.dataset.zone === zone) {
-      row.style.display = "";
-    } else {
-      row.style.display = "none";
-    }
+    if (row.dataset.zone === zone) row.style.display = "";
+    else row.style.display = "none";
   });
 }
 
