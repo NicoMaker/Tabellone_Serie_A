@@ -5,78 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Classifica Serie A</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="script.js" defer></script>
     <link
-      sizes="180x180"
+      rel="icon"
       href="https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg"
+      type="image/jpeg"
     />
   </head>
   <body>
     <div class="container">
-      <h1>Classifica Serie A</h1>
+      <header>
+        <img
+          src="https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg"
+          alt="Serie A"
+          class="serie-logo"
+        />
+        <h1>Classifica Serie A</h1>
+      </header>
 
-      <img
-        src="https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg"
-        alt="Serie A"
-        class="serie"
-      />
-      <div class="controls">
-        <button data-criteria="points" onclick="sortTable('points')">
-          Ordina per Punti
-        </button>
-        <button data-criteria="wins" onclick="sortTable('wins')">
-          Ordina per Vittorie
-        </button>
-        <button
-          data-criteria="goalDifference"
-          onclick="sortTable('goalDifference')"
-        >
-          Ordina per Differenza Reti
-        </button>
-        <button data-criteria="goalsFor" onclick="sortTable('goalsFor')">
-          Ordina per Gol Fatti
-        </button>
-        <button
-          data-criteria="goalsAgainst"
-          onclick="sortTable('goalsAgainst')"
-        >
-          Ordina per Gol Subiti
-        </button>
-        <button data-criteria="losses" onclick="sortTable('losses')">
-          Ordina per Sconfitte
-        </button>
-        <br />
-        <button data-criteria="draws" onclick="sortTable('draws')">
-          Ordina per Pareggi
-        </button>
-        <button data-criteria="name" onclick="sortTable('name')">
-          Ordina per Nome
-        </button>
+      <div class="filter-section">
+        <div class="filter-label">Ordina per:</div>
+        <div class="filter-buttons">
+          <button data-criteria="points" class="selected">Punti</button>
+          <button data-criteria="wins">Vittorie</button>
+          <button data-criteria="goalDifference">Differenza Reti</button>
+          <button data-criteria="goalsFor">Gol Fatti</button>
+          <button data-criteria="goalsAgainst">Gol Subiti</button>
+          <button data-criteria="losses">Sconfitte</button>
+          <button data-criteria="draws">Pareggi</button>
+          <button data-criteria="name">Nome</button>
+        </div>
+        <div id="sorting-criteria" class="sorting-criteria">
+          Ordinato per: <span>Punti</span>
+        </div>
       </div>
 
-      <div id="sorting-criteria" class="sorting-criteria">
-        Ordinato per: Nessun criterio selezionato
+      <div class="table-container">
+        <div class="loading-overlay" id="loading-overlay">
+          <div class="spinner"></div>
+          <p>Caricamento dati...</p>
+        </div>
+
+        <div class="legend">
+          <div class="legend-item champions">
+            <span class="legend-color"></span>
+            <span>Champions League</span>
+          </div>
+          <div class="legend-item europa">
+            <span class="legend-color"></span>
+            <span>Europa League</span>
+          </div>
+          <div class="legend-item conference">
+            <span class="legend-color"></span>
+            <span>Conference League</span>
+          </div>
+          <div class="legend-item relegation">
+            <span class="legend-color"></span>
+            <span>Retrocessione</span>
+          </div>
+        </div>
+
+        <div class="table-wrapper">
+          <table id="league-table">
+            <thead>
+              <tr>
+                <th class="pos-col">Pos</th>
+                <th class="team-col">Squadra</th>
+                <th class="pts-col">Pts</th>
+                <th class="matches-col">PG</th>
+                <th class="win-col">V</th>
+                <th class="draw-col">P</th>
+                <th class="loss-col">S</th>
+                <th class="gf-col">GF</th>
+                <th class="ga-col">GS</th>
+                <th class="gd-col">DR</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
       </div>
 
-      <br />
+      <div class="error-message" id="error-message">
+        <p>
+          Si è verificato un errore nel caricamento dei dati. Riprova più tardi.
+        </p>
+        <button id="retry-button">Riprova</button>
+      </div>
 
-      <table id="league-table">
-        <thead>
-          <tr>
-            <th>Posizione</th>
-            <th>Squadra</th>
-            <th>Punti</th>
-            <th>Giocate</th>
-            <th>Vittorie</th>
-            <th>Pareggi</th>
-            <th>Sconfitte</th>
-            <th>Gol Fatti</th>
-            <th>Gol Subiti</th>
-            <th>Diff. Gol</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+      <div id="info"></div>
     </div>
   </body>
 </html>
