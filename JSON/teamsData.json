@@ -79,7 +79,7 @@
     }, 
     {
       "name":"Lazio",
-      "points":51,
+      "points":52,
       "matchesPlayed":30,
       "wins":15,
       "draws":6,
@@ -112,7 +112,7 @@
     },
     {
       "name":"Torino",
-      "points":38,
+      "points":39,
       "matchesPlayed":30,
       "wins":9,
       "draws":11,
@@ -145,7 +145,7 @@
     },
     {
       "name":"Verona",
-      "points":29,
+      "points":30,
       "matchesPlayed":30,
       "wins":9,
       "draws":2,
@@ -167,7 +167,7 @@
     },    
     {
       "name":"Parma",
-      "points":25,
+      "points":26,
       "matchesPlayed":30,
       "wins":5,
       "draws":10,
