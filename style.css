@@ -455,15 +455,6 @@ footer {
     padding: var(--spacing-sm);
   }
 
-  /* Hide less important columns on mobile */
-  .matches-col,
-  .draw-col,
-  .loss-col,
-  .gf-col,
-  .ga-col {
-    display: none;
-  }
-
   /* Adjust team column */
   td:nth-child(2) img {
     width: 24px;
@@ -489,8 +480,5 @@ footer {
     gap: var(--spacing-xs);
   }
 
-  /* Further column hiding for very small screens */
-  .win-col {
-    display: none;
-  }
+  
 }
