@@ -1,0 +1,28 @@
+{
+  "zones": [
+    {
+      "name": "champions",
+      "label": "Champions League",
+      "positions": [1, 2, 3, 4],
+      "color": "#1e40af"
+    },
+    {
+      "name": "europa",
+      "label": "Europa League",
+      "positions": [5],
+      "color": "#0284c7"
+    },
+    {
+      "name": "conference",
+      "label": "Conference League",
+      "positions": [6],
+      "color": "#0ea5e9"
+    },
+    {
+      "name": "relegation",
+      "label": "Retrocessione",
+      "positions": [18, 19, 20],
+      "color": "#ef4444"
+    }
+  ]
+}

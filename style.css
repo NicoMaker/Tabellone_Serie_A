@@ -10,7 +10,7 @@
   --text-light: #666666;
   --border: #e0e0e0;
 
-  /* Zone colors */
+  /* Zone colors - Ora definite dinamicamente dal JSON */
   --champions: #1e40af;
   --europa: #0284c7;
   --conference: #0ea5e9;
@@ -220,20 +220,37 @@ h1 {
   border-radius: 50%;
 }
 
-.champions .legend-color {
-  background-color: var(--champions);
+/* Zone styling - Ora applicato dinamicamente dal JavaScript */
+tr.champions-zone {
+  background-color: rgba(30, 64, 175, 0.05);
 }
 
-.europa .legend-color {
-  background-color: var(--europa);
+tr.champions-zone td:first-child {
+  border-left: 4px solid var(--champions);
 }
 
-.conference .legend-color {
-  background-color: var(--conference);
+tr.europa-zone {
+  background-color: rgba(2, 132, 199, 0.05);
 }
 
-.relegation .legend-color {
-  background-color: var(--relegation);
+tr.europa-zone td:first-child {
+  border-left: 4px solid var(--europa);
+}
+
+tr.conference-zone {
+  background-color: rgba(14, 165, 233, 0.05);
+}
+
+tr.conference-zone td:first-child {
+  border-left: 4px solid var(--conference);
+}
+
+tr.relegation-zone {
+  background-color: rgba(239, 68, 68, 0.05);
+}
+
+tr.relegation-zone td:first-child {
+  border-left: 4px solid var(--relegation);
 }
 
 /* Table styles */
@@ -281,39 +298,6 @@ td:nth-child(2) {
 
 td:nth-child(3) {
   font-weight: 700;
-}
-
-/* Zone highlighting */
-tr.champions-zone {
-  background-color: rgba(30, 64, 175, 0.05);
-}
-
-tr.champions-zone td:first-child {
-  border-left: 4px solid var(--champions);
-}
-
-tr.europa-zone {
-  background-color: rgba(2, 132, 199, 0.05);
-}
-
-tr.europa-zone td:first-child {
-  border-left: 4px solid var(--europa);
-}
-
-tr.conference-zone {
-  background-color: rgba(14, 165, 233, 0.05);
-}
-
-tr.conference-zone td:first-child {
-  border-left: 4px solid var(--conference);
-}
-
-tr.relegation-zone {
-  background-color: rgba(239, 68, 68, 0.05);
-}
-
-tr.relegation-zone td:first-child {
-  border-left: 4px solid var(--relegation);
 }
 
 /* Row hover effect */
@@ -479,6 +463,4 @@ footer {
     flex-direction: column;
     gap: var(--spacing-xs);
   }
-
-  
 }

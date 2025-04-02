@@ -1,9 +1,10 @@
 // Variabili globali
 let teamsData = [],
   criteriaLabels = {},
+  zonesData = {}, // Nuova variabile per i dati delle zone
   currentSortCriteria = "points",
   currentFilter = "all", // Tiene traccia del filtro attuale
-  searchTerm = ""; // Nuova variabile per il termine di ricerca
+  searchTerm = ""; // Variabile per il termine di ricerca
 
 // Funzione per caricare i dati da un file JSON
 async function loadTeamsData() {
@@ -24,11 +25,20 @@ async function loadTeamsData() {
       throw new Error("Errore nel caricamento delle etichette");
     criteriaLabels = await labelsResponse.json();
 
+    // Carica i dati delle zone
+    const zonesResponse = await fetch("JSON/zonesData.json");
+    if (!zonesResponse.ok)
+      throw new Error("Errore nel caricamento dei dati delle zone");
+    zonesData = await zonesResponse.json();
+
     // Carica i dati iniziali nella tabella
     loadTableData(teamsData.teams);
 
     // Ordina inizialmente per Punti
     sortTable("points");
+
+    // Genera la legenda basata sui dati delle zone
+    generateLegend();
 
     // Nascondi il loader
     showLoading(false);
@@ -58,18 +68,33 @@ function hideError() {
   errorMessage.style.display = "none";
 }
 
-// Nuova funzione per mostrare il messaggio "nessun risultato"
+// Funzione per mostrare il messaggio "nessun risultato"
 function showNoResults() {
   const noResultsMessage = document.getElementById("no-results-message");
   noResultsMessage.style.display = "flex";
 }
 
-// Nuova funzione per nascondere il messaggio "nessun risultato"
+// Funzione per nascondere il messaggio "nessun risultato"
 function hideNoResults() {
   const noResultsMessage = document.getElementById("no-results-message");
   if (noResultsMessage) {
     noResultsMessage.style.display = "none";
   }
+}
+
+// Funzione per determinare la zona di una squadra in base alla posizione
+function getTeamZone(position) {
+  // Se non abbiamo ancora caricato i dati delle zone, restituisci "none"
+  if (!zonesData.zones) return "none";
+
+  // Controlla in quale zona si trova la posizione
+  for (const zone of zonesData.zones) {
+    if (zone.positions.includes(position)) {
+      return zone.name;
+    }
+  }
+
+  return "none";
 }
 
 // Funzione per caricare i dati nella tabella
@@ -95,24 +120,19 @@ function loadTableData(teams) {
     // Crea la riga della tabella
     const row = tableBody.insertRow();
 
-    // Aggiungi classi per le zone di classifica
-    if (index < 4) {
-      row.classList.add("champions-zone");
-      row.dataset.zone = "champions";
-    } else if (index === 4) {
-      row.classList.add("europa-zone");
-      row.dataset.zone = "europa";
-    } else if (index === 5) {
-      row.classList.add("conference-zone");
-      row.dataset.zone = "conference";
-    } else if (index >= teams.length - 3) {
-      row.classList.add("relegation-zone");
-      row.dataset.zone = "relegation";
-    } else row.dataset.zone = "none";
+    // Determina la zona in base alla posizione
+    const position = index + 1;
+    const zone = getTeamZone(position);
+
+    // Aggiungi la classe della zona e il dataset
+    if (zone !== "none") {
+      row.classList.add(`${zone}-zone`);
+    }
+    row.dataset.zone = zone;
 
     // Inserisci i dati nella riga
     row.innerHTML = `
-      <td>${index + 1}</td>
+      <td>${position}</td>
       <td><img src="${team.image}" alt="${team.name}" width="30" height="30"> ${
       team.name
     }</td>
@@ -147,9 +167,10 @@ function sortTable(criteria) {
   });
 
   // Applica il filtro di ricerca se c'è un termine di ricerca
-  const filteredTeams = searchTerm 
-    ? sortedTeams.filter(team => 
-        team.name.toLowerCase().includes(searchTerm.toLowerCase()))
+  const filteredTeams = searchTerm
+    ? sortedTeams.filter((team) =>
+        team.name.toLowerCase().includes(searchTerm.toLowerCase())
+      )
     : sortedTeams;
 
   loadTableData(filteredTeams);
@@ -210,32 +231,70 @@ function highlightLegendItem(zone) {
   });
 
   if (zone !== "all") {
-    document
-      .querySelector(`.legend-item.${zone}`)
-      .classList.add("selected-legend");
+    const selectedItem = document.querySelector(`.legend-item.${zone}`);
+    if (selectedItem) {
+      selectedItem.classList.add("selected-legend");
+    }
   }
 }
 
-// Nuova funzione per cercare le squadre
+// Funzione per generare dinamicamente la legenda basata sui dati delle zone
+function generateLegend() {
+  const legend = document.querySelector(".legend");
+  legend.innerHTML = ""; // Pulisce la legenda esistente
+
+  // Se non abbiamo ancora caricato i dati delle zone, esci
+  if (!zonesData.zones) return;
+
+  // Aggiungi elementi della legenda basati sui dati JSON
+  zonesData.zones.forEach((zone) => {
+    const legendItem = document.createElement("div");
+    legendItem.className = `legend-item ${zone.name}`;
+    legendItem.innerHTML = `
+      <span class="legend-color" style="background-color: ${zone.color};"></span>
+      <span>${zone.label}</span>
+    `;
+    legendItem.style.cursor = "pointer";
+    legendItem.addEventListener("click", function () {
+      filterTableByZone(zone.name);
+    });
+    legend.appendChild(legendItem);
+  });
+
+  // Aggiungi un pulsante per mostrare tutte le squadre
+  const resetButton = document.createElement("div");
+  resetButton.className = "legend-item reset";
+  resetButton.innerHTML = `
+    <span class="legend-color" style="background-color: #999;"></span>
+    <span>Mostra tutte</span>
+  `;
+  resetButton.style.cursor = "pointer";
+  resetButton.addEventListener("click", function () {
+    filterTableByZone("all");
+  });
+  legend.appendChild(resetButton);
+}
+
+// Funzione per cercare le squadre
 function searchTeams(term) {
   searchTerm = term.trim();
-  
+
   // Mostra il loader durante la ricerca
   showLoading(true);
-  
+
   // Simula un ritardo di ricerca per mostrare il loader
   setTimeout(() => {
     // Filtra le squadre in base al termine di ricerca
-    const filteredTeams = teamsData.teams.filter(team => 
+    const filteredTeams = teamsData.teams.filter((team) =>
       team.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
-    
+
     // Carica i dati filtrati nella tabella
     loadTableData(filteredTeams);
-    
+
     // Nascondi il loader
     showLoading(false);
-    
+
     // Se non ci sono risultati, mostra il messaggio "nessun risultato"
     if (filteredTeams.length === 0) {
       showNoResults();
@@ -258,35 +317,10 @@ document.addEventListener("DOMContentLoaded", () => {
     .getElementById("retry-button")
     .addEventListener("click", loadTeamsData);
 
-  // Aggiungi event listener agli elementi della legenda
-  const legendItems = document.querySelectorAll(".legend-item");
-  legendItems.forEach((item) => {
-    item.style.cursor = "pointer"; // Cambia il cursore per indicare che è cliccabile
-
-    item.addEventListener("click", function () {
-      const zone = this.classList[1]; // champions, europa, conference, relegation
-      filterTableByZone(zone);
-    });
-  });
-
-  // Aggiungi un pulsante per mostrare tutte le squadre
-  const legend = document.querySelector(".legend");
-  const resetButton = document.createElement("div");
-  resetButton.className = "legend-item reset";
-  resetButton.innerHTML = `
-    <span class="legend-color" style="background-color: #999;"></span>
-    <span>Mostra tutte</span>
-  `;
-  resetButton.style.cursor = "pointer";
-  resetButton.addEventListener("click", function () {
-    filterTableByZone("all");
-  });
-  legend.appendChild(resetButton);
-
   // Aggiungi event listener al campo di ricerca
   const searchInput = document.getElementById("search-input");
   if (searchInput) {
-    searchInput.addEventListener("input", function() {
+    searchInput.addEventListener("input", function () {
       searchTeams(this.value);
     });
   }
@@ -295,6 +329,7 @@ document.addEventListener("DOMContentLoaded", () => {
   loadTeamsData();
 });
 
+// Aggiorna il footer con la data corrente
 const info = `&copy; Info Serie A ${
   (new Date().getDate() < 10 ? "0" : "") + new Date().getDate()
 } ${
