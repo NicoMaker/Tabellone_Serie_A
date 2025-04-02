@@ -77,9 +77,7 @@ function showNoResults() {
 // Funzione per nascondere il messaggio "nessun risultato"
 function hideNoResults() {
   const noResultsMessage = document.getElementById("no-results-message");
-  if (noResultsMessage) {
-    noResultsMessage.style.display = "none";
-  }
+  if (noResultsMessage) noResultsMessage.style.display = "none";
 }
 
 // Funzione per determinare la zona di una squadra in base alla posizione
@@ -88,11 +86,8 @@ function getTeamZone(position) {
   if (!zonesData.zones) return "none";
 
   // Controlla in quale zona si trova la posizione
-  for (const zone of zonesData.zones) {
-    if (zone.positions.includes(position)) {
-      return zone.name;
-    }
-  }
+  for (const zone of zonesData.zones)
+    if (zone.positions.includes(position)) return zone.name;
 
   return "none";
 }
@@ -121,13 +116,11 @@ function loadTableData(teams) {
     const row = tableBody.insertRow();
 
     // Determina la zona in base alla posizione
-    const position = index + 1;
-    const zone = getTeamZone(position);
+    const position = index + 1,
+      zone = getTeamZone(position);
 
     // Aggiungi la classe della zona e il dataset
-    if (zone !== "none") {
-      row.classList.add(`${zone}-zone`);
-    }
+    if (zone !== "none") row.classList.add(`${zone}-zone`);
     row.dataset.zone = zone;
 
     // Inserisci i dati nella riga
@@ -232,9 +225,7 @@ function highlightLegendItem(zone) {
 
   if (zone !== "all") {
     const selectedItem = document.querySelector(`.legend-item.${zone}`);
-    if (selectedItem) {
-      selectedItem.classList.add("selected-legend");
-    }
+    if (selectedItem) selectedItem.classList.add("selected-legend");
   }
 }
 
@@ -296,9 +287,7 @@ function searchTeams(term) {
     showLoading(false);
 
     // Se non ci sono risultati, mostra il messaggio "nessun risultato"
-    if (filteredTeams.length === 0) {
-      showNoResults();
-    }
+    if (filteredTeams.length === 0) showNoResults();
   }, 500); // Ritardo di 500ms per mostrare l'animazione
 }
 
