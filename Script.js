@@ -318,6 +318,122 @@ document.addEventListener("DOMContentLoaded", () => {
   loadTeamsData();
 });
 
+// Funzione per convertire JSON in CSV
+function convertToCSV(objArray) {
+  const array = typeof objArray !== "object" ? JSON.parse(objArray) : objArray;
+  let csv = "";
+  const headers = Object.keys(array[0]).join(","); // Intestazioni
+  csv += headers + "\n";
+
+  array.forEach((row) => {
+    const values = Object.values(row).map((val) =>
+      typeof val === "string" ? `"${val}"` : val
+    );
+    csv += values.join(",") + "\n";
+  });
+
+  return csv;
+}
+
+// Funzione per scaricare i dati in CSV
+function downloadCSV() {
+  if (teamsData.length === 0) {
+    alert("Nessun dato disponibile per il download!");
+    return;
+  }
+
+  const csvContent = convertToCSV(teamsData.teams),
+    blob = new Blob([csvContent], { type: "text/csv" }),
+    link = document.createElement("a");
+
+  link.href = URL.createObjectURL(blob);
+  link.download = "teams_data.csv";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+// Funzione per visualizzare i dati in tabella (aggiunta per completezza)
+function renderTable() {
+  const tableBody = document.getElementById("table-body");
+  tableBody.innerHTML = "";
+
+  teamsData.teams.forEach((team) => {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td><img src="${team.image}" width="30"></td>
+      <td>${team.name}</td>
+      <td>${team.points}</td>
+      <td>${team.matchesPlayed}</td>
+      <td>${team.wins}</td>
+      <td>${team.draws}</td>
+      <td>${team.losses}</td>
+      <td>${team.goalsFor}</td>
+      <td>${team.goalsAgainst}</td>
+    `;
+    tableBody.appendChild(row);
+  });
+}
+
+// Bottone per scaricare il CSV
+document.addEventListener("DOMContentLoaded", () => {
+  document
+    .getElementById("download-csv")
+    .addEventListener("click", downloadCSV);
+  loadTeamsData();
+});
+
+// Funzione per convertire JSON in CSV (senza immagini)
+function convertToCSV(objArray) {
+  const array = typeof objArray !== "object" ? JSON.parse(objArray) : objArray;
+  let csv = "";
+
+  // Prendiamo le chiavi escludendo 'image'
+  const headers = Object.keys(array[0])
+    .filter((key) => key !== "image")
+    .join(",");
+  csv += headers + "\n";
+
+  array.forEach((row) => {
+    const values = Object.entries(row)
+      .filter(([key]) => key !== "image") // Escludiamo l'immagine
+      .map(([_, val]) => (typeof val === "string" ? `"${val}"` : val));
+
+    csv += values.join(",") + "\n";
+  });
+
+  return csv;
+}
+
+// Funzione per scaricare il CSV
+function downloadJSON() {
+  if (teamsData.length === 0) {
+    alert("Nessun dato disponibile per il download!");
+    return;
+  }
+
+  const jsonContent = JSON.stringify(teamsData, null, 2),
+    blob = new Blob([jsonContent], { type: "application/json" }),
+    link = document.createElement("a");
+
+  link.href = URL.createObjectURL(blob);
+  link.download = "teams_data.json";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+// Eventi per i bottoni di download
+document.addEventListener("DOMContentLoaded", () => {
+  document
+    .getElementById("download-csv")
+    .addEventListener("click", downloadCSV);
+  document
+    .getElementById("download-json")
+    .addEventListener("click", downloadJSON);
+  loadTeamsData();
+});
+
 // Aggiorna il footer con la data corrente
 const info = `&copy; Info Serie A ${
   (new Date().getDate() < 10 ? "0" : "") + new Date().getDate()

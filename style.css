@@ -490,3 +490,18 @@ footer {
 .scarica:active {
   background: var(--secondary);
 }
+
+.download-buttons {
+  display: flex;
+  justify-content: center; /* Centra i pulsanti orizzontalmente */
+  flex-wrap: wrap; /* Permette di andare a capo se lo spazio è insufficiente */
+  gap: var(--spacing-md); /* Spazio tra i pulsanti */
+  margin-top: var(--spacing-lg);
+}
+
+.scarica {
+  white-space: nowrap; /* Evita la rottura del testo */
+  min-width: 150px; /* Mantiene una dimensione minima per i pulsanti */
+  text-align: center;
+  font-size: 2em;
+}
