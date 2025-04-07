@@ -155,7 +155,6 @@ function loadTableData(teams) {
     const positionCell = row.insertCell();
     positionCell.textContent = position;
     // Puoi aggiungere il colore personalizzato qui
-    positionCell.style.backgroundColor = "#f0f0f0"; // Example background color
 
     // Inserisci i dati nella riga
     row.innerHTML += `
