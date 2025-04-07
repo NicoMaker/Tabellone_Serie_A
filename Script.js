@@ -104,17 +104,14 @@ function hideNoResults() {
 
 // Funzione per determinare la zona di una squadra in base alla posizione
 function getTeamZone(position) {
-  // Se non abbiamo ancora caricato i dati delle zone, restituisci "none"
   if (!zonesData.zones) return "none";
 
-  // Controlla in quale zona si trova la posizione
   for (const zone of zonesData.zones)
     if (zone.positions.includes(position)) return zone.name;
 
   return "none";
 }
 
-// Funzione per caricare i dati nella tabella
 // Funzione per caricare i dati nella tabella
 function loadTableData(teams) {
   const tableBody = document
@@ -132,31 +129,22 @@ function loadTableData(teams) {
   hideNoResults();
 
   teams.forEach((team, index) => {
-    // Calcola la differenza reti
     const goalDifference = team.goalsFor - team.goalsAgainst;
 
-    // Crea la riga della tabella
     const row = tableBody.insertRow();
-
-    // Determina la zona in base alla posizione
     const position = index + 1;
     const zone = getTeamZone(position); // Ottieni la zona
 
-    // Aggiungi la classe della zona e il dataset
     if (zone !== "none") row.classList.add(`${zone}-zone`);
     row.dataset.zone = zone;
 
-    // Imposta il colore di sfondo della riga in base alla zona
     if (zone !== "none") {
       const zoneData = zonesData.zones.find((z) => z.name === zone);
     }
 
-    // Aggiungi il colore di sfondo per la posizione
     const positionCell = row.insertCell();
     positionCell.textContent = position;
-    // Puoi aggiungere il colore personalizzato qui
 
-    // Inserisci i dati nella riga
     row.innerHTML += `
       <td><img src="${team.image}" alt="${team.name}" width="30" height="30"> ${team.name}</td>
       <td>${team.points}</td>
@@ -171,26 +159,32 @@ function loadTableData(teams) {
   });
 }
 
-
 // Funzione per ordinare la tabella
 function sortTable(criteria) {
   currentSortCriteria = criteria;
 
   const sortedTeams = [...teamsData.teams].sort((a, b) => {
-    // Calcola la differenza reti prima di ordinare
     const aGoalDifference = a.goalsFor - a.goalsAgainst,
       bGoalDifference = b.goalsFor - b.goalsAgainst;
 
-    // Gestisci l'ordinamento per vari criteri
+    // Ordinamento per punti (criterio principale)
+    if (criteria === "points") {
+      if (a.points !== b.points) return b.points - a.points;
+
+      // Se i punti sono uguali, controlla il numero di partite giocate
+      if (a.matchesPlayed !== b.matchesPlayed) return a.matchesPlayed - b.matchesPlayed;
+
+      // Se i punti e le partite giocate sono uguali, ordina per differenza reti
+      return bGoalDifference - aGoalDifference;
+    }
+
     if (criteria === "goalDifference") return bGoalDifference - aGoalDifference;
 
-    if (criteria === "name") return a[criteria].localeCompare(b[criteria]); // Ordinamento alfabetico
+    if (criteria === "name") return a[criteria].localeCompare(b[criteria]);
 
-    // Per tutti gli altri criteri numerici (ordinamento decrescente)
     return (b[criteria] || 0) - (a[criteria] || 0);
   });
 
-  // Applica il filtro di ricerca se c'è un termine di ricerca
   const filteredTeams = searchTerm
     ? sortedTeams.filter((team) =>
         team.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -201,7 +195,6 @@ function sortTable(criteria) {
   highlightSelectedButton(criteria);
   displaySortingCriteria(criteria);
 
-  // Riapplica il filtro corrente dopo l'ordinamento
   if (currentFilter !== "all") filterTableByZone(currentFilter);
 }
 
@@ -227,10 +220,8 @@ function displaySortingCriteria(criteria) {
 function filterTableByZone(zone) {
   currentFilter = zone;
 
-  // Evidenzia l'elemento della legenda selezionato
   highlightLegendItem(zone);
 
-  // Se è "all", mostra tutte le righe
   if (zone === "all") {
     const rows = document.querySelectorAll("#league-table tbody tr");
     rows.forEach((row) => {
@@ -239,7 +230,6 @@ function filterTableByZone(zone) {
     return;
   }
 
-  // Altrimenti, filtra per zona
   const rows = document.querySelectorAll("#league-table tbody tr");
   rows.forEach((row) => {
     if (row.dataset.zone === zone) row.style.display = "";
@@ -263,12 +253,10 @@ function highlightLegendItem(zone) {
 // Funzione per generare dinamicamente la legenda basata sui dati delle zone
 function generateLegend() {
   const legend = document.querySelector(".legend");
-  legend.innerHTML = ""; // Pulisce la legenda esistente
+  legend.innerHTML = "";
 
-  // Se non abbiamo ancora caricato i dati delle zone, esci
   if (!zonesData.zones) return;
 
-  // Aggiungi elementi della legenda basati sui dati JSON
   zonesData.zones.forEach((zone) => {
     const legendItem = document.createElement("div");
     legendItem.className = `legend-item ${zone.name}`;
@@ -283,7 +271,6 @@ function generateLegend() {
     legend.appendChild(legendItem);
   });
 
-  // Aggiungi un pulsante per mostrare tutte le squadre
   const resetButton = document.createElement("div");
   resetButton.className = "legend-item reset";
   resetButton.innerHTML = `
@@ -301,28 +288,21 @@ function generateLegend() {
 function searchTeams(term) {
   searchTerm = term.trim();
 
-  // Mostra il loader durante la ricerca
   showLoading(true);
 
-  // Simula un ritardo di ricerca per mostrare il loader
   setTimeout(() => {
-    // Filtra le squadre in base al termine di ricerca
     const filteredTeams = teamsData.teams.filter((team) =>
       team.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
-    // Carica i dati filtrati nella tabella
     loadTableData(filteredTeams);
 
-    // Nascondi il loader
     showLoading(false);
 
-    // Se non ci sono risultati, mostra il messaggio "nessun risultato"
     if (filteredTeams.length === 0) showNoResults();
   }, 500); // Ritardo di 500ms per mostrare l'animazione
 }
 
-// Aggiungi event listener ai pulsanti di ordinamento
 document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll(".filter-buttons button");
   buttons.forEach((button) => {
@@ -332,12 +312,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Aggiungi event listener al pulsante di retry
   document
     .getElementById("retry-button")
     .addEventListener("click", loadTeamsData);
 
-  // Aggiungi event listener al campo di ricerca
   const searchInput = document.getElementById("search-input");
   if (searchInput) {
     searchInput.addEventListener("input", function () {
@@ -345,144 +323,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Carica i dati iniziali
   loadTeamsData();
 });
-
-// Funzione per convertire JSON in CSV
-function convertToCSV(objArray) {
-  const array = typeof objArray !== "object" ? JSON.parse(objArray) : objArray;
-  let csv = "";
-  const headers = Object.keys(array[0]).join(","); // Intestazioni
-  csv += headers + "\n";
-
-  array.forEach((row) => {
-    const values = Object.values(row).map((val) =>
-      typeof val === "string" ? `"${val}"` : val
-    );
-    csv += values.join(",") + "\n";
-  });
-
-  return csv;
-}
-
-// Funzione per scaricare i dati in CSV
-function downloadCSV() {
-  if (teamsData.length === 0) {
-    alert("Nessun dato disponibile per il download!");
-    return;
-  }
-
-  const csvContent = convertToCSV(teamsData.teams),
-    blob = new Blob([csvContent], { type: "text/csv" }),
-    link = document.createElement("a");
-
-  link.href = URL.createObjectURL(blob);
-  link.download = "teams_data.csv";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
-
-// Funzione per visualizzare i dati in tabella (aggiunta per completezza)
-function renderTable() {
-  const tableBody = document.getElementById("table-body");
-  tableBody.innerHTML = "";
-
-  teamsData.teams.forEach((team) => {
-    const row = document.createElement("tr");
-    row.innerHTML = `
-      <td><img src="${team.image}" width="30"></td>
-      <td>${team.name}</td>
-      <td>${team.points}</td>
-      <td>${team.matchesPlayed}</td>
-      <td>${team.wins}</td>
-      <td>${team.draws}</td>
-      <td>${team.losses}</td>
-      <td>${team.goalsFor}</td>
-      <td>${team.goalsAgainst}</td>
-    `;
-    tableBody.appendChild(row);
-  });
-}
-
-// Bottone per scaricare il CSV
-document.addEventListener("DOMContentLoaded", () => {
-  document
-    .getElementById("download-csv")
-    .addEventListener("click", downloadCSV);
-  loadTeamsData();
-});
-
-// Funzione per convertire JSON in CSV (senza immagini)
-function convertToCSV(objArray) {
-  const array = typeof objArray !== "object" ? JSON.parse(objArray) : objArray;
-  let csv = "";
-
-  // Prendiamo le chiavi escludendo 'image'
-  const headers = Object.keys(array[0])
-    .filter((key) => key !== "image")
-    .join(",");
-  csv += headers + "\n";
-
-  array.forEach((row) => {
-    const values = Object.entries(row)
-      .filter(([key]) => key !== "image") // Escludiamo l'immagine
-      .map(([_, val]) => (typeof val === "string" ? `"${val}"` : val));
-
-    csv += values.join(",") + "\n";
-  });
-
-  return csv;
-}
-
-// Funzione per scaricare il CSV
-function downloadJSON() {
-  if (teamsData.length === 0) {
-    alert("Nessun dato disponibile per il download!");
-    return;
-  }
-
-  const jsonContent = JSON.stringify(teamsData, null, 2),
-    blob = new Blob([jsonContent], { type: "application/json" }),
-    link = document.createElement("a");
-
-  link.href = URL.createObjectURL(blob);
-  link.download = "teams_data.json";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
-
-// Eventi per i bottoni di download
-document.addEventListener("DOMContentLoaded", () => {
-  document
-    .getElementById("download-csv")
-    .addEventListener("click", downloadCSV);
-  document
-    .getElementById("download-json")
-    .addEventListener("click", downloadJSON);
-  loadTeamsData();
-});
-
-// Aggiorna il footer con la data corrente
-const info = `&copy; Info Serie A ${
-  (new Date().getDate() < 10 ? "0" : "") + new Date().getDate()
-} ${
-  [
-    "Gennaio",
-    "Febbraio",
-    "Marzo",
-    "Aprile",
-    "Maggio",
-    "Giugno",
-    "Luglio",
-    "Agosto",
-    "Settembre",
-    "Ottobre",
-    "Novembre",
-    "Dicembre",
-  ][new Date().getMonth()]
-} ${new Date().getFullYear()}`;
-
-document.getElementById("info").innerHTML = `<footer>${info}</footer>`;
