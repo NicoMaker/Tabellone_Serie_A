@@ -6,6 +6,9 @@ let teamsData = [],
   currentFilter = "all", // Tiene traccia del filtro attuale
   searchTerm = ""; // Variabile per il termine di ricerca
 
+const teamdata = document.getElementById("teamdata").getAttribute("link"),
+  zonedata = document.getElementById("teamdata").getAttribute("link");
+
 // Funzione per caricare i dati da un file JSON
 async function loadTeamsData() {
   try {
@@ -14,7 +17,7 @@ async function loadTeamsData() {
     hideNoResults(); // Nascondi il messaggio "nessun risultato"
 
     // Carica i dati delle squadre
-    const teamsResponse = await fetch("JSON/teamsData.json");
+    const teamsResponse = await fetch(teamdata);
     if (!teamsResponse.ok)
       throw new Error("Errore nel caricamento dei dati delle squadre");
     teamsData = await teamsResponse.json();
@@ -26,7 +29,7 @@ async function loadTeamsData() {
     criteriaLabels = await labelsResponse.json();
 
     // Carica i dati delle zone
-    const zonesResponse = await fetch("JSON/zonesData.json");
+    const zonesResponse = await fetch(zonedata);
     if (!zonesResponse.ok)
       throw new Error("Errore nel caricamento dei dati delle zone");
     zonesData = await zonesResponse.json();
