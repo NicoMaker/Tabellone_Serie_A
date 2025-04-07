@@ -23,7 +23,7 @@ function updateTeamStats(teams) {
 }
 
 const teamdata = document.getElementById("teamdata").getAttribute("link"),
-  zonedata = document.getElementById("teamdata").getAttribute("link");
+  zonedata = document.getElementById("zonedata").getAttribute("link");
 
 // Funzione per caricare i dati da un file JSON
 async function loadTeamsData() {
@@ -149,12 +149,16 @@ function loadTableData(teams) {
     // Imposta il colore di sfondo della riga in base alla zona
     if (zone !== "none") {
       const zoneData = zonesData.zones.find((z) => z.name === zone);
-      if (zoneData) row.style.backgroundColor = zoneData.color; // Imposta il colore di sfondo
     }
 
+    // Aggiungi il colore di sfondo per la posizione
+    const positionCell = row.insertCell();
+    positionCell.textContent = position;
+    // Puoi aggiungere il colore personalizzato qui
+    positionCell.style.backgroundColor = "#f0f0f0"; // Example background color
+
     // Inserisci i dati nella riga
-    row.innerHTML = `
-      <td>${position}</td>
+    row.innerHTML += `
       <td><img src="${team.image}" alt="${team.name}" width="30" height="30"> ${team.name}</td>
       <td>${team.points}</td>
       <td>${team.matchesPlayed}</td>
