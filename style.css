@@ -120,17 +120,6 @@ h1 {
   transition: all var(--transition-normal);
 }
 
-.filter-buttons button:hover {
-  background-color: #f0f0f0;
-  transform: translateY(-2px);
-}
-
-.filter-buttons button.selected {
-  background-color: var(--primary);
-  color: white;
-  border-color: var(--primary);
-}
-
 .sorting-criteria {
   font-size: 0.875rem;
   color: var(--text-light);
