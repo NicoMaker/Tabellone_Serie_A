@@ -162,43 +162,67 @@ function loadTableData(teams) {
 }
 
 // Funzione per ordinare la tabella
+// Funzione principale per ordinare la tabella
 function sortTable(criteria) {
   currentSortCriteria = criteria;
 
-  const sortedTeams = [...teamsData.teams].sort((a, b) => {
-    const aGoalDifference = a.goalsFor - a.goalsAgainst,
-      bGoalDifference = b.goalsFor - b.goalsAgainst;
-
-    // Ordinamento per punti (criterio principale)
-    if (criteria === "points") {
-      if (a.points !== b.points) return b.points - a.points;
-
-      // Se i punti sono uguali, controlla il numero di partite giocate
-      if (a.matchesPlayed !== b.matchesPlayed)
-        return a.matchesPlayed - b.matchesPlayed;
-
-      // Se i punti e le partite giocate sono uguali, ordina per differenza reti
-      return bGoalDifference - aGoalDifference;
-    }
-
-    if (criteria === "goalDifference") return bGoalDifference - aGoalDifference;
-
-    if (criteria === "name") return a[criteria].localeCompare(b[criteria]);
-
-    return (b[criteria] || 0) - (a[criteria] || 0);
-  });
-
-  const filteredTeams = searchTerm
-    ? sortedTeams.filter((team) =>
-        team.name.toLowerCase().includes(searchTerm.toLowerCase())
-      )
-    : sortedTeams;
+  const sortedTeams = sortTeamsByCriteria(teamsData.teams, criteria),
+    filteredTeams = filterTeamsBySearchTerm(sortedTeams);
 
   loadTableData(filteredTeams);
   highlightSelectedButton(criteria);
   displaySortingCriteria(criteria);
 
   if (currentFilter !== "all") filterTableByZone(currentFilter);
+}
+
+// Funzione per ordinare i team in base al criterio
+function sortTeamsByCriteria(teams, criteria) {
+  return [...teams].sort((a, b) => {
+    const aGoalDifference = a.goalsFor - a.goalsAgainst,
+      bGoalDifference = b.goalsFor - b.goalsAgainst;
+
+    switch (criteria) {
+      case "points":
+        return sortByPoints(a, b, aGoalDifference, bGoalDifference);
+      case "goalDifference":
+        return sortByGoalDifference(aGoalDifference, bGoalDifference);
+      case "name":
+        return sortByName(a, b);
+      default:
+        return sortByOtherCriteria(a, b, criteria);
+    }
+  });
+}
+
+// Funzione per ordinare per punti
+function sortByPoints(a, b, aGoalDifference, bGoalDifference) {
+  if (a.points !== b.points) return b.points - a.points;
+
+  if (a.matchesPlayed !== b.matchesPlayed)
+    return a.matchesPlayed - b.matchesPlayed;
+
+  return bGoalDifference - aGoalDifference;
+}
+
+// Funzione per ordinare per differenza reti
+const sortByGoalDifference = (aGoalDifference, bGoalDifference) =>
+  bGoalDifference - aGoalDifference;
+
+// Funzione per ordinare per nome
+const sortByName = (a, b) => a.name.localeCompare(b.name);
+
+// Funzione per ordinare altri criteri
+const sortByOtherCriteria = (a, b, criteria) =>
+  (b[criteria] || 0) - (a[criteria] || 0);
+
+// Funzione per filtrare i team in base al termine di ricerca
+function filterTeamsBySearchTerm(teams) {
+  return searchTerm
+    ? teams.filter((team) =>
+        team.name.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+    : teams;
 }
 
 // Funzione per evidenziare il pulsante selezionato
