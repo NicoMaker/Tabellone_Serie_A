@@ -115,6 +115,7 @@ function getTeamZone(position) {
 }
 
 // Funzione per caricare i dati nella tabella
+// Funzione per caricare i dati nella tabella
 function loadTableData(teams) {
   const tableBody = document
     .getElementById("league-table")
@@ -138,19 +139,23 @@ function loadTableData(teams) {
     const row = tableBody.insertRow();
 
     // Determina la zona in base alla posizione
-    const position = index + 1,
-      zone = getTeamZone(position);
+    const position = index + 1;
+    const zone = getTeamZone(position); // Ottieni la zona
 
     // Aggiungi la classe della zona e il dataset
     if (zone !== "none") row.classList.add(`${zone}-zone`);
     row.dataset.zone = zone;
 
+    // Imposta il colore di sfondo della riga in base alla zona
+    if (zone !== "none") {
+      const zoneData = zonesData.zones.find((z) => z.name === zone);
+      if (zoneData) row.style.backgroundColor = zoneData.color; // Imposta il colore di sfondo
+    }
+
     // Inserisci i dati nella riga
     row.innerHTML = `
       <td>${position}</td>
-      <td><img src="${team.image}" alt="${team.name}" width="30" height="30"> ${
-      team.name
-    }</td>
+      <td><img src="${team.image}" alt="${team.name}" width="30" height="30"> ${team.name}</td>
       <td>${team.points}</td>
       <td>${team.matchesPlayed}</td>
       <td>${team.wins}</td>
@@ -162,6 +167,7 @@ function loadTableData(teams) {
     `;
   });
 }
+
 
 // Funzione per ordinare la tabella
 function sortTable(criteria) {
