@@ -146,7 +146,9 @@ function loadTableData(teams) {
     positionCell.textContent = position;
 
     row.innerHTML += `
-      <td><img src="${team.image}" alt="${team.name}" width="30" height="30"> ${team.name}</td>
+      <td><img src="${team.image}" alt="${team.name}" width="30" height="30"> ${
+      team.name
+    }</td>
       <td>${team.points}</td>
       <td>${team.matchesPlayed}</td>
       <td>${team.wins}</td>
@@ -172,7 +174,8 @@ function sortTable(criteria) {
       if (a.points !== b.points) return b.points - a.points;
 
       // Se i punti sono uguali, controlla il numero di partite giocate
-      if (a.matchesPlayed !== b.matchesPlayed) return a.matchesPlayed - b.matchesPlayed;
+      if (a.matchesPlayed !== b.matchesPlayed)
+        return a.matchesPlayed - b.matchesPlayed;
 
       // Se i punti e le partite giocate sono uguali, ordina per differenza reti
       return bGoalDifference - aGoalDifference;
@@ -325,3 +328,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   loadTeamsData();
 });
+
+// Aggiorna il footer con la data corrente
+const info = `&copy; Info Serie A ${
+  (new Date().getDate() < 10 ? "0" : "") + new Date().getDate()
+} ${
+  [
+    "Gennaio",
+    "Febbraio",
+    "Marzo",
+    "Aprile",
+    "Maggio",
+    "Giugno",
+    "Luglio",
+    "Agosto",
+    "Settembre",
+    "Ottobre",
+    "Novembre",
+    "Dicembre",
+  ][new Date().getMonth()]
+} ${new Date().getFullYear()}`;
+
+document.getElementById("info").innerHTML = `<footer>${info}</footer>`;
