@@ -6,6 +6,22 @@ let teamsData = [],
   currentFilter = "all", // Tiene traccia del filtro attuale
   searchTerm = ""; // Variabile per il termine di ricerca
 
+// Funzione per calcolare i punti e il totale delle partite
+function updateTeamStats(teams) {
+  teams.forEach((team) => {
+    // Calcolo dei punti per la squadra
+    const pointsFromWins = team.wins * 3; // Ogni vittoria dà 3 punti
+    const pointsFromDraws = team.draws * 1; // Ogni pareggio dà 1 punto
+    const totalPoints = pointsFromWins + pointsFromDraws;
+
+    // Aggiorniamo i punti nel team (senza modificarli nel JSON originale)
+    team.points = totalPoints;
+
+    // Calcoliamo anche il totale delle partite, senza scriverlo nel JSON
+    team.matchesPlayed = team.wins + team.draws + team.losses;
+  });
+}
+
 const teamdata = document.getElementById("teamdata").getAttribute("link"),
   zonedata = document.getElementById("teamdata").getAttribute("link");
 
@@ -21,6 +37,9 @@ async function loadTeamsData() {
     if (!teamsResponse.ok)
       throw new Error("Errore nel caricamento dei dati delle squadre");
     teamsData = await teamsResponse.json();
+
+    // Calcoliamo e aggiorniamo le statistiche delle squadre
+    updateTeamStats(teamsData.teams);
 
     // Carica le etichette dei criteri
     const labelsResponse = await fetch("JSON/criteriaLabels.json");

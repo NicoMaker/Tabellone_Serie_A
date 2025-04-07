@@ -2,8 +2,6 @@
   "teams": [
     {
       "name": "Juventus",
-      "points": 56,
-      "matchesPlayed": 31,
       "wins": 14,
       "draws": 14,
       "losses": 3,
@@ -13,8 +11,6 @@
     },
     {
       "name": "Inter",
-      "points": 68,
-      "matchesPlayed": 31,
       "wins": 20,
       "draws": 8,
       "losses": 3,
@@ -24,8 +20,6 @@
     },
     {
       "name": "Milan",
-      "points": 48,
-      "matchesPlayed": 31,
       "wins": 13,
       "draws": 9,
       "losses": 9,
@@ -35,8 +29,6 @@
     },
     {
       "name": "Napoli",
-      "points": 64,
-      "matchesPlayed": 30,
       "wins": 19,
       "draws": 7,
       "losses": 4,
@@ -46,8 +38,6 @@
     },
     {
       "name": "Atalanta",
-      "points": 58,
-      "matchesPlayed": 31,
       "wins": 17,
       "draws": 7,
       "losses": 7,
@@ -57,8 +47,6 @@
     },
     {
       "name": "Bologna",
-      "points": 56,
-      "matchesPlayed": 30,
       "wins": 15,
       "draws": 11,
       "losses": 4,
@@ -68,8 +56,6 @@
     },
     {
       "name": "Roma",
-      "points": 53,
-      "matchesPlayed": 31,
       "wins": 15,
       "draws": 8,
       "losses": 8,
@@ -79,8 +65,6 @@
     },
     {
       "name": "Lazio",
-      "points": 55,
-      "matchesPlayed": 31,
       "wins": 16,
       "draws": 7,
       "losses": 8,
@@ -90,8 +74,6 @@
     },
     {
       "name": "Fiorentina",
-      "points": 52,
-      "matchesPlayed": 31,
       "wins": 15,
       "draws": 7,
       "losses": 9,
@@ -101,8 +83,6 @@
     },
     {
       "name": "Udinese",
-      "points": 40,
-      "matchesPlayed": 31,
       "wins": 11,
       "draws": 7,
       "losses": 13,
@@ -112,8 +92,6 @@
     },
     {
       "name": "Torino",
-      "points": 40,
-      "matchesPlayed": 31,
       "wins": 9,
       "draws": 13,
       "losses": 9,
@@ -123,8 +101,6 @@
     },
     {
       "name": "Genoa",
-      "points": 38,
-      "matchesPlayed": 31,
       "wins": 9,
       "draws": 11,
       "losses": 11,
@@ -134,8 +110,6 @@
     },
     {
       "name": "Como",
-      "points": 33,
-      "matchesPlayed": 31,
       "wins": 8,
       "draws": 9,
       "losses": 14,
@@ -145,8 +119,6 @@
     },
     {
       "name": "Verona",
-      "points": 31,
-      "matchesPlayed": 31,
       "wins": 9,
       "draws": 4,
       "losses": 18,
@@ -156,8 +128,6 @@
     },
     {
       "name": "Cagliari",
-      "points": 30,
-      "matchesPlayed": 31,
       "wins": 7,
       "draws": 9,
       "losses": 15,
@@ -167,8 +137,6 @@
     },
     {
       "name": "Parma",
-      "points": 27,
-      "matchesPlayed": 31,
       "wins": 5,
       "draws": 12,
       "losses": 14,
@@ -178,8 +146,6 @@
     },
     {
       "name": "Lecce",
-      "points": 26,
-      "matchesPlayed": 31,
       "wins": 6,
       "draws": 8,
       "losses": 17,
@@ -189,8 +155,6 @@
     },
     {
       "name": "Empoli",
-      "points": 24,
-      "matchesPlayed": 31,
       "wins": 4,
       "draws": 12,
       "losses": 15,
@@ -200,8 +164,6 @@
     },
     {
       "name": "Venezia",
-      "points": 21,
-      "matchesPlayed": 31,
       "wins": 3,
       "draws": 12,
       "losses": 16,
@@ -211,8 +173,6 @@
     },
     {
       "name": "Monza",
-      "points": 15,
-      "matchesPlayed": 31,
       "wins": 2,
       "draws": 9,
       "losses": 20,
