@@ -12,8 +12,8 @@
 
   /* Zone colors - Ora definite dinamicamente dal JSON */
   --champions: #1e40af;
-  --europa: #0284c7;
-  --conference: #0ea5e9;
+  --europa: orange;
+  --conference: #74fd20;
   --relegation: #ef4444;
 
   /* Spacing */

@@ -10,13 +10,13 @@
       "name": "europa",
       "label": "Europa League",
       "positions": [5],
-      "color": "#0284c7"
+      "color": "orange"
     },
     {
       "name": "conference",
       "label": "Conference League",
       "positions": [6],
-      "color": "#0ea5e9"
+      "color": "#74fd20"
     },
     {
       "name": "relegation",
