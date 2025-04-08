@@ -453,3 +453,13 @@ footer {
     gap: var(--spacing-xs);
   }
 }
+
+.filter-buttons button.selected {
+  background-color: var(--primary);
+  color: white;
+  border-radius: var(--radius-md);
+}
+
+.filter-buttons button {
+  border-radius: var(--radius-md);
+}
