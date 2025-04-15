@@ -29,10 +29,10 @@
     },
     {
       "name": "Napoli",
-      "wins": 19,
+      "wins": 20,
       "draws": 8,
       "losses": 4,
-      "goalsFor": 48,
+      "goalsFor": 51,
       "goalsAgainst": 25,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
@@ -157,9 +157,9 @@
       "name": "Empoli",
       "wins": 4,
       "draws": 12,
-      "losses": 15,
+      "losses": 16,
       "goalsFor": 24,
-      "goalsAgainst": 47,
+      "goalsAgainst": 50,
       "image": "https://th.bing.com/th/id/R.877648c32329fc49eaf3946fee5bca83?rik=TdLvCPPUiSIG5w&riu=http%3a%2f%2fimg3.wikia.nocookie.net%2f__cb20141026090058%2flogopedia%2fimages%2fa%2fa3%2fEmpoli_FC_1920.png&ehk=HszxITCkUNZgRoGyyjE2EhQvsIgleEMnNgJxNdxkxpc%3d&risl=&pid=ImgRaw&r=0"
     },
     {
