@@ -48,7 +48,7 @@
     {
       "name": "Bologna",
       "wins": 16,
-      "draws": 12,
+      "draws": 13,
       "losses": 5,
       "goalsFor": 52,
       "goalsAgainst": 37,
@@ -66,10 +66,10 @@
     {
       "name": "Lazio",
       "wins": 17,
-      "draws": 8,
+      "draws": 9,
       "losses": 8,
-      "goalsFor": 55,
-      "goalsAgainst": 43,
+      "goalsFor": 57,
+      "goalsAgainst": 45,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
@@ -84,7 +84,7 @@
     {
       "name": "Udinese",
       "wins": 11,
-      "draws": 7,
+      "draws": 8,
       "losses": 15,
       "goalsFor": 36,
       "goalsAgainst": 48,
@@ -121,27 +121,27 @@
       "name": "Verona",
       "wins": 9,
       "draws": 5,
-      "losses": 19,
+      "losses": 20,
       "goalsFor": 30,
-      "goalsAgainst": 60,
+      "goalsAgainst": 62,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
       "name": "Cagliari",
-      "wins": 7,
+      "wins": 8,
       "draws": 9,
       "losses": 17,
-      "goalsFor": 33,
+      "goalsFor": 35,
       "goalsAgainst": 49,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
       "name": "Parma",
       "wins": 6,
-      "draws": 13,
+      "draws": 14,
       "losses": 14,
-      "goalsFor": 38,
-      "goalsAgainst": 51,
+      "goalsFor": 40,
+      "goalsAgainst": 53,
       "image": "https://vectorseek.com/wp-content/uploads/2023/06/Fc-Parma-Logo-Vector-730x730.jpg"
     },
     {
