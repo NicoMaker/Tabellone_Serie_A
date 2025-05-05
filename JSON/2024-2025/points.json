@@ -3,18 +3,18 @@
     {
       "name": "Juventus",
       "wins": 16,
-      "draws": 14,
+      "draws": 15,
       "losses": 4,
-      "goalsFor": 51,
-      "goalsAgainst": 31,
+      "goalsFor": 52,
+      "goalsAgainst": 32,
       "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
       "name": "Inter",
-      "wins": 21,
+      "wins": 22,
       "draws": 8,
       "losses": 5,
-      "goalsFor": 72,
+      "goalsFor": 73,
       "goalsAgainst": 33,
       "image": "https://1.bp.blogspot.com/-5O5g_eGrFf4/YCPz5WuqebI/AAAAAAAB9kg/Ma15EUix1agY164NEhK6j2wcIXUxx02lQCLcBGAsYHQ/w400-h371/Inter%2Bde%2BMil%25C3%25A3o%2B-%2BITA%2B-%2BNOVO%2BOFICIAL.jpg"
     },
@@ -29,46 +29,46 @@
     },
     {
       "name": "Napoli",
-      "wins": 22,
+      "wins": 23,
       "draws": 8,
       "losses": 4,
-      "goalsFor": 54,
+      "goalsFor": 55,
       "goalsAgainst": 25,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
       "name": "Atalanta",
-      "wins": 19,
+      "wins": 20,
       "draws": 8,
       "losses": 7,
-      "goalsFor": 67,
+      "goalsFor": 71,
       "goalsAgainst": 31,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
       "name": "Bologna",
       "wins": 16,
-      "draws": 13,
+      "draws": 14,
       "losses": 5,
-      "goalsFor": 52,
-      "goalsAgainst": 37,
+      "goalsFor": 53,
+      "goalsAgainst": 38,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
       "name": "Roma",
-      "wins": 17,
+      "wins": 18,
       "draws": 9,
       "losses": 8,
-      "goalsFor": 49,
+      "goalsFor": 50,
       "goalsAgainst": 32,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
     {
       "name": "Lazio",
-      "wins": 17,
+      "wins": 18,
       "draws": 9,
       "losses": 8,
-      "goalsFor": 57,
+      "goalsFor": 58,
       "goalsAgainst": 45,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
@@ -76,27 +76,27 @@
       "name": "Fiorentina",
       "wins": 17,
       "draws": 8,
-      "losses": 9,
+      "losses": 10,
       "goalsFor": 53,
-      "goalsAgainst": 34,
+      "goalsAgainst": 35,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
       "name": "Udinese",
-      "wins": 11,
+      "wins": 12,
       "draws": 8,
       "losses": 15,
-      "goalsFor": 36,
-      "goalsAgainst": 48,
+      "goalsFor": 38,
+      "goalsAgainst": 49,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
       "name": "Torino",
       "wins": 10,
-      "draws": 13,
+      "draws": 14,
       "losses": 11,
-      "goalsFor": 38,
-      "goalsAgainst": 39,
+      "goalsFor": 39,
+      "goalsAgainst":40,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
@@ -110,10 +110,10 @@
     },
     {
       "name": "Como",
-      "wins": 11,
+      "wins": 12,
       "draws": 9,
       "losses": 14,
-      "goalsFor": 44,
+      "goalsFor": 45,
       "goalsAgainst": 48,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
@@ -121,63 +121,63 @@
       "name": "Verona",
       "wins": 9,
       "draws": 5,
-      "losses": 20,
+      "losses": 21,
       "goalsFor": 30,
-      "goalsAgainst": 62,
+      "goalsAgainst": 63,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
       "name": "Cagliari",
       "wins": 8,
       "draws": 9,
-      "losses": 17,
-      "goalsFor": 35,
-      "goalsAgainst": 49,
+      "losses": 18,
+      "goalsFor": 36,
+      "goalsAgainst": 51,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
       "name": "Parma",
       "wins": 6,
       "draws": 14,
-      "losses": 14,
+      "losses": 15,
       "goalsFor": 40,
-      "goalsAgainst": 53,
+      "goalsAgainst": 54,
       "image": "https://vectorseek.com/wp-content/uploads/2023/06/Fc-Parma-Logo-Vector-730x730.jpg"
     },
     {
       "name": "Lecce",
       "wins": 6,
       "draws": 9,
-      "losses": 19,
+      "losses":20,
       "goalsFor": 24,
-      "goalsAgainst": 56,
+      "goalsAgainst": 57,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
       "name": "Empoli",
       "wins": 4,
       "draws": 13,
-      "losses": 17,
+      "losses": 18,
       "goalsFor": 27,
-      "goalsAgainst": 54,
+      "goalsAgainst": 55,
       "image": "https://th.bing.com/th/id/R.877648c32329fc49eaf3946fee5bca83?rik=TdLvCPPUiSIG5w&riu=http%3a%2f%2fimg3.wikia.nocookie.net%2f__cb20141026090058%2flogopedia%2fimages%2fa%2fa3%2fEmpoli_FC_1920.png&ehk=HszxITCkUNZgRoGyyjE2EhQvsIgleEMnNgJxNdxkxpc%3d&risl=&pid=ImgRaw&r=0"
     },
     {
       "name": "Venezia",
       "wins": 4,
-      "draws": 13,
+      "draws": 14,
       "losses": 17,
-      "goalsFor": 27,
-      "goalsAgainst": 48,
+      "goalsFor": 28,
+      "goalsAgainst": 49,
       "image": "https://www.typeroom.eu/assets/original/2022/07/28/bureau%20borsche%20venezia%20fc%20brand%20identity0.jpg"
     },
     {
       "name": "Monza",
       "wins": 2,
       "draws": 9,
-      "losses": 23,
+      "losses": 24,
       "goalsFor": 25,
-      "goalsAgainst": 59,
+      "goalsAgainst": 63,
       "image": "https://football-emblem.com/wp-content/uploads/2024/03/Calcio_Monza_logo-2021-present-730x1024.png"
     }
   ]
