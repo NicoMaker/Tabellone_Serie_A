@@ -1,144 +1,73 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Classifica Serie A</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <script src="script.js" defer></script>
-    <link
-      rel="icon"
-      href="https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg"
-      type="image/jpeg"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <img
-          src="https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg"
-          alt="Serie A"
-          class="serie-logo"
-        />
-        <h1>Classifica Serie A 2024/2025</h1>
-      </header>
 
-      <div id="teamdata" link="JSON/2024-2025/points.json"></div>
-      <div id="zonedata" link="JSON/2024-2025/zones.json"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generale Stagioni | Archivio Serie A</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg"
+        type="image/jpeg" />
+</head>
 
-      <div class="filter-section">
-        <div class="filter-label">Ordina per:</div>
-        <div class="filter-buttons">
-          <button data-criteria="points" class="selected">Punti</button>
-          <button data-criteria="wins">Vittorie</button>
-          <button data-criteria="goalDifference">Differenza Reti</button>
-          <button data-criteria="goalsFor">Gol Fatti</button>
-          <button data-criteria="goalsAgainst">Gol Subiti</button>
-          <button data-criteria="losses">Sconfitte</button>
-          <button data-criteria="draws">Pareggi</button>
-          <button data-criteria="name">Nome</button>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Generale Stagioni</h1>
+                </div>
+            </div>
         </div>
-        <div id="sorting-criteria" class="sorting-criteria">
-          Ordinato per: <span>Punti</span>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Archivio Stagioni Serie A</h2>
+            <div class="logo-container">
+                <img src="https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg"
+                    alt="Serie A EnilLive Logo">
+            </div>
         </div>
+    </section>
 
-        <!-- Nuova barra di ricerca -->
-        <div class="search-container">
-          <input
-            type="text"
-            id="search-input"
-            class="search-input"
-            placeholder="Cerca squadra..."
-          />
-          <svg
-            class="search-icon"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
+    <main class="main-content">
+
+        <div class="seasons-grid">
+            <a href="Season/2024-2025.html" class="season-card">
+                <div class="current-badge">In corso</div>
+                <div class="season-card-header">
+                    <img src="https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg"
+                        alt="Stagione 2024-2025">
+                    <div class="season-year">2024-2025</div>
+                </div>
+                <div class="season-card-content">
+                    <h3>Serie A 2024-2025</h3>
+                </div>
+            </a>
+
+            <!-- <a href="Season/2023-2024.html" class="season-card">
+                <div class="season-card-header">
+                    <img src="https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg"
+                        alt="Stagione 2023-2024">
+                    <div class="season-year">2023-2024</div>
+                </div>
+                <div class="season-card-content">
+                    <div class="champion-badge">Inter</div>
+                    <h3>Serie A 2023-2024</h3>
+                </div>
+            </a> -->
         </div>
-      </div>
+    </main>
 
-      <div class="table-container">
-        <div class="loading-overlay" id="loading-overlay">
-          <div class="spinner"></div>
-          <p>Caricamento dati...</p>
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                &copy; 2024 Generale Stagioni. Tutti i diritti riservati.
+            </div>
         </div>
+    </footer>
+</body>
 
-        <!-- Nuovo messaggio "nessun risultato" -->
-        <div class="no-results-message" id="no-results-message">
-          <div class="no-results-spinner"></div>
-          <h3>Nessun risultato trovato</h3>
-          <p>
-            La tua ricerca non ha prodotto risultati. Prova con un altro termine
-            o cancella la ricerca.
-          </p>
-        </div>
-
-        <div class="legend">
-          <div class="legend-item champions">
-            <span class="legend-color"></span>
-            <span>Champions League</span>
-          </div>
-          <div class="legend-item europa">
-            <span class="legend-color"></span>
-            <span>Europa League</span>
-          </div>
-          <div class="legend-item conference">
-            <span class="legend-color"></span>
-            <span>Conference League</span>
-          </div>
-          <div class="legend-item relegation">
-            <span class="legend-color"></span>
-            <span>Retrocessione</span>
-          </div>
-        </div>
-
-        <div class="table-wrapper">
-          <table id="league-table">
-            <thead>
-              <tr>
-                <th class="pos-col">Pos</th>
-                <th class="team-col">Squadra</th>
-                <th class="pts-col">Pts</th>
-                <th class="matches-col">PG</th>
-                <th class="win-col">V</th>
-                <th class="draw-col">P</th>
-                <th class="loss-col">S</th>
-                <th class="gf-col">GF</th>
-                <th class="ga-col">GS</th>
-                <th class="gd-col">DR</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="error-message" id="error-message">
-        <p>
-          Si è verificato un errore nel caricamento dei dati. Riprova più tardi.
-        </p>
-        <button id="retry-button">Riprova</button>
-      </div>
-
-      <div id="info"></div>
-    </div>
-  </body>
 </html>
