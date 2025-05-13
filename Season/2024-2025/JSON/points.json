@@ -38,11 +38,11 @@
     },
     {
       "name": "Atalanta",
-      "wins": 20,
+      "wins": 21,
       "draws": 8,
       "losses": 7,
-      "goalsFor": 71,
-      "goalsAgainst": 31,
+      "goalsFor": 73,
+      "goalsAgainst": 32,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
@@ -58,9 +58,9 @@
       "name": "Roma",
       "wins": 18,
       "draws": 9,
-      "losses": 8,
-      "goalsFor": 50,
-      "goalsAgainst": 32,
+      "losses": 9,
+      "goalsFor": 51,
+      "goalsAgainst": 34,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
     {
@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 17,
       "draws": 8,
-      "losses": 10,
-      "goalsFor": 53,
-      "goalsAgainst": 35,
+      "losses": 11,
+      "goalsFor": 54,
+      "goalsAgainst": 37,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
@@ -164,11 +164,11 @@
     },
     {
       "name": "Venezia",
-      "wins": 4,
+      "wins": 5,
       "draws": 14,
       "losses": 17,
-      "goalsFor": 28,
-      "goalsAgainst": 49,
+      "goalsFor": 30,
+      "goalsAgainst": 50,
       "image": "https://www.typeroom.eu/assets/original/2022/07/28/bureau%20borsche%20venezia%20fc%20brand%20identity0.jpg"
     },
     {
