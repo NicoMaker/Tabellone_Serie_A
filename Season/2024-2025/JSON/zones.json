@@ -9,13 +9,13 @@
     {
       "name": "europa",
       "label": "Europa League",
-      "positions": [5],
+      "positions": [5,6,8],
       "color": "orange"
     },
     {
       "name": "conference",
       "label": "Conference League",
-      "positions": [6],
+      "positions": [7],
       "color": "#74fd20"
     },
     {
