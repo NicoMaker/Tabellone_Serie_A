@@ -11,10 +11,10 @@
     },
     {
       "name": "Inter",
-      "wins": 23,
+      "wins": 24,
       "draws": 9,
       "losses": 5,
-      "goalsFor": 77,
+      "goalsFor": 79,
       "goalsAgainst": 35,
       "image": "https://1.bp.blogspot.com/-5O5g_eGrFf4/YCPz5WuqebI/AAAAAAAB9kg/Ma15EUix1agY164NEhK6j2wcIXUxx02lQCLcBGAsYHQ/w400-h371/Inter%2Bde%2BMil%25C3%25A3o%2B-%2BITA%2B-%2BNOVO%2BOFICIAL.jpg"
     },
@@ -29,10 +29,10 @@
     },
     {
       "name": "Napoli",
-      "wins": 23,
+      "wins": 24,
       "draws": 10,
       "losses": 4,
-      "goalsFor": 57,
+      "goalsFor": 59,
       "goalsAgainst": 27,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
@@ -112,9 +112,9 @@
       "name": "Como",
       "wins": 13,
       "draws": 10,
-      "losses": 14,
+      "losses": 15,
       "goalsFor": 49,
-      "goalsAgainst": 50,
+      "goalsAgainst": 52,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
     {
@@ -130,9 +130,9 @@
       "name": "Cagliari",
       "wins": 9,
       "draws": 9,
-      "losses": 19,
+      "losses": 20,
       "goalsFor": 40,
-      "goalsAgainst": 54,
+      "goalsAgainst": 55,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
