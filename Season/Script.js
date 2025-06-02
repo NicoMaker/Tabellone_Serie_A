@@ -42,7 +42,7 @@ async function loadTeamsData() {
     updateTeamStats(teamsData.teams);
 
     // Carica le etichette dei criteri
-    const labelsResponse = await fetch("../criteriaLabels.json");
+    const labelsResponse = await fetch("../Criteri.json");
     if (!labelsResponse.ok)
       throw new Error("Errore nel caricamento delle etichette");
     criteriaLabels = await labelsResponse.json();
