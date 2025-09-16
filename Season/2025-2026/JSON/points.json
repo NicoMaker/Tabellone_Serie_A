@@ -102,25 +102,25 @@
     {
       "name": "Genoa",
       "wins": 0,
-      "draws": 1,
+      "draws": 2,
       "losses": 1,
-      "goalsFor": 0,
-      "goalsAgainst": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
     {
       "name": "Como",
       "wins": 1,
-      "draws": 0,
+      "draws": 1,
       "losses": 1,
-      "goalsFor": 2,
-      "goalsAgainst": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 2,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
     {
       "name": "Verona",
       "wins": 0,
-      "draws": 1,
+      "draws": 2,
       "losses": 1,
       "goalsFor": 1,
       "goalsAgainst": 5,
@@ -174,7 +174,7 @@
     {
       "name": "Cremonese",
       "wins": 2,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
       "goalsFor": 5,
       "goalsAgainst": 3,
