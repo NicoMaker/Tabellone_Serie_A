@@ -1,6 +1,12 @@
 {
   "zones": [
     {
+      "name": "championship",
+      "label": "Campione",
+      "positions": [1],
+      "color": "gold"
+    },
+    {
       "name": "champions",
       "label": "Champions League",
       "positions": [1, 2, 3, 4],
@@ -9,7 +15,7 @@
     {
       "name": "europa",
       "label": "Europa League",
-      "positions": [5,9],
+      "positions": [5, 9],
       "color": "orange"
     },
     {

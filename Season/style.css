@@ -574,3 +574,37 @@ tr.relegation-zone td:first-child::before {
     align-items: flex-start;
   }
 }
+
+/* ... il tuo CSS esistente ... */
+
+/* Stile per la zona "Campione" */
+tr.championship-zone td:first-child {
+  position: relative;
+}
+
+tr.championship-zone td:first-child::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: gold; /* Colore oro per il campione */
+}
+
+/* Stile per le altre zone (esistenti) */
+tr.champions-zone td:first-child {
+  position: relative;
+}
+
+tr.champions-zone td:first-child::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: var(--champions);
+}
+
+/* ... il resto delle tue classi di zona ... */

@@ -1,9 +1,15 @@
 {
   "zones": [
     {
+      "name": "championship",
+      "label": "Campione",
+      "positions": [1],
+      "color": "gold"
+    },
+    {
       "name": "champions",
       "label": "Champions League",
-      "positions": [1, 2, 3, 4],
+      "positions": [2, 3, 4],
       "color": "#1e40af"
     },
     {
