@@ -244,24 +244,42 @@ function displaySortingCriteria(criteria) {
 }
 
 // Funzione per filtrare la tabella per zona
+// Funzione per filtrare la tabella per zona
 function filterTableByZone(zone) {
-  currentFilter = zone;
+    currentFilter = zone;
 
-  highlightLegendItem(zone);
+    highlightLegendItem(zone);
 
-  if (zone === "all") {
     const rows = document.querySelectorAll("#league-table tbody tr");
-    rows.forEach((row) => {
-      row.style.display = "";
-    });
-    return;
-  }
 
-  const rows = document.querySelectorAll("#league-table tbody tr");
-  rows.forEach((row) => {
-    if (row.dataset.zone === zone) row.style.display = "";
-    else row.style.display = "none";
-  });
+    // Condizione per mostrare il campione e le squadre di champions
+    if (zone === "champions") {
+        rows.forEach((row) => {
+            if (row.dataset.zone === "champions" || row.dataset.zone === "championship") {
+                row.style.display = "";
+            } else {
+                row.style.display = "none";
+            }
+        });
+        return;
+    }
+
+    // Gestione di tutti gli altri filtri
+    if (zone === "all") {
+        rows.forEach((row) => {
+            row.style.display = "";
+        });
+        return;
+    }
+
+    // Gestione dei filtri standard
+    rows.forEach((row) => {
+        if (row.dataset.zone === zone) {
+            row.style.display = "";
+        } else {
+            row.style.display = "none";
+        }
+    });
 }
 
 // Funzione per evidenziare l'elemento della legenda selezionato
