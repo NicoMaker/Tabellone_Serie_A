@@ -75,8 +75,8 @@
     {
       "name": "Fiorentina",
       "wins": 0,
-      "draws": 2,
-      "losses": 3,
+      "draws": 3,
+      "losses": 2,
       "goalsFor": 3,
       "goalsAgainst": 6,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
@@ -102,8 +102,8 @@
     {
       "name": "Genoa",
       "wins": 0,
-      "draws": 3,
-      "losses": 2,
+      "draws": 2,
+      "losses": 3,
       "goalsFor": 2,
       "goalsAgainst": 7,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
