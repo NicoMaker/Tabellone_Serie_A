@@ -66,10 +66,10 @@
     {
       "name": "Lazio",
       "wins": 2,
-      "draws": 0,
+      "draws": 1,
       "losses": 3,
-      "goalsFor": 7,
-      "goalsAgainst": 4,
+      "goalsFor": 10,
+      "goalsAgainst": 7,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
@@ -93,10 +93,10 @@
     {
       "name": "Torino",
       "wins": 1,
-      "draws": 1,
+      "draws": 2,
       "losses": 3,
-      "goalsFor": 2,
-      "goalsAgainst": 10,
+      "goalsFor": 5,
+      "goalsAgainst": 13,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
@@ -121,9 +121,9 @@
       "name": "Verona",
       "wins": 0,
       "draws": 3,
-      "losses": 2,
+      "losses": 3,
       "goalsFor": 2,
-      "goalsAgainst": 8,
+      "goalsAgainst": 9,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
@@ -139,17 +139,17 @@
       "name": "Parma",
       "wins": 1,
       "draws": 2,
-      "losses": 2,
+      "losses": 3,
       "goalsFor": 3,
-      "goalsAgainst": 6,
+      "goalsAgainst": 7,
       "image": "https://vectorseek.com/wp-content/uploads/2023/06/Fc-Parma-Logo-Vector-730x730.jpg"
     },
     {
       "name": "Lecce",
-      "wins": 0,
+      "wins": 1,
       "draws": 2,
       "losses": 3,
-      "goalsFor": 4,
+      "goalsFor": 5,
       "goalsAgainst": 10,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
@@ -164,10 +164,10 @@
     },
     {
       "name": "Sassuolo",
-      "wins": 2,
+      "wins": 3,
       "draws": 0,
       "losses": 3,
-      "goalsFor": 7,
+      "goalsFor": 8,
       "goalsAgainst": 8,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
