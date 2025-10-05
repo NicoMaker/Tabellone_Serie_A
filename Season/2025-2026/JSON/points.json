@@ -56,11 +56,11 @@
     },
     {
       "name": "Roma",
-      "wins": 4,
+      "wins": 5,
       "draws": 0,
       "losses": 1,
-      "goalsFor": 5,
-      "goalsAgainst": 1,
+      "goalsFor": 7,
+      "goalsAgainst": 2,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
     {
@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 0,
       "draws": 3,
-      "losses": 2,
-      "goalsFor": 3,
-      "goalsAgainst": 6,
+      "losses": 3,
+      "goalsFor": 4,
+      "goalsAgainst": 8,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
