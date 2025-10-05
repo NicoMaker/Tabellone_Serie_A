@@ -29,11 +29,11 @@
     },
     {
       "name": "Napoli",
-      "wins": 4,
+      "wins": 5,
       "draws": 0,
       "losses": 1,
-      "goalsFor": 10,
-      "goalsAgainst": 5,
+      "goalsFor": 12,
+      "goalsAgainst": 6,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
@@ -103,9 +103,9 @@
       "name": "Genoa",
       "wins": 0,
       "draws": 2,
-      "losses": 3,
-      "goalsFor": 2,
-      "goalsAgainst": 7,
+      "losses": 4,
+      "goalsFor": 3,
+      "goalsAgainst": 9,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
     {
