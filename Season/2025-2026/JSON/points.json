@@ -3,7 +3,7 @@
     {
       "name": "Juventus",
       "wins": 3,
-      "draws": 2,
+      "draws": 3,
       "losses": 0,
       "goalsFor": 9,
       "goalsAgainst": 5,
@@ -21,7 +21,7 @@
     {
       "name": "Milan",
       "wins": 4,
-      "draws": 0,
+      "draws": 1,
       "losses": 1,
       "goalsFor": 9,
       "goalsAgainst": 3,
