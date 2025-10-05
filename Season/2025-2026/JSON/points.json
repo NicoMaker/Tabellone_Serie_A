@@ -84,10 +84,10 @@
     {
       "name": "Udinese",
       "wins": 2,
-      "draws": 1,
+      "draws": 2,
       "losses": 2,
-      "goalsFor": 5,
-      "goalsAgainst": 8,
+      "goalsFor": 6,
+      "goalsAgainst": 9,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
@@ -129,10 +129,10 @@
     {
       "name": "Cagliari",
       "wins": 2,
-      "draws": 1,
+      "draws": 2,
       "losses": 2,
-      "goalsFor": 5,
-      "goalsAgainst": 5,
+      "goalsFor": 6,
+      "goalsAgainst": 6,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
