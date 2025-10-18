@@ -120,7 +120,7 @@
     {
       "name": "Verona",
       "wins": 0,
-      "draws": 3,
+      "draws": 4,
       "losses": 3,
       "goalsFor": 2,
       "goalsAgainst": 9,
@@ -147,7 +147,7 @@
     {
       "name": "Lecce",
       "wins": 1,
-      "draws": 2,
+      "draws": 3,
       "losses": 3,
       "goalsFor": 5,
       "goalsAgainst": 10,
@@ -156,7 +156,7 @@
     {
       "name": "Pisa",
       "wins": 0,
-      "draws": 2,
+      "draws": 3,
       "losses": 4,
       "goalsFor": 3,
       "goalsAgainst": 10,
@@ -165,7 +165,7 @@
     {
       "name": "Sassuolo",
       "wins": 3,
-      "draws": 0,
+      "draws": 1,
       "losses": 3,
       "goalsFor": 8,
       "goalsAgainst": 8,
