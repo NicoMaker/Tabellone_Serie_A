@@ -20,11 +20,11 @@
     },
     {
       "name": "Milan",
-      "wins": 4,
+      "wins": 5,
       "draws": 1,
       "losses": 1,
-      "goalsFor": 9,
-      "goalsAgainst": 3,
+      "goalsFor": 11,
+      "goalsAgainst": 4,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
     {
@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 0,
       "draws": 3,
-      "losses": 3,
-      "goalsFor": 4,
-      "goalsAgainst": 8,
+      "losses": 4,
+      "goalsFor": 5,
+      "goalsAgainst": 10,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
