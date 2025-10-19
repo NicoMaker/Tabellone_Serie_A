@@ -47,10 +47,10 @@
     },
     {
       "name": "Bologna",
-      "wins": 3,
+      "wins": 4,
       "draws": 1,
       "losses": 2,
-      "goalsFor": 9,
+      "goalsFor": 11,
       "goalsAgainst": 5,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
@@ -102,7 +102,7 @@
     {
       "name": "Genoa",
       "wins": 0,
-      "draws": 2,
+      "draws": 3,
       "losses": 4,
       "goalsFor": 3,
       "goalsAgainst": 9,
@@ -130,15 +130,15 @@
       "name": "Cagliari",
       "wins": 2,
       "draws": 2,
-      "losses": 2,
+      "losses": 3,
       "goalsFor": 6,
-      "goalsAgainst": 6,
+      "goalsAgainst": 8,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
       "name": "Parma",
       "wins": 1,
-      "draws": 2,
+      "draws": 3,
       "losses": 3,
       "goalsFor": 3,
       "goalsAgainst": 7,
