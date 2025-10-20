@@ -84,10 +84,10 @@
     {
       "name": "Udinese",
       "wins": 2,
-      "draws": 2,
+      "draws": 3,
       "losses": 2,
-      "goalsFor": 6,
-      "goalsAgainst": 9,
+      "goalsFor": 7,
+      "goalsAgainst": 10,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
@@ -174,10 +174,10 @@
     {
       "name": "Cremonese",
       "wins": 2,
-      "draws": 3,
+      "draws": 4,
       "losses": 1,
-      "goalsFor": 7,
-      "goalsAgainst": 11,
+      "goalsFor": 8,
+      "goalsAgainst": 12,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
   ]
