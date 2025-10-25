@@ -39,10 +39,10 @@
     {
       "name": "Atalanta",
       "wins": 2,
-      "draws": 5,
+      "draws": 6,
       "losses": 0,
-      "goalsFor": 11,
-      "goalsAgainst": 5,
+      "goalsFor": 12,
+      "goalsAgainst": 6,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
@@ -174,10 +174,10 @@
     {
       "name": "Cremonese",
       "wins": 2,
-      "draws": 4,
+      "draws": 5,
       "losses": 1,
-      "goalsFor": 8,
-      "goalsAgainst": 9,
+      "goalsFor": 9,
+      "goalsAgainst": 10,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
   ]
