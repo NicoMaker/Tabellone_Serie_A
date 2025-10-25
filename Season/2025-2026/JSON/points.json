@@ -83,11 +83,11 @@
     },
     {
       "name": "Udinese",
-      "wins": 2,
+      "wins": 3,
       "draws": 3,
       "losses": 2,
-      "goalsFor": 7,
-      "goalsAgainst": 10,
+      "goalsFor": 10,
+      "goalsAgainst": 12,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
@@ -111,7 +111,7 @@
     {
       "name": "Como",
       "wins": 3,
-      "draws": 3,
+      "draws": 4,
       "losses": 1,
       "goalsFor": 9,
       "goalsAgainst": 5,
@@ -138,7 +138,7 @@
     {
       "name": "Parma",
       "wins": 1,
-      "draws": 3,
+      "draws": 4,
       "losses": 3,
       "goalsFor": 3,
       "goalsAgainst": 7,
@@ -148,9 +148,9 @@
       "name": "Lecce",
       "wins": 1,
       "draws": 3,
-      "losses": 3,
-      "goalsFor": 5,
-      "goalsAgainst": 10,
+      "losses": 4,
+      "goalsFor": 7,
+      "goalsAgainst": 13,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
