@@ -48,10 +48,10 @@
     {
       "name": "Bologna",
       "wins": 4,
-      "draws": 1,
+      "draws": 2,
       "losses": 2,
-      "goalsFor": 11,
-      "goalsAgainst": 5,
+      "goalsFor": 13,
+      "goalsAgainst": 7,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
@@ -75,10 +75,10 @@
     {
       "name": "Fiorentina",
       "wins": 0,
-      "draws": 3,
+      "draws": 4,
       "losses": 4,
-      "goalsFor": 5,
-      "goalsAgainst": 10,
+      "goalsFor": 7,
+      "goalsAgainst": 12,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
