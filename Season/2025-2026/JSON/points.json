@@ -56,10 +56,10 @@
     },
     {
       "name": "Roma",
-      "wins": 5,
+      "wins": 6,
       "draws": 0,
       "losses": 2,
-      "goalsFor": 7,
+      "goalsFor": 8,
       "goalsAgainst": 3,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
@@ -120,19 +120,19 @@
     {
       "name": "Verona",
       "wins": 0,
-      "draws": 4,
+      "draws": 5,
       "losses": 3,
-      "goalsFor": 2,
-      "goalsAgainst": 9,
+      "goalsFor": 4,
+      "goalsAgainst": 11,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
       "name": "Cagliari",
       "wins": 2,
-      "draws": 2,
+      "draws": 3,
       "losses": 3,
-      "goalsFor": 6,
-      "goalsAgainst": 8,
+      "goalsFor": 8,
+      "goalsAgainst": 10,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
@@ -166,9 +166,9 @@
       "name": "Sassuolo",
       "wins": 3,
       "draws": 1,
-      "losses": 3,
+      "losses": 4,
       "goalsFor": 8,
-      "goalsAgainst": 8,
+      "goalsAgainst": 9,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
