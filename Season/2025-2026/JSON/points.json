@@ -4,9 +4,9 @@
       "name": "Juventus",
       "wins": 3,
       "draws": 3,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 9,
-      "goalsAgainst": 7,
+      "goalsAgainst": 8,
       "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
@@ -65,10 +65,10 @@
     },
     {
       "name": "Lazio",
-      "wins": 2,
+      "wins": 3,
       "draws": 2,
       "losses": 3,
-      "goalsFor": 10,
+      "goalsFor": 11,
       "goalsAgainst": 7,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
