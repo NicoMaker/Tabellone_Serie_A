@@ -21,10 +21,10 @@
     {
       "name": "Milan",
       "wins": 5,
-      "draws": 2,
+      "draws": 3,
       "losses": 1,
-      "goalsFor": 13,
-      "goalsAgainst": 6,
+      "goalsFor": 14,
+      "goalsAgainst": 7,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
     {
@@ -39,10 +39,10 @@
     {
       "name": "Atalanta",
       "wins": 2,
-      "draws": 6,
+      "draws": 7,
       "losses": 0,
-      "goalsFor": 12,
-      "goalsAgainst": 6,
+      "goalsFor": 13,
+      "goalsAgainst": 7,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
