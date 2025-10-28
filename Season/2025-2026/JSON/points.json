@@ -29,10 +29,10 @@
     },
     {
       "name": "Napoli",
-      "wins": 6,
+      "wins": 7,
       "draws": 0,
       "losses": 2,
-      "goalsFor": 15,
+      "goalsFor": 16,
       "goalsAgainst": 8,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
@@ -148,9 +148,9 @@
       "name": "Lecce",
       "wins": 1,
       "draws": 3,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 7,
-      "goalsAgainst": 13,
+      "goalsAgainst": 14,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
