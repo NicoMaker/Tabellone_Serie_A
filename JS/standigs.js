@@ -45,11 +45,29 @@ async function loadTeamsData() {
     loadTableData(teamsData.teams)
     sortTable("points")
     generateLegend()
+    updateFooterDate()
     showLoading(false)
   } catch (error) {
     console.error("Errore nel caricamento dei dati:", error)
     showError()
     showLoading(false)
+  }
+}
+
+function updateFooterDate() {
+  const footer = document.getElementById("info")
+  if (!footer) return
+
+  const footerText = footer.querySelector("p")
+  if (!footerText) return
+
+  const seasonHasChampion = teamsData.champion && teamsData.champion.trim() !== ""
+
+  if (seasonHasChampion) {
+    footerText.textContent = `© Info Serie A ${teamsData.endDate}`
+  } else {
+    const today = new Date().toLocaleDateString("it-IT", { day: "numeric", month: "long", year: "numeric" })
+    footerText.textContent = `© Info Serie A ${today}`
   }
 }
 
