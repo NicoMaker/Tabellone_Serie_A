@@ -11,10 +11,10 @@
     },
     {
       "name": "Inter",
-      "wins": 5,
+      "wins": 6,
       "draws": 0,
       "losses": 3,
-      "goalsFor": 19,
+      "goalsFor": 22,
       "goalsAgainst": 11,
       "image": "https://1.bp.blogspot.com/-5O5g_eGrFf4/YCPz5WuqebI/AAAAAAAB9kg/Ma15EUix1agY164NEhK6j2wcIXUxx02lQCLcBGAsYHQ/w400-h371/Inter%2Bde%2BMil%25C3%25A3o%2B-%2BITA%2B-%2BNOVO%2BOFICIAL.jpg"
     },
@@ -48,7 +48,7 @@
     {
       "name": "Bologna",
       "wins": 4,
-      "draws": 2,
+      "draws": 3,
       "losses": 2,
       "goalsFor": 13,
       "goalsAgainst": 7,
@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 0,
       "draws": 4,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 7,
-      "goalsAgainst": 12,
+      "goalsAgainst": 15,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
@@ -93,7 +93,7 @@
     {
       "name": "Torino",
       "wins": 3,
-      "draws": 2,
+      "draws": 3,
       "losses": 3,
       "goalsFor": 8,
       "goalsAgainst": 14,
@@ -103,9 +103,9 @@
       "name": "Genoa",
       "wins": 0,
       "draws": 3,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 4,
-      "goalsAgainst": 11,
+      "goalsAgainst": 13,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
     {
@@ -173,10 +173,10 @@
     },
     {
       "name": "Cremonese",
-      "wins": 2,
+      "wins": 3,
       "draws": 5,
       "losses": 1,
-      "goalsFor": 9,
+      "goalsFor": 11,
       "goalsAgainst": 10,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
