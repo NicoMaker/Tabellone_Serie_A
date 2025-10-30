@@ -130,9 +130,9 @@
       "name": "Cagliari",
       "wins": 2,
       "draws": 3,
-      "losses": 3,
-      "goalsFor": 8,
-      "goalsAgainst": 10,
+      "losses": 4,
+      "goalsFor": 9,
+      "goalsAgainst": 11,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
@@ -164,11 +164,11 @@
     },
     {
       "name": "Sassuolo",
-      "wins": 3,
+      "wins": 4,
       "draws": 1,
       "losses": 4,
-      "goalsFor": 8,
-      "goalsAgainst": 9,
+      "goalsFor": 10,
+      "goalsAgainst": 10,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
