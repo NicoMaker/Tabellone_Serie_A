@@ -40,9 +40,9 @@
       "name": "Atalanta",
       "wins": 2,
       "draws": 7,
-      "losses": 0,
+      "losses": 1,
       "goalsFor": 13,
-      "goalsAgainst": 7,
+      "goalsAgainst": 8,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
@@ -83,10 +83,10 @@
     },
     {
       "name": "Udinese",
-      "wins": 3,
+      "wins": 4,
       "draws": 3,
       "losses": 3,
-      "goalsFor": 11,
+      "goalsFor": 12,
       "goalsAgainst": 15,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
