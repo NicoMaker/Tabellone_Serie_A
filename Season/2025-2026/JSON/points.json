@@ -30,7 +30,7 @@
     {
       "name": "Napoli",
       "wins": 7,
-      "draws": 0,
+      "draws": 1,
       "losses": 2,
       "goalsFor": 16,
       "goalsAgainst": 8,
@@ -111,7 +111,7 @@
     {
       "name": "Como",
       "wins": 4,
-      "draws": 4,
+      "draws": 5,
       "losses": 1,
       "goalsFor": 12,
       "goalsAgainst": 6,
