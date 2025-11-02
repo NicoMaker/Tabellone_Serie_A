@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 0,
       "draws": 4,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 7,
-      "goalsAgainst": 15,
+      "goalsAgainst": 16,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
@@ -93,10 +93,10 @@
     {
       "name": "Torino",
       "wins": 3,
-      "draws": 3,
+      "draws": 4,
       "losses": 3,
-      "goalsFor": 8,
-      "goalsAgainst": 14,
+      "goalsFor": 10,
+      "goalsAgainst": 16,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
@@ -146,20 +146,20 @@
     },
     {
       "name": "Lecce",
-      "wins": 1,
+      "wins": 2,
       "draws": 3,
       "losses": 5,
-      "goalsFor": 7,
+      "goalsFor": 8,
       "goalsAgainst": 14,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
       "name": "Pisa",
       "wins": 0,
-      "draws": 5,
+      "draws": 6,
       "losses": 4,
-      "goalsFor": 5,
-      "goalsAgainst": 12,
+      "goalsFor": 7,
+      "goalsAgainst": 14,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
