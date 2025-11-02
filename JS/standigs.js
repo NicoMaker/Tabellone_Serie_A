@@ -54,6 +54,7 @@ async function loadTeamsData() {
   }
 }
 
+// ✅ Funzione aggiornata con giorno a due cifre
 function updateFooterDate() {
   const footer = document.getElementById("info")
   if (!footer) return
@@ -66,8 +67,11 @@ function updateFooterDate() {
   if (seasonHasChampion) {
     footerText.textContent = `© Info Serie A ${teamsData.endDate}`
   } else {
-    const today = new Date().toLocaleDateString("it-IT", { day: "numeric", month: "long", year: "numeric" })
-    footerText.textContent = `© Info Serie A ${today}`
+    const today = new Date()
+    const day = today.getDate().toString().padStart(2, "0") // aggiunge 0 davanti se < 10
+    const month = today.toLocaleString("it-IT", { month: "long" })
+    const year = today.getFullYear()
+    footerText.textContent = `© Info Serie A ${day} ${month} ${year}`
   }
 }
 
@@ -100,7 +104,8 @@ function hideNoResults() {
 function getTeamZone(position) {
   if (!zonesData.zones) return "none"
 
-  for (const zone of zonesData.zones) if (zone.positions.includes(position)) return zone.name
+  for (const zone of zonesData.zones)
+    if (zone.positions.includes(position)) return zone.name
 
   return "none"
 }
@@ -181,13 +186,13 @@ function sortByPoints(a, b, aGoalDifference, bGoalDifference) {
 }
 
 const sortByGoalDifference = (aGoalDifference, bGoalDifference) => bGoalDifference - aGoalDifference
-
 const sortByName = (a, b) => a.name.localeCompare(b.name)
-
 const sortByOtherCriteria = (a, b, criteria) => (b[criteria] || 0) - (a[criteria] || 0)
 
 function filterTeamsBySearchTerm(teams) {
-  return searchTerm ? teams.filter((team) => team.name.toLowerCase().includes(searchTerm.toLowerCase())) : teams
+  return searchTerm
+    ? teams.filter((team) => team.name.toLowerCase().includes(searchTerm.toLowerCase()))
+    : teams
 }
 
 function highlightSelectedButton(criteria) {
@@ -286,7 +291,9 @@ function searchTeams(term) {
   showLoading(true)
 
   setTimeout(() => {
-    const filteredTeams = teamsData.teams.filter((team) => team.name.toLowerCase().includes(searchTerm.toLowerCase()))
+    const filteredTeams = teamsData.teams.filter((team) =>
+      team.name.toLowerCase().includes(searchTerm.toLowerCase())
+    )
 
     loadTableData(filteredTeams)
     showLoading(false)
