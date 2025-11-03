@@ -472,6 +472,12 @@ body {
   color: var(--accent);
 }
 
+/* Stile aggiunto per la colonna Punti */
+.standings-table td.pts-col {
+  font-weight: 800;
+  font-size: 18px;
+}
+
 /* Zone indicators */
 .standings-table tbody tr td:first-child::before {
   content: "";

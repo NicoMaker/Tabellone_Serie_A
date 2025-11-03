@@ -131,20 +131,34 @@ function loadTableData(teams) {
     if (zone !== "none") row.classList.add(`${zone}-zone`)
     row.dataset.zone = zone
 
+    // Position
     const positionCell = row.insertCell()
     positionCell.textContent = position
+    positionCell.classList.add("pos-col")
 
-    row.innerHTML += `
-      <td><img src="${team.image}" alt="${team.name}" width="36" height="36"> ${team.name}</td>
-      <td>${team.points}</td>
-      <td>${team.matchesPlayed}</td>
-      <td>${team.wins}</td>
-      <td>${team.draws}</td>
-      <td>${team.losses}</td>
-      <td>${team.goalsFor}</td>
-      <td>${team.goalsAgainst}</td>
-      <td>${goalDifference > 0 ? "+" + goalDifference : goalDifference}</td>
-    `
+    // Team
+    const teamCell = row.insertCell()
+    teamCell.innerHTML = `<img src="${team.image}" alt="${team.name}" width="36" height="36"> ${team.name}`
+    teamCell.classList.add("team-col")
+
+    // Stats
+    const pointsCell = row.insertCell()
+    pointsCell.textContent = team.points
+    pointsCell.classList.add("pts-col")
+
+    row.insertCell().textContent = team.matchesPlayed // G
+    row.insertCell().textContent = team.wins // V
+    row.insertCell().textContent = team.draws // N
+    row.insertCell().textContent = team.losses // S
+    row.insertCell().textContent = team.goalsFor // GF
+    row.insertCell().textContent = team.goalsAgainst // GS
+
+    // Goal Difference
+    const goalDifferenceCell = row.insertCell()
+    const goalDifferenceText = goalDifference > 0 ? `+${goalDifference}` : goalDifference.toString()
+    goalDifferenceCell.textContent = goalDifferenceText
+    goalDifferenceCell.classList.add("goal-difference-col") // Classe per lo stile
+    goalDifferenceCell.dataset.value = goalDifferenceText // Attributo per il selettore CSS
   })
 }
 
@@ -322,3 +336,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   loadTeamsData()
 })
+  co
