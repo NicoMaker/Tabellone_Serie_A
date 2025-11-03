@@ -101,11 +101,11 @@
     },
     {
       "name": "Genoa",
-      "wins": 0,
+      "wins": 1,
       "draws": 3,
       "losses": 6,
-      "goalsFor": 4,
-      "goalsAgainst": 13,
+      "goalsFor": 6,
+      "goalsAgainst": 14,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
     {
@@ -166,9 +166,9 @@
       "name": "Sassuolo",
       "wins": 4,
       "draws": 1,
-      "losses": 4,
-      "goalsFor": 10,
-      "goalsAgainst": 10,
+      "losses": 5,
+      "goalsFor": 11,
+      "goalsAgainst": 12,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
