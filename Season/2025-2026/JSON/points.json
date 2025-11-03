@@ -65,10 +65,10 @@
     },
     {
       "name": "Lazio",
-      "wins": 3,
+      "wins": 4,
       "draws": 3,
       "losses": 3,
-      "goalsFor": 11,
+      "goalsFor": 13,
       "goalsAgainst": 7,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
@@ -130,9 +130,9 @@
       "name": "Cagliari",
       "wins": 2,
       "draws": 3,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 9,
-      "goalsAgainst": 11,
+      "goalsAgainst": 13,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
