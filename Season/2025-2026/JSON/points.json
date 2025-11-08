@@ -111,7 +111,7 @@
     {
       "name": "Como",
       "wins": 4,
-      "draws": 5,
+      "draws": 6,
       "losses": 1,
       "goalsFor": 12,
       "goalsAgainst": 6,
@@ -120,7 +120,7 @@
     {
       "name": "Verona",
       "wins": 0,
-      "draws": 5,
+      "draws": 6,
       "losses": 5,
       "goalsFor": 6,
       "goalsAgainst": 16,
@@ -129,7 +129,7 @@
     {
       "name": "Cagliari",
       "wins": 2,
-      "draws": 3,
+      "draws": 4,
       "losses": 5,
       "goalsFor": 9,
       "goalsAgainst": 14,
@@ -147,7 +147,7 @@
     {
       "name": "Lecce",
       "wins": 2,
-      "draws": 3,
+      "draws": 4,
       "losses": 5,
       "goalsFor": 8,
       "goalsAgainst": 14,
