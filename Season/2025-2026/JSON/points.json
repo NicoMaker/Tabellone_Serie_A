@@ -56,10 +56,10 @@
     },
     {
       "name": "Roma",
-      "wins": 7,
+      "wins": 8,
       "draws": 0,
       "losses": 3,
-      "goalsFor": 10,
+      "goalsFor": 12,
       "goalsAgainst": 5,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 4,
       "draws": 3,
-      "losses": 3,
+      "losses": 4,
       "goalsFor": 12,
-      "goalsAgainst": 15,
+      "goalsAgainst": 17,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
