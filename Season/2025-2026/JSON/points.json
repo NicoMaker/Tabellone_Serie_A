@@ -40,9 +40,9 @@
       "name": "Atalanta",
       "wins": 2,
       "draws": 7,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 13,
-      "goalsAgainst": 8,
+      "goalsAgainst": 11,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
@@ -164,10 +164,10 @@
     },
     {
       "name": "Sassuolo",
-      "wins": 4,
+      "wins": 5,
       "draws": 1,
       "losses": 5,
-      "goalsFor": 11,
+      "goalsFor": 14,
       "goalsAgainst": 12,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
