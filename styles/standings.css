@@ -603,3 +603,9 @@ body {
     height: 24px;
   }
 }
+
+
+.pts-col {
+  font-weight: 700;
+  color: #00ff88;
+}
