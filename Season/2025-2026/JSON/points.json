@@ -47,10 +47,10 @@
     },
     {
       "name": "Bologna",
-      "wins": 6,
+      "wins": 7,
       "draws": 3,
       "losses": 2,
-      "goalsFor": 18,
+      "goalsFor": 21,
       "goalsAgainst": 8,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 4,
       "draws": 3,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 12,
-      "goalsAgainst": 17,
+      "goalsAgainst": 20,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
