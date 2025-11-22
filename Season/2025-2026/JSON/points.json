@@ -29,20 +29,20 @@
     },
     {
       "name": "Napoli",
-      "wins": 7,
+      "wins": 8,
       "draws": 1,
       "losses": 3,
-      "goalsFor": 16,
-      "goalsAgainst": 10,
+      "goalsFor": 19,
+      "goalsAgainst": 11,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
       "name": "Atalanta",
       "wins": 2,
       "draws": 7,
-      "losses": 2,
-      "goalsFor": 13,
-      "goalsAgainst": 11,
+      "losses": 3,
+      "goalsFor": 14,
+      "goalsAgainst": 14,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
