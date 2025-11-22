@@ -3,10 +3,10 @@
     {
       "name": "Juventus",
       "wins": 5,
-      "draws": 4,
+      "draws": 5,
       "losses": 2,
-      "goalsFor": 14,
-      "goalsAgainst": 10,
+      "goalsFor": 15,
+      "goalsAgainst": 11,
       "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
@@ -75,10 +75,10 @@
     {
       "name": "Fiorentina",
       "wins": 0,
-      "draws": 5,
+      "draws": 6,
       "losses": 6,
-      "goalsFor": 9,
-      "goalsAgainst": 18,
+      "goalsFor": 10,
+      "goalsAgainst": 19,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
