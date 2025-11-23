@@ -56,11 +56,11 @@
     },
     {
       "name": "Roma",
-      "wins": 8,
+      "wins": 9,
       "draws": 0,
       "losses": 3,
-      "goalsFor": 12,
-      "goalsAgainst": 5,
+      "goalsFor": 15,
+      "goalsAgainst": 6,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
     {
@@ -175,9 +175,9 @@
       "name": "Cremonese",
       "wins": 3,
       "draws": 5,
-      "losses": 3,
-      "goalsFor": 12,
-      "goalsAgainst": 13,
+      "losses": 4,
+      "goalsFor": 13,
+      "goalsAgainst": 16,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
   ]
