@@ -156,19 +156,19 @@
     {
       "name": "Pisa",
       "wins": 1,
-      "draws": 6,
+      "draws": 7,
       "losses": 4,
-      "goalsFor": 8,
-      "goalsAgainst": 14,
+      "goalsFor": 10,
+      "goalsAgainst": 16,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
       "name": "Sassuolo",
       "wins": 5,
-      "draws": 1,
+      "draws": 2,
       "losses": 5,
-      "goalsFor": 14,
-      "goalsAgainst": 12,
+      "goalsFor": 16,
+      "goalsAgainst": 14,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
