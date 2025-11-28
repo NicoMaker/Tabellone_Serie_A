@@ -110,10 +110,10 @@
     },
     {
       "name": "Como",
-      "wins": 5,
+      "wins": 6,
       "draws": 6,
       "losses": 1,
-      "goalsFor": 17,
+      "goalsFor": 19,
       "goalsAgainst": 7,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
@@ -166,9 +166,9 @@
       "name": "Sassuolo",
       "wins": 5,
       "draws": 2,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 16,
-      "goalsAgainst": 14,
+      "goalsAgainst": 16,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
