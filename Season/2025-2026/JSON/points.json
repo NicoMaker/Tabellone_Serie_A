@@ -83,10 +83,10 @@
     },
     {
       "name": "Udinese",
-      "wins": 4,
+      "wins": 5,
       "draws": 3,
       "losses": 5,
-      "goalsFor": 12,
+      "goalsFor": 14,
       "goalsAgainst": 20,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
@@ -101,11 +101,11 @@
     },
     {
       "name": "Genoa",
-      "wins": 1,
+      "wins": 2,
       "draws": 5,
       "losses": 6,
-      "goalsFor": 11,
-      "goalsAgainst": 19,
+      "goalsFor": 13,
+      "goalsAgainst": 20,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
     {
@@ -121,9 +121,9 @@
       "name": "Verona",
       "wins": 0,
       "draws": 6,
-      "losses": 6,
-      "goalsFor": 7,
-      "goalsAgainst": 18,
+      "losses": 7,
+      "goalsFor": 8,
+      "goalsAgainst": 20,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
@@ -139,9 +139,9 @@
       "name": "Parma",
       "wins": 2,
       "draws": 5,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 9,
-      "goalsAgainst": 15,
+      "goalsAgainst": 17,
       "image": "https://vectorseek.com/wp-content/uploads/2023/06/Fc-Parma-Logo-Vector-730x730.jpg"
     },
     {
