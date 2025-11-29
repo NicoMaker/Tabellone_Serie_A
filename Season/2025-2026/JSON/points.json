@@ -20,10 +20,10 @@
     },
     {
       "name": "Milan",
-      "wins": 7,
+      "wins": 8,
       "draws": 4,
       "losses": 1,
-      "goalsFor": 18,
+      "goalsFor": 19,
       "goalsAgainst": 9,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
@@ -67,9 +67,9 @@
       "name": "Lazio",
       "wins": 5,
       "draws": 3,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 15,
-      "goalsAgainst": 9,
+      "goalsAgainst": 10,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
