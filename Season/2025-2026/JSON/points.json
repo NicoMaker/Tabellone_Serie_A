@@ -94,9 +94,9 @@
       "name": "Torino",
       "wins": 3,
       "draws": 5,
-      "losses": 4,
-      "goalsFor": 11,
-      "goalsAgainst": 21,
+      "losses": 5,
+      "goalsFor": 12,
+      "goalsAgainst": 23,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
@@ -146,11 +146,11 @@
     },
     {
       "name": "Lecce",
-      "wins": 2,
+      "wins": 3,
       "draws": 4,
       "losses": 6,
-      "goalsFor": 8,
-      "goalsAgainst": 16,
+      "goalsFor": 10,
+      "goalsAgainst": 17,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
