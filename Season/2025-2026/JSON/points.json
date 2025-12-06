@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 0,
       "draws": 6,
-      "losses": 7,
-      "goalsFor": 10,
-      "goalsAgainst": 21,
+      "losses": 8,
+      "goalsFor": 11,
+      "goalsAgainst": 24,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
@@ -164,11 +164,11 @@
     },
     {
       "name": "Sassuolo",
-      "wins": 5,
+      "wins": 6,
       "draws": 2,
       "losses": 6,
-      "goalsFor": 16,
-      "goalsAgainst": 16,
+      "goalsFor": 19,
+      "goalsAgainst": 17,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
