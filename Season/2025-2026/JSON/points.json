@@ -40,9 +40,9 @@
       "name": "Atalanta",
       "wins": 3,
       "draws": 7,
-      "losses": 3,
-      "goalsFor": 16,
-      "goalsAgainst": 14,
+      "losses": 4,
+      "goalsFor": 17,
+      "goalsAgainst": 17,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
@@ -119,11 +119,11 @@
     },
     {
       "name": "Verona",
-      "wins": 0,
+      "wins": 1,
       "draws": 6,
       "losses": 7,
-      "goalsFor": 8,
-      "goalsAgainst": 20,
+      "goalsFor": 11,
+      "goalsAgainst": 21,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
