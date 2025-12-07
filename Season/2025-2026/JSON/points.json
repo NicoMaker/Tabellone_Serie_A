@@ -48,10 +48,10 @@
     {
       "name": "Bologna",
       "wins": 7,
-      "draws": 3,
+      "draws": 4,
       "losses": 3,
-      "goalsFor": 22,
-      "goalsAgainst": 11,
+      "goalsFor": 23,
+      "goalsAgainst": 12,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
@@ -66,10 +66,10 @@
     {
       "name": "Lazio",
       "wins": 5,
-      "draws": 3,
+      "draws": 4,
       "losses": 5,
-      "goalsFor": 15,
-      "goalsAgainst": 10,
+      "goalsFor": 16,
+      "goalsAgainst": 11,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
