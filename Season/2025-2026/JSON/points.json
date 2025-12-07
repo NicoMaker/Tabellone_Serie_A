@@ -148,9 +148,9 @@
       "name": "Lecce",
       "wins": 3,
       "draws": 4,
-      "losses": 6,
+      "losses": 7,
       "goalsFor": 10,
-      "goalsAgainst": 17,
+      "goalsAgainst": 19,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
@@ -173,10 +173,10 @@
     },
     {
       "name": "Cremonese",
-      "wins": 4,
+      "wins": 5,
       "draws": 5,
       "losses": 4,
-      "goalsFor": 16,
+      "goalsFor": 18,
       "goalsAgainst": 17,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
