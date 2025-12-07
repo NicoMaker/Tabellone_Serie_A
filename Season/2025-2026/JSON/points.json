@@ -58,9 +58,9 @@
       "name": "Roma",
       "wins": 9,
       "draws": 0,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 15,
-      "goalsAgainst": 7,
+      "goalsAgainst": 8,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
     {
@@ -128,10 +128,10 @@
     },
     {
       "name": "Cagliari",
-      "wins": 2,
+      "wins": 3,
       "draws": 5,
       "losses": 6,
-      "goalsFor": 13,
+      "goalsFor": 14,
       "goalsAgainst": 19,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
