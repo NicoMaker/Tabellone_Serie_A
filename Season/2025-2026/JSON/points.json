@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 5,
       "draws": 3,
-      "losses": 5,
-      "goalsFor": 14,
-      "goalsAgainst": 20,
+      "losses": 6,
+      "goalsFor": 15,
+      "goalsAgainst": 22,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
@@ -101,11 +101,11 @@
     },
     {
       "name": "Genoa",
-      "wins": 2,
+      "wins": 3,
       "draws": 5,
       "losses": 6,
-      "goalsFor": 13,
-      "goalsAgainst": 20,
+      "goalsFor": 15,
+      "goalsAgainst": 21,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
     {
