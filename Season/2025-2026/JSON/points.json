@@ -20,11 +20,11 @@
     },
     {
       "name": "Milan",
-      "wins": 8,
+      "wins": 9,
       "draws": 4,
       "losses": 1,
-      "goalsFor": 19,
-      "goalsAgainst": 9,
+      "goalsFor": 22,
+      "goalsAgainst": 11,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
     {
@@ -94,9 +94,9 @@
       "name": "Torino",
       "wins": 3,
       "draws": 5,
-      "losses": 5,
-      "goalsFor": 12,
-      "goalsAgainst": 23,
+      "losses": 6,
+      "goalsFor": 14,
+      "goalsAgainst": 26,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
