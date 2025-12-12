@@ -146,10 +146,10 @@
     },
     {
       "name": "Lecce",
-      "wins": 3,
+      "wins": 4,
       "draws": 4,
       "losses": 7,
-      "goalsFor": 10,
+      "goalsFor": 11,
       "goalsAgainst": 19,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
@@ -157,9 +157,9 @@
       "name": "Pisa",
       "wins": 1,
       "draws": 7,
-      "losses": 6,
+      "losses": 7,
       "goalsFor": 10,
-      "goalsAgainst": 19,
+      "goalsAgainst": 20,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
