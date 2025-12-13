@@ -92,10 +92,10 @@
     },
     {
       "name": "Torino",
-      "wins": 3,
+      "wins": 4,
       "draws": 5,
       "losses": 6,
-      "goalsFor": 14,
+      "goalsFor": 15,
       "goalsAgainst": 26,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
@@ -175,9 +175,9 @@
       "name": "Cremonese",
       "wins": 5,
       "draws": 5,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 18,
-      "goalsAgainst": 17,
+      "goalsAgainst": 18,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
   ]
