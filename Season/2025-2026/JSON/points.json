@@ -31,9 +31,9 @@
       "name": "Napoli",
       "wins": 10,
       "draws": 1,
-      "losses": 3,
+      "losses": 4,
       "goalsFor": 22,
-      "goalsAgainst": 12,
+      "goalsAgainst": 13,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
@@ -83,10 +83,10 @@
     },
     {
       "name": "Udinese",
-      "wins": 5,
+      "wins": 6,
       "draws": 3,
       "losses": 6,
-      "goalsFor": 15,
+      "goalsFor": 16,
       "goalsAgainst": 22,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
