@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 6,
+      "wins": 7,
       "draws": 5,
       "losses": 3,
-      "goalsFor": 18,
+      "goalsFor": 19,
       "goalsAgainst": 14,
       "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
@@ -49,9 +49,9 @@
       "name": "Bologna",
       "wins": 7,
       "draws": 4,
-      "losses": 3,
+      "losses": 4,
       "goalsFor": 23,
-      "goalsAgainst": 12,
+      "goalsAgainst": 13,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
