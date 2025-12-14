@@ -21,10 +21,10 @@
     {
       "name": "Milan",
       "wins": 9,
-      "draws": 4,
+      "draws": 5,
       "losses": 1,
-      "goalsFor": 22,
-      "goalsAgainst": 11,
+      "goalsFor": 24,
+      "goalsAgainst": 13,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
     {
@@ -165,10 +165,10 @@
     {
       "name": "Sassuolo",
       "wins": 6,
-      "draws": 2,
+      "draws": 3,
       "losses": 6,
-      "goalsFor": 19,
-      "goalsAgainst": 17,
+      "goalsFor": 21,
+      "goalsAgainst": 19,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
