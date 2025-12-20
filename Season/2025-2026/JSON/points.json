@@ -2,11 +2,11 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 7,
+      "wins": 8,
       "draws": 5,
       "losses": 3,
-      "goalsFor": 19,
-      "goalsAgainst": 14,
+      "goalsFor": 21,
+      "goalsAgainst": 15,
       "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
@@ -58,9 +58,9 @@
       "name": "Roma",
       "wins": 10,
       "draws": 0,
-      "losses": 5,
-      "goalsFor": 16,
-      "goalsAgainst": 8,
+      "losses": 6,
+      "goalsFor": 17,
+      "goalsAgainst": 10,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
     {
