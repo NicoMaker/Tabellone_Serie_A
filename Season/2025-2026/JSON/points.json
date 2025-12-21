@@ -129,10 +129,10 @@
     {
       "name": "Cagliari",
       "wins": 3,
-      "draws": 5,
+      "draws": 6,
       "losses": 7,
-      "goalsFor": 15,
-      "goalsAgainst": 21,
+      "goalsFor": 17,
+      "goalsAgainst": 23,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
@@ -156,10 +156,10 @@
     {
       "name": "Pisa",
       "wins": 1,
-      "draws": 7,
+      "draws": 8,
       "losses": 7,
-      "goalsFor": 10,
-      "goalsAgainst": 20,
+      "goalsFor": 12,
+      "goalsAgainst": 22,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
