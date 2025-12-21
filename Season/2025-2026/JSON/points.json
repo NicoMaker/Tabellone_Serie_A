@@ -74,20 +74,20 @@
     },
     {
       "name": "Fiorentina",
-      "wins": 0,
+      "wins": 1,
       "draws": 6,
       "losses": 9,
-      "goalsFor": 12,
-      "goalsAgainst": 26,
+      "goalsFor": 17,
+      "goalsAgainst": 27,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
       "name": "Udinese",
       "wins": 6,
       "draws": 3,
-      "losses": 6,
-      "goalsFor": 16,
-      "goalsAgainst": 22,
+      "losses": 7,
+      "goalsFor": 17,
+      "goalsAgainst": 27,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
