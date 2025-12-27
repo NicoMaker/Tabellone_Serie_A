@@ -66,10 +66,10 @@
     {
       "name": "Lazio",
       "wins": 6,
-      "draws": 5,
+      "draws": 6,
       "losses": 5,
-      "goalsFor": 17,
-      "goalsAgainst": 11,
+      "goalsFor": 18,
+      "goalsAgainst": 12,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
@@ -84,10 +84,10 @@
     {
       "name": "Udinese",
       "wins": 6,
-      "draws": 3,
+      "draws": 4,
       "losses": 7,
-      "goalsFor": 17,
-      "goalsAgainst": 27,
+      "goalsFor": 18,
+      "goalsAgainst": 28,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
