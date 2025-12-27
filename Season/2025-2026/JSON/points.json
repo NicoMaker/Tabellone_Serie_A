@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 8,
+      "wins": 9,
       "draws": 5,
       "losses": 3,
-      "goalsFor": 21,
+      "goalsFor": 23,
       "goalsAgainst": 15,
       "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
@@ -157,9 +157,9 @@
       "name": "Pisa",
       "wins": 1,
       "draws": 8,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 12,
-      "goalsAgainst": 22,
+      "goalsAgainst": 24,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
