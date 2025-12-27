@@ -94,9 +94,9 @@
       "name": "Torino",
       "wins": 5,
       "draws": 5,
-      "losses": 6,
-      "goalsFor": 16,
-      "goalsAgainst": 26,
+      "losses": 7,
+      "goalsFor": 17,
+      "goalsAgainst": 28,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
@@ -110,10 +110,10 @@
     },
     {
       "name": "Como",
-      "wins": 6,
+      "wins": 7,
       "draws": 6,
       "losses": 3,
-      "goalsFor": 19,
+      "goalsFor": 22,
       "goalsAgainst": 12,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
@@ -128,11 +128,11 @@
     },
     {
       "name": "Cagliari",
-      "wins": 3,
+      "wins": 4,
       "draws": 6,
       "losses": 7,
-      "goalsFor": 17,
-      "goalsAgainst": 23,
+      "goalsFor": 19,
+      "goalsAgainst": 24,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
@@ -148,9 +148,9 @@
       "name": "Lecce",
       "wins": 4,
       "draws": 4,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 11,
-      "goalsAgainst": 19,
+      "goalsAgainst": 22,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
