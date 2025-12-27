@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 1,
       "draws": 6,
-      "losses": 9,
+      "losses": 10,
       "goalsFor": 17,
-      "goalsAgainst": 27,
+      "goalsAgainst": 28,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
@@ -137,10 +137,10 @@
     },
     {
       "name": "Parma",
-      "wins": 3,
+      "wins": 4,
       "draws": 5,
       "losses": 7,
-      "goalsFor": 10,
+      "goalsFor": 11,
       "goalsAgainst": 18,
       "image": "https://vectorseek.com/wp-content/uploads/2023/06/Fc-Parma-Logo-Vector-730x730.jpg"
     },
