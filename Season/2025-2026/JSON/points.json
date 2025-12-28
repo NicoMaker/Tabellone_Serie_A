@@ -29,10 +29,10 @@
     },
     {
       "name": "Napoli",
-      "wins": 10,
+      "wins": 11,
       "draws": 1,
       "losses": 4,
-      "goalsFor": 22,
+      "goalsFor": 24,
       "goalsAgainst": 13,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
@@ -175,9 +175,9 @@
       "name": "Cremonese",
       "wins": 5,
       "draws": 6,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 18,
-      "goalsAgainst": 18,
+      "goalsAgainst": 20,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
   ]
