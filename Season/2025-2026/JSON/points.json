@@ -20,10 +20,10 @@
     },
     {
       "name": "Milan",
-      "wins": 9,
+      "wins": 10,
       "draws": 5,
       "losses": 1,
-      "goalsFor": 24,
+      "goalsFor": 27,
       "goalsAgainst": 13,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
@@ -121,9 +121,9 @@
       "name": "Verona",
       "wins": 2,
       "draws": 6,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 13,
-      "goalsAgainst": 22,
+      "goalsAgainst": 25,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
