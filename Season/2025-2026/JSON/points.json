@@ -48,10 +48,10 @@
     {
       "name": "Bologna",
       "wins": 7,
-      "draws": 4,
+      "draws": 5,
       "losses": 4,
-      "goalsFor": 23,
-      "goalsAgainst": 13,
+      "goalsFor": 24,
+      "goalsAgainst": 14,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
@@ -165,10 +165,10 @@
     {
       "name": "Sassuolo",
       "wins": 6,
-      "draws": 3,
+      "draws": 4,
       "losses": 7,
-      "goalsFor": 21,
-      "goalsAgainst": 20,
+      "goalsFor": 22,
+      "goalsAgainst": 21,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
