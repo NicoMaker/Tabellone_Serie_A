@@ -56,11 +56,11 @@
     },
     {
       "name": "Roma",
-      "wins": 10,
+      "wins": 11,
       "draws": 0,
       "losses": 6,
-      "goalsFor": 17,
-      "goalsAgainst": 10,
+      "goalsFor": 20,
+      "goalsAgainst": 11,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
     {
@@ -103,9 +103,9 @@
       "name": "Genoa",
       "wins": 3,
       "draws": 5,
-      "losses": 8,
-      "goalsFor": 16,
-      "goalsAgainst": 24,
+      "losses": 9,
+      "goalsFor": 17,
+      "goalsAgainst": 27,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
     {
