@@ -20,10 +20,10 @@
     },
     {
       "name": "Milan",
-      "wins": 10,
+      "wins": 11,
       "draws": 5,
       "losses": 1,
-      "goalsFor": 27,
+      "goalsFor": 28,
       "goalsAgainst": 13,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
@@ -130,9 +130,9 @@
       "name": "Cagliari",
       "wins": 4,
       "draws": 6,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 19,
-      "goalsAgainst": 24,
+      "goalsAgainst": 25,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
