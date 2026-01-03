@@ -38,10 +38,10 @@
     },
     {
       "name": "Atalanta",
-      "wins": 5,
+      "wins": 6,
       "draws": 7,
       "losses": 5,
-      "goalsFor": 20,
+      "goalsFor": 21,
       "goalsAgainst": 19,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
@@ -58,9 +58,9 @@
       "name": "Roma",
       "wins": 11,
       "draws": 0,
-      "losses": 6,
+      "losses": 7,
       "goalsFor": 20,
-      "goalsAgainst": 11,
+      "goalsAgainst": 12,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
     {
