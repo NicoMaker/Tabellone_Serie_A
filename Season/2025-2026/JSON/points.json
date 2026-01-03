@@ -3,10 +3,10 @@
     {
       "name": "Juventus",
       "wins": 9,
-      "draws": 5,
+      "draws": 6,
       "losses": 3,
-      "goalsFor": 23,
-      "goalsAgainst": 15,
+      "goalsFor": 24,
+      "goalsAgainst": 16,
       "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
@@ -147,10 +147,10 @@
     {
       "name": "Lecce",
       "wins": 4,
-      "draws": 4,
+      "draws": 5,
       "losses": 8,
-      "goalsFor": 11,
-      "goalsAgainst": 22,
+      "goalsFor": 12,
+      "goalsAgainst": 23,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
