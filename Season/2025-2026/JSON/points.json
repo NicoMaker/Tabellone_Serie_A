@@ -92,10 +92,10 @@
     },
     {
       "name": "Torino",
-      "wins": 5,
+      "wins": 6,
       "draws": 5,
       "losses": 7,
-      "goalsFor": 17,
+      "goalsFor": 20,
       "goalsAgainst": 28,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
@@ -121,9 +121,9 @@
       "name": "Verona",
       "wins": 2,
       "draws": 6,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 13,
-      "goalsAgainst": 25,
+      "goalsAgainst": 28,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
