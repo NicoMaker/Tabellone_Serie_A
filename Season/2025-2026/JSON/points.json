@@ -74,10 +74,10 @@
     },
     {
       "name": "Fiorentina",
-      "wins": 1,
+      "wins": 2,
       "draws": 6,
       "losses": 10,
-      "goalsFor": 17,
+      "goalsFor": 18,
       "goalsAgainst": 28,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
@@ -175,9 +175,9 @@
       "name": "Cremonese",
       "wins": 5,
       "draws": 6,
-      "losses": 6,
+      "losses": 7,
       "goalsFor": 18,
-      "goalsAgainst": 20,
+      "goalsAgainst": 21,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
   ]
