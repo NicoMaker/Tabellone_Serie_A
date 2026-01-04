@@ -29,10 +29,10 @@
     },
     {
       "name": "Napoli",
-      "wins": 11,
+      "wins": 12,
       "draws": 1,
       "losses": 4,
-      "goalsFor": 24,
+      "goalsFor": 26,
       "goalsAgainst": 13,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
@@ -67,9 +67,9 @@
       "name": "Lazio",
       "wins": 6,
       "draws": 6,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 18,
-      "goalsAgainst": 12,
+      "goalsAgainst": 14,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
