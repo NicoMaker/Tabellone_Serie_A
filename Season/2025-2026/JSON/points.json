@@ -110,10 +110,10 @@
     },
     {
       "name": "Como",
-      "wins": 8,
+      "wins": 9,
       "draws": 6,
       "losses": 3,
-      "goalsFor": 23,
+      "goalsFor": 26,
       "goalsAgainst": 12,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
@@ -157,9 +157,9 @@
       "name": "Pisa",
       "wins": 1,
       "draws": 9,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 13,
-      "goalsAgainst": 25,
+      "goalsAgainst": 28,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
