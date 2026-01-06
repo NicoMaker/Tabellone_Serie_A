@@ -56,10 +56,10 @@
     },
     {
       "name": "Roma",
-      "wins": 11,
+      "wins": 12,
       "draws": 0,
       "losses": 7,
-      "goalsFor": 20,
+      "goalsFor": 22,
       "goalsAgainst": 12,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
@@ -148,9 +148,9 @@
       "name": "Lecce",
       "wins": 4,
       "draws": 5,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 12,
-      "goalsAgainst": 23,
+      "goalsAgainst": 25,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
