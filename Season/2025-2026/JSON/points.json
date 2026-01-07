@@ -11,10 +11,10 @@
     },
     {
       "name": "Inter",
-      "wins": 13,
+      "wins": 14,
       "draws": 0,
       "losses": 4,
-      "goalsFor": 38,
+      "goalsFor": 40,
       "goalsAgainst": 15,
       "image": "https://1.bp.blogspot.com/-5O5g_eGrFf4/YCPz5WuqebI/AAAAAAAB9kg/Ma15EUix1agY164NEhK6j2wcIXUxx02lQCLcBGAsYHQ/w400-h371/Inter%2Bde%2BMil%25C3%25A3o%2B-%2BITA%2B-%2BNOVO%2BOFICIAL.jpg"
     },
@@ -66,37 +66,37 @@
     {
       "name": "Lazio",
       "wins": 6,
-      "draws": 6,
+      "draws": 7,
       "losses": 6,
-      "goalsFor": 18,
-      "goalsAgainst": 14,
+      "goalsFor": 20,
+      "goalsAgainst": 16,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
       "name": "Fiorentina",
       "wins": 2,
-      "draws": 6,
+      "draws": 7,
       "losses": 10,
-      "goalsFor": 18,
-      "goalsAgainst": 28,
+      "goalsFor": 20,
+      "goalsAgainst": 30,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
       "name": "Udinese",
-      "wins": 6,
+      "wins": 7,
       "draws": 4,
       "losses": 8,
-      "goalsFor": 18,
-      "goalsAgainst": 29,
+      "goalsFor": 20,
+      "goalsAgainst": 30,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
       "name": "Torino",
       "wins": 6,
       "draws": 5,
-      "losses": 7,
-      "goalsFor": 20,
-      "goalsAgainst": 28,
+      "losses": 8,
+      "goalsFor": 21,
+      "goalsAgainst": 30,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
@@ -139,9 +139,9 @@
       "name": "Parma",
       "wins": 4,
       "draws": 6,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 12,
-      "goalsAgainst": 19,
+      "goalsAgainst": 21,
       "image": "https://vectorseek.com/wp-content/uploads/2023/06/Fc-Parma-Logo-Vector-730x730.jpg"
     },
     {
