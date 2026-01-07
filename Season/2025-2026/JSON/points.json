@@ -30,18 +30,18 @@
     {
       "name": "Napoli",
       "wins": 12,
-      "draws": 1,
+      "draws": 2,
       "losses": 4,
-      "goalsFor": 26,
-      "goalsAgainst": 13,
+      "goalsFor": 28,
+      "goalsAgainst": 15,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
       "name": "Atalanta",
-      "wins": 6,
+      "wins": 7,
       "draws": 7,
       "losses": 5,
-      "goalsFor": 21,
+      "goalsFor": 23,
       "goalsAgainst": 19,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
@@ -49,9 +49,9 @@
       "name": "Bologna",
       "wins": 7,
       "draws": 5,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 25,
-      "goalsAgainst": 17,
+      "goalsAgainst": 19,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
@@ -120,10 +120,10 @@
     {
       "name": "Verona",
       "wins": 2,
-      "draws": 6,
+      "draws": 7,
       "losses": 9,
-      "goalsFor": 13,
-      "goalsAgainst": 28,
+      "goalsFor": 15,
+      "goalsAgainst": 30,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
