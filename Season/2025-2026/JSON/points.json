@@ -129,10 +129,10 @@
     {
       "name": "Cagliari",
       "wins": 4,
-      "draws": 6,
+      "draws": 7,
       "losses": 8,
-      "goalsFor": 19,
-      "goalsAgainst": 25,
+      "goalsFor": 21,
+      "goalsAgainst": 27,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
@@ -174,10 +174,10 @@
     {
       "name": "Cremonese",
       "wins": 5,
-      "draws": 6,
+      "draws": 7,
       "losses": 7,
-      "goalsFor": 18,
-      "goalsAgainst": 21,
+      "goalsFor": 20,
+      "goalsAgainst": 22,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
   ]
