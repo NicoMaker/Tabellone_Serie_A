@@ -56,10 +56,10 @@
     },
     {
       "name": "Roma",
-      "wins": 12,
+      "wins": 13,
       "draws": 0,
       "losses": 7,
-      "goalsFor": 22,
+      "goalsFor": 24,
       "goalsAgainst": 12,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
@@ -166,9 +166,9 @@
       "name": "Sassuolo",
       "wins": 6,
       "draws": 5,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 23,
-      "goalsAgainst": 25,
+      "goalsAgainst": 27,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
