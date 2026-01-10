@@ -38,10 +38,10 @@
     },
     {
       "name": "Atalanta",
-      "wins": 7,
+      "wins": 8,
       "draws": 7,
       "losses": 5,
-      "goalsFor": 23,
+      "goalsFor": 25,
       "goalsAgainst": 19,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
@@ -94,9 +94,9 @@
       "name": "Torino",
       "wins": 6,
       "draws": 5,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 21,
-      "goalsAgainst": 30,
+      "goalsAgainst": 32,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
