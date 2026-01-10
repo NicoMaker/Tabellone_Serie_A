@@ -48,10 +48,10 @@
     {
       "name": "Bologna",
       "wins": 7,
-      "draws": 5,
+      "draws": 6,
       "losses": 6,
-      "goalsFor": 25,
-      "goalsAgainst": 19,
+      "goalsFor": 26,
+      "goalsAgainst": 20,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
@@ -84,10 +84,10 @@
     {
       "name": "Udinese",
       "wins": 7,
-      "draws": 4,
+      "draws": 5,
       "losses": 8,
-      "goalsFor": 20,
-      "goalsAgainst": 30,
+      "goalsFor": 22,
+      "goalsAgainst": 32,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
@@ -111,10 +111,10 @@
     {
       "name": "Como",
       "wins": 9,
-      "draws": 6,
+      "draws": 7,
       "losses": 3,
-      "goalsFor": 26,
-      "goalsAgainst": 12,
+      "goalsFor": 27,
+      "goalsAgainst": 13,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
     {
@@ -156,10 +156,10 @@
     {
       "name": "Pisa",
       "wins": 1,
-      "draws": 9,
+      "draws": 10,
       "losses": 9,
-      "goalsFor": 13,
-      "goalsAgainst": 28,
+      "goalsFor": 15,
+      "goalsAgainst": 30,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
