@@ -65,10 +65,10 @@
     },
     {
       "name": "Lazio",
-      "wins": 6,
+      "wins": 7,
       "draws": 7,
       "losses": 6,
-      "goalsFor": 20,
+      "goalsFor": 21,
       "goalsAgainst": 16,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
@@ -121,9 +121,9 @@
       "name": "Verona",
       "wins": 2,
       "draws": 7,
-      "losses": 9,
+      "losses": 10,
       "goalsFor": 15,
-      "goalsAgainst": 30,
+      "goalsAgainst": 31,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
