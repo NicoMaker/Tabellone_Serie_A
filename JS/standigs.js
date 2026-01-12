@@ -336,4 +336,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
   loadTeamsData()
 })
-  co

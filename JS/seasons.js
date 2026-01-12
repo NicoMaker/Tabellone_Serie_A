@@ -94,3 +94,7 @@ window.addEventListener("offline", () => {
 document.querySelector(".main-footer .container").innerHTML = `
     <p>&copy; ${new Date().getFullYear()} Serie A Archive. Tutti i diritti riservati.</p>
 `;
+
+document.getElementById("currentYear").innerHTML = `
+    <p>&copy; ${new Date().getFullYear()} Serie A Archive. Tutti i diritti riservati.</p>
+`;
