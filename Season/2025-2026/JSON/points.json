@@ -101,10 +101,10 @@
     },
     {
       "name": "Genoa",
-      "wins": 3,
+      "wins": 4,
       "draws": 7,
       "losses": 9,
-      "goalsFor": 19,
+      "goalsFor": 22,
       "goalsAgainst": 29,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
@@ -130,9 +130,9 @@
       "name": "Cagliari",
       "wins": 4,
       "draws": 7,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 21,
-      "goalsAgainst": 27,
+      "goalsAgainst": 30,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
