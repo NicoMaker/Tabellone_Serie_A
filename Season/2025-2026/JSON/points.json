@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 10,
+      "wins": 11,
       "draws": 6,
       "losses": 3,
-      "goalsFor": 27,
+      "goalsFor": 32,
       "goalsAgainst": 16,
       "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
@@ -175,9 +175,9 @@
       "name": "Cremonese",
       "wins": 5,
       "draws": 7,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 20,
-      "goalsAgainst": 22,
+      "goalsAgainst": 27,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
   ]
