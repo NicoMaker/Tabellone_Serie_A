@@ -30,7 +30,7 @@
     {
       "name": "Napoli",
       "wins": 12,
-      "draws": 3,
+      "draws": 4,
       "losses": 4,
       "goalsFor": 30,
       "goalsAgainst": 17,
@@ -138,7 +138,7 @@
     {
       "name": "Parma",
       "wins": 5,
-      "draws": 6,
+      "draws": 7,
       "losses": 8,
       "goalsFor": 14,
       "goalsAgainst": 22,
