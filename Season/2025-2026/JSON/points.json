@@ -39,10 +39,10 @@
     {
       "name": "Atalanta",
       "wins": 8,
-      "draws": 7,
+      "draws": 8,
       "losses": 5,
-      "goalsFor": 25,
-      "goalsAgainst": 19,
+      "goalsFor": 26,
+      "goalsAgainst": 20,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
@@ -156,10 +156,10 @@
     {
       "name": "Pisa",
       "wins": 1,
-      "draws": 10,
+      "draws": 11,
       "losses": 9,
-      "goalsFor": 15,
-      "goalsAgainst": 30,
+      "goalsFor": 16,
+      "goalsAgainst": 31,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
