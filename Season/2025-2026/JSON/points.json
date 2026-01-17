@@ -29,10 +29,10 @@
     },
     {
       "name": "Napoli",
-      "wins": 12,
+      "wins": 13,
       "draws": 4,
       "losses": 4,
-      "goalsFor": 30,
+      "goalsFor": 31,
       "goalsAgainst": 17,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
@@ -166,9 +166,9 @@
       "name": "Sassuolo",
       "wins": 6,
       "draws": 5,
-      "losses": 9,
+      "losses": 10,
       "goalsFor": 23,
-      "goalsAgainst": 27,
+      "goalsAgainst": 28,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
