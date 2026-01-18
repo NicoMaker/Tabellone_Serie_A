@@ -20,10 +20,10 @@
     },
     {
       "name": "Milan",
-      "wins": 12,
+      "wins": 13,
       "draws": 7,
       "losses": 1,
-      "goalsFor": 33,
+      "goalsFor": 34,
       "goalsAgainst": 16,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
@@ -148,9 +148,9 @@
       "name": "Lecce",
       "wins": 4,
       "draws": 5,
-      "losses": 11,
+      "losses": 12,
       "goalsFor": 13,
-      "goalsAgainst": 28,
+      "goalsAgainst": 29,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
