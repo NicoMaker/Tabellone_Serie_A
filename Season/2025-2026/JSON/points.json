@@ -56,10 +56,10 @@
     },
     {
       "name": "Roma",
-      "wins": 13,
+      "wins": 14,
       "draws": 0,
       "losses": 7,
-      "goalsFor": 24,
+      "goalsFor": 26,
       "goalsAgainst": 12,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
@@ -94,9 +94,9 @@
       "name": "Torino",
       "wins": 6,
       "draws": 5,
-      "losses": 9,
+      "losses": 10,
       "goalsFor": 21,
-      "goalsAgainst": 32,
+      "goalsAgainst": 34,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
