@@ -67,9 +67,9 @@
       "name": "Lazio",
       "wins": 7,
       "draws": 7,
-      "losses": 6,
+      "losses": 7,
       "goalsFor": 21,
-      "goalsAgainst": 16,
+      "goalsAgainst": 19,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
@@ -110,10 +110,10 @@
     },
     {
       "name": "Como",
-      "wins": 9,
+      "wins": 10,
       "draws": 7,
       "losses": 4,
-      "goalsFor": 28,
+      "goalsFor": 31,
       "goalsAgainst": 16,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
