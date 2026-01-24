@@ -94,9 +94,9 @@
       "name": "Torino",
       "wins": 6,
       "draws": 5,
-      "losses": 10,
+      "losses": 11,
       "goalsFor": 21,
-      "goalsAgainst": 34,
+      "goalsAgainst": 40,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
@@ -110,10 +110,10 @@
     },
     {
       "name": "Como",
-      "wins": 10,
+      "wins": 11,
       "draws": 7,
       "losses": 4,
-      "goalsFor": 31,
+      "goalsFor": 37,
       "goalsAgainst": 16,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
