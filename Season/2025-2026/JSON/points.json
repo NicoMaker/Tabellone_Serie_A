@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 3,
       "draws": 8,
-      "losses": 10,
-      "goalsFor": 23,
-      "goalsAgainst": 32,
+      "losses": 11,
+      "goalsFor": 24,
+      "goalsAgainst": 34,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
@@ -128,11 +128,11 @@
     },
     {
       "name": "Cagliari",
-      "wins": 5,
+      "wins": 6,
       "draws": 7,
       "losses": 9,
-      "goalsFor": 22,
-      "goalsAgainst": 30,
+      "goalsFor": 24,
+      "goalsAgainst": 31,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
