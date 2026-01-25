@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 11,
+      "wins": 12,
       "draws": 6,
       "losses": 4,
-      "goalsFor": 32,
+      "goalsFor": 35,
       "goalsAgainst": 17,
       "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
@@ -31,9 +31,9 @@
       "name": "Napoli",
       "wins": 13,
       "draws": 4,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 31,
-      "goalsAgainst": 17,
+      "goalsAgainst": 20,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
