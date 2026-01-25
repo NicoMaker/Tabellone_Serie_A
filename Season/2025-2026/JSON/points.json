@@ -21,10 +21,10 @@
     {
       "name": "Milan",
       "wins": 13,
-      "draws": 7,
+      "draws": 8,
       "losses": 1,
-      "goalsFor": 34,
-      "goalsAgainst": 16,
+      "goalsFor": 35,
+      "goalsAgainst": 17,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
     {
@@ -57,10 +57,10 @@
     {
       "name": "Roma",
       "wins": 14,
-      "draws": 0,
+      "draws": 1,
       "losses": 7,
-      "goalsFor": 26,
-      "goalsAgainst": 12,
+      "goalsFor": 27,
+      "goalsAgainst": 13,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
     {
