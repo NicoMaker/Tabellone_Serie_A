@@ -164,10 +164,10 @@
     },
     {
       "name": "Sassuolo",
-      "wins": 6,
+      "wins": 7,
       "draws": 5,
       "losses": 10,
-      "goalsFor": 23,
+      "goalsFor": 24,
       "goalsAgainst": 28,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
@@ -175,9 +175,9 @@
       "name": "Cremonese",
       "wins": 5,
       "draws": 8,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 20,
-      "goalsAgainst": 27,
+      "goalsAgainst": 28,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
   ]
