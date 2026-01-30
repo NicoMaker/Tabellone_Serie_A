@@ -65,11 +65,11 @@
     },
     {
       "name": "Lazio",
-      "wins": 7,
+      "wins": 8,
       "draws": 8,
       "losses": 7,
-      "goalsFor": 21,
-      "goalsAgainst": 19,
+      "goalsFor": 24,
+      "goalsAgainst": 21,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
@@ -103,9 +103,9 @@
       "name": "Genoa",
       "wins": 5,
       "draws": 8,
-      "losses": 9,
-      "goalsFor": 25,
-      "goalsAgainst": 31,
+      "losses": 10,
+      "goalsFor": 27,
+      "goalsAgainst": 34,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
     {
