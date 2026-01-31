@@ -29,11 +29,11 @@
     },
     {
       "name": "Napoli",
-      "wins": 13,
+      "wins": 14,
       "draws": 4,
       "losses": 5,
-      "goalsFor": 31,
-      "goalsAgainst": 20,
+      "goalsFor": 33,
+      "goalsAgainst": 21,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 3,
       "draws": 8,
-      "losses": 11,
-      "goalsFor": 24,
-      "goalsAgainst": 34,
+      "losses": 12,
+      "goalsFor": 25,
+      "goalsAgainst": 36,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
