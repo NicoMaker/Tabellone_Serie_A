@@ -20,10 +20,10 @@
     },
     {
       "name": "Milan",
-      "wins": 13,
+      "wins": 14,
       "draws": 8,
       "losses": 1,
-      "goalsFor": 35,
+      "goalsFor": 38,
       "goalsAgainst": 17,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
@@ -49,9 +49,9 @@
       "name": "Bologna",
       "wins": 8,
       "draws": 6,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 32,
-      "goalsAgainst": 27,
+      "goalsAgainst": 30,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
