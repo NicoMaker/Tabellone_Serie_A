@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 9,
       "draws": 5,
-      "losses": 9,
-      "goalsFor": 26,
-      "goalsAgainst": 34,
+      "losses": 10,
+      "goalsFor": 27,
+      "goalsAgainst": 36,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
@@ -146,11 +146,11 @@
     },
     {
       "name": "Lecce",
-      "wins": 4,
+      "wins": 5,
       "draws": 6,
       "losses": 13,
-      "goalsFor": 13,
-      "goalsAgainst": 30,
+      "goalsFor": 15,
+      "goalsAgainst": 31,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
