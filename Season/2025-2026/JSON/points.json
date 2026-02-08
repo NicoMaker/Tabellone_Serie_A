@@ -49,9 +49,9 @@
       "name": "Bologna",
       "wins": 8,
       "draws": 6,
-      "losses": 9,
+      "losses": 10,
       "goalsFor": 32,
-      "goalsAgainst": 30,
+      "goalsAgainst": 31,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
@@ -137,10 +137,10 @@
     },
     {
       "name": "Parma",
-      "wins": 5,
+      "wins": 6,
       "draws": 8,
       "losses": 10,
-      "goalsFor": 15,
+      "goalsFor": 16,
       "goalsAgainst": 30,
       "image": "https://vectorseek.com/wp-content/uploads/2023/06/Fc-Parma-Logo-Vector-730x730.jpg"
     },
