@@ -20,11 +20,11 @@
     },
     {
       "name": "Milan",
-      "wins": 14,
+      "wins": 15,
       "draws": 8,
       "losses": 1,
-      "goalsFor": 38,
-      "goalsAgainst": 17,
+      "goalsFor": 40,
+      "goalsAgainst": 18,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
     {
@@ -157,9 +157,9 @@
       "name": "Pisa",
       "wins": 1,
       "draws": 12,
-      "losses": 11,
-      "goalsFor": 19,
-      "goalsAgainst": 40,
+      "losses": 12,
+      "goalsFor": 20,
+      "goalsAgainst": 42,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
