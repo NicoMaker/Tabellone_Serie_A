@@ -74,11 +74,11 @@
     },
     {
       "name": "Fiorentina",
-      "wins": 4,
+      "wins": 5,
       "draws": 8,
       "losses": 12,
-      "goalsFor": 27,
-      "goalsAgainst": 38,
+      "goalsFor": 29,
+      "goalsAgainst": 39,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
@@ -112,9 +112,9 @@
       "name": "Como",
       "wins": 11,
       "draws": 8,
-      "losses": 4,
-      "goalsFor": 37,
-      "goalsAgainst": 16,
+      "losses": 5,
+      "goalsFor": 38,
+      "goalsAgainst": 18,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
     {
