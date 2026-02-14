@@ -38,10 +38,10 @@
     },
     {
       "name": "Atalanta",
-      "wins": 10,
+      "wins": 11,
       "draws": 9,
       "losses": 5,
-      "goalsFor": 32,
+      "goalsFor": 34,
       "goalsAgainst": 21,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
@@ -67,9 +67,9 @@
       "name": "Lazio",
       "wins": 8,
       "draws": 9,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 26,
-      "goalsAgainst": 23,
+      "goalsAgainst": 25,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
