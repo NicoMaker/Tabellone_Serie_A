@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 9,
       "draws": 5,
-      "losses": 10,
-      "goalsFor": 27,
-      "goalsAgainst": 36,
+      "losses": 11,
+      "goalsFor": 28,
+      "goalsAgainst": 38,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
@@ -164,11 +164,11 @@
     },
     {
       "name": "Sassuolo",
-      "wins": 8,
+      "wins": 9,
       "draws": 5,
       "losses": 11,
-      "goalsFor": 27,
-      "goalsAgainst": 34,
+      "goalsFor": 29,
+      "goalsAgainst": 35,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
