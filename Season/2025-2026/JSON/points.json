@@ -47,11 +47,11 @@
     },
     {
       "name": "Bologna",
-      "wins": 8,
+      "wins": 9,
       "draws": 6,
       "losses": 10,
-      "goalsFor": 32,
-      "goalsAgainst": 31,
+      "goalsFor": 34,
+      "goalsAgainst": 32,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
@@ -94,9 +94,9 @@
       "name": "Torino",
       "wins": 7,
       "draws": 6,
-      "losses": 11,
-      "goalsFor": 24,
-      "goalsAgainst": 42,
+      "losses": 12,
+      "goalsFor": 25,
+      "goalsAgainst": 44,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
