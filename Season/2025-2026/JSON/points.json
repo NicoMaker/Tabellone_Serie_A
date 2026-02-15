@@ -30,10 +30,10 @@
     {
       "name": "Napoli",
       "wins": 15,
-      "draws": 4,
+      "draws": 5,
       "losses": 5,
-      "goalsFor": 36,
-      "goalsAgainst": 23,
+      "goalsFor": 38,
+      "goalsAgainst": 25,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
@@ -57,10 +57,10 @@
     {
       "name": "Roma",
       "wins": 15,
-      "draws": 1,
+      "draws": 2,
       "losses": 8,
-      "goalsFor": 29,
-      "goalsAgainst": 14,
+      "goalsFor": 31,
+      "goalsAgainst": 16,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
     {
