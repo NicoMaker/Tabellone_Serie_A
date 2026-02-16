@@ -12,6 +12,8 @@
   --border: #334155;
   --success: #10b981;
   --warning: #f59e0b;
+  --whatsapp: #25d366;
+  --whatsapp-hover: #1da851;
 
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -107,7 +109,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-  padding: 80px 0;
+  padding: 80px 0 40px;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -158,9 +160,53 @@ body {
   border-radius: var(--radius-md);
 }
 
+/* WhatsApp Share Section */
+.whatsapp-share-seasons-section {
+  position: relative;
+  z-index: 1;
+  padding: 0 0 40px;
+}
+
+.whatsapp-share-seasons-section .container {
+  display: flex;
+  justify-content: center;
+}
+
+.whatsapp-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--whatsapp);
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-share-btn:hover {
+  background: var(--whatsapp-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-share-btn:active {
+  transform: translateY(0);
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+}
+
 /* Main Content */
 .main-content {
-  padding: 60px 0 100px;
+  padding: 20px 0 100px;
   position: relative;
   z-index: 1;
 }
@@ -368,6 +414,13 @@ body {
     width: 150px;
   }
 
+  .whatsapp-share-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 14px 20px;
+    font-size: 15px;
+  }
+
   .seasons-grid {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 16px;
@@ -384,11 +437,20 @@ body {
 
 @media (max-width: 480px) {
   .hero-section {
-    padding: 40px 0;
+    padding: 40px 0 20px;
   }
 
   .hero-title {
     font-size: 28px;
+  }
+
+  .whatsapp-share-seasons-section {
+    padding: 0 0 30px;
+  }
+
+  .whatsapp-icon {
+    width: 20px;
+    height: 20px;
   }
 
   .seasons-grid {

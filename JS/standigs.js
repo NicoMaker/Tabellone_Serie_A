@@ -54,7 +54,6 @@ async function loadTeamsData() {
   }
 }
 
-// ✅ Funzione aggiornata con giorno a due cifre
 function updateFooterDate() {
   const footer = document.getElementById("info")
   if (!footer) return
@@ -68,7 +67,7 @@ function updateFooterDate() {
     footerText.textContent = `© Info Serie A ${teamsData.endDate}`
   } else {
     const today = new Date()
-    const day = today.getDate().toString().padStart(2, "0") // aggiunge 0 davanti se < 10
+    const day = today.getDate().toString().padStart(2, "0")
     const month = today.toLocaleString("it-IT", { month: "long" })
     const year = today.getFullYear()
     footerText.textContent = `© Info Serie A ${day} ${month} ${year}`
@@ -110,6 +109,13 @@ function getTeamZone(position) {
   return "none"
 }
 
+function getZoneLabel(zone) {
+  if (!zonesData.zones) return ""
+  
+  const zoneObj = zonesData.zones.find(z => z.name === zone)
+  return zoneObj ? zoneObj.label : ""
+}
+
 function loadTableData(teams) {
   const tableBody = document.getElementById("league-table").getElementsByTagName("tbody")[0]
   tableBody.innerHTML = ""
@@ -131,34 +137,30 @@ function loadTableData(teams) {
     if (zone !== "none") row.classList.add(`${zone}-zone`)
     row.dataset.zone = zone
 
-    // Position
     const positionCell = row.insertCell()
     positionCell.textContent = position
     positionCell.classList.add("pos-col")
 
-    // Team
     const teamCell = row.insertCell()
     teamCell.innerHTML = `<img src="${team.image}" alt="${team.name}" width="36" height="36"> ${team.name}`
     teamCell.classList.add("team-col")
 
-    // Stats
     const pointsCell = row.insertCell()
     pointsCell.textContent = team.points
     pointsCell.classList.add("pts-col")
 
-    row.insertCell().textContent = team.matchesPlayed // G
-    row.insertCell().textContent = team.wins // V
-    row.insertCell().textContent = team.draws // N
-    row.insertCell().textContent = team.losses // S
-    row.insertCell().textContent = team.goalsFor // GF
-    row.insertCell().textContent = team.goalsAgainst // GS
+    row.insertCell().textContent = team.matchesPlayed
+    row.insertCell().textContent = team.wins
+    row.insertCell().textContent = team.draws
+    row.insertCell().textContent = team.losses
+    row.insertCell().textContent = team.goalsFor
+    row.insertCell().textContent = team.goalsAgainst
 
-    // Goal Difference
     const goalDifferenceCell = row.insertCell()
     const goalDifferenceText = goalDifference > 0 ? `+${goalDifference}` : goalDifference.toString()
     goalDifferenceCell.textContent = goalDifferenceText
-    goalDifferenceCell.classList.add("goal-difference-col") // Classe per lo stile
-    goalDifferenceCell.dataset.value = goalDifferenceText // Attributo per il selettore CSS
+    goalDifferenceCell.classList.add("goal-difference-col")
+    goalDifferenceCell.dataset.value = goalDifferenceText
   })
 }
 
@@ -316,6 +318,59 @@ function searchTeams(term) {
   }, 300)
 }
 
+// ===========================
+// WHATSAPP SHARE - CLASSIFICA COMPLETA SENZA EMOJI
+// ===========================
+
+function shareStandingsOnWhatsApp() {
+  if (!teamsData.teams || teamsData.teams.length === 0) {
+    alert("Carica prima i dati della classifica!")
+    return
+  }
+
+  const sortedTeams = sortTeamsByCriteria(teamsData.teams, "points")
+  const seasonBadge = document.querySelector(".season-badge")
+  const seasonTitle = seasonBadge ? seasonBadge.textContent.trim() : "Serie A"
+  const seasonHasChampion = teamsData.champion && teamsData.champion.trim() !== ""
+  const statusText = seasonHasChampion ? "*CLASSIFICA FINALE*" : "*CLASSIFICA ATTUALE*"
+  
+  let dateText = ""
+  if (seasonHasChampion && teamsData.endDate) {
+    dateText = teamsData.endDate
+  } else {
+    const today = new Date()
+    const day = today.getDate().toString().padStart(2, "0")
+    const month = today.toLocaleString("it-IT", { month: "long" })
+    const year = today.getFullYear()
+    dateText = `${day} ${month} ${year}`
+  }
+
+  let message = `${statusText}\n`
+  message += `*${seasonTitle}*\n`
+  message += `${dateText}\n`
+  message += `${"=".repeat(40)}\n\n`
+
+  sortedTeams.forEach((team, index) => {
+    const position = index + 1
+    const goalDiff = team.goalsFor - team.goalsAgainst
+    const goalDiffText = goalDiff > 0 ? `+${goalDiff}` : goalDiff.toString()
+    const zone = getTeamZone(position)
+    const zoneLabel = getZoneLabel(zone)
+    const zoneText = zoneLabel ? ` [${zoneLabel}]` : ""
+    
+    message += `${position}. ${team.name}${zoneText}\n`
+    message += `   Pt: ${team.points} | G: ${team.matchesPlayed} | V: ${team.wins} | P: ${team.draws} | S: ${team.losses}\n`
+    message += `   GF: ${team.goalsFor} | GS: ${team.goalsAgainst} | DR: ${goalDiffText}\n\n`
+  })
+
+  message += `${"=".repeat(40)}\n`
+  message += `Serie A Archive - Classifica completa`
+
+  const encodedMessage = encodeURIComponent(message)
+  const whatsappURL = `https://wa.me/?text=${encodedMessage}`
+  window.open(whatsappURL, "_blank")
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll(".filter-btn")
   buttons.forEach((button) => {
@@ -332,6 +387,11 @@ document.addEventListener("DOMContentLoaded", () => {
     searchInput.addEventListener("input", function () {
       searchTeams(this.value)
     })
+  }
+
+  const whatsappButton = document.getElementById("whatsapp-share-btn")
+  if (whatsappButton) {
+    whatsappButton.addEventListener("click", shareStandingsOnWhatsApp)
   }
 
   loadTeamsData()
