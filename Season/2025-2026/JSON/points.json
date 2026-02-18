@@ -21,10 +21,10 @@
     {
       "name": "Milan",
       "wins": 15,
-      "draws": 8,
+      "draws": 9,
       "losses": 1,
-      "goalsFor": 40,
-      "goalsAgainst": 18,
+      "goalsFor": 41,
+      "goalsAgainst": 19,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
     {
@@ -111,10 +111,10 @@
     {
       "name": "Como",
       "wins": 11,
-      "draws": 8,
+      "draws": 9,
       "losses": 5,
-      "goalsFor": 38,
-      "goalsAgainst": 18,
+      "goalsFor": 39,
+      "goalsAgainst": 19,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
     {
