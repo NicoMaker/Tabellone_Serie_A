@@ -121,9 +121,9 @@
       "name": "Verona",
       "wins": 2,
       "draws": 9,
-      "losses": 14,
+      "losses": 15,
       "goalsFor": 19,
-      "goalsAgainst": 43,
+      "goalsAgainst": 46,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
@@ -164,10 +164,10 @@
     },
     {
       "name": "Sassuolo",
-      "wins": 9,
+      "wins": 10,
       "draws": 5,
       "losses": 11,
-      "goalsFor": 29,
+      "goalsFor": 32,
       "goalsAgainst": 35,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
