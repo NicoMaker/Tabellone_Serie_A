@@ -31,18 +31,18 @@
       "name": "Napoli",
       "wins": 15,
       "draws": 5,
-      "losses": 5,
-      "goalsFor": 38,
-      "goalsAgainst": 25,
+      "losses": 6,
+      "goalsFor": 39,
+      "goalsAgainst": 27,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
       "name": "Atalanta",
-      "wins": 11,
+      "wins": 12,
       "draws": 9,
       "losses": 5,
-      "goalsFor": 34,
-      "goalsAgainst": 21,
+      "goalsFor": 36,
+      "goalsAgainst": 22,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
