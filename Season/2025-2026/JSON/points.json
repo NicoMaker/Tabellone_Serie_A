@@ -94,17 +94,17 @@
       "name": "Torino",
       "wins": 7,
       "draws": 6,
-      "losses": 12,
+      "losses": 13,
       "goalsFor": 25,
-      "goalsAgainst": 44,
+      "goalsAgainst": 47,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
       "name": "Genoa",
-      "wins": 5,
+      "wins": 6,
       "draws": 9,
       "losses": 11,
-      "goalsFor": 29,
+      "goalsFor": 32,
       "goalsAgainst": 37,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
