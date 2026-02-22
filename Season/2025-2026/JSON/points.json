@@ -22,9 +22,9 @@
       "name": "Milan",
       "wins": 15,
       "draws": 9,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 41,
-      "goalsAgainst": 19,
+      "goalsAgainst": 20,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
     {
@@ -137,10 +137,10 @@
     },
     {
       "name": "Parma",
-      "wins": 7,
+      "wins": 8,
       "draws": 8,
       "losses": 10,
-      "goalsFor": 18,
+      "goalsFor": 19,
       "goalsAgainst": 31,
       "image": "https://vectorseek.com/wp-content/uploads/2023/06/Fc-Parma-Logo-Vector-730x730.jpg"
     },
