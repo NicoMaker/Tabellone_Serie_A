@@ -74,10 +74,10 @@
     },
     {
       "name": "Fiorentina",
-      "wins": 4,
+      "wins": 5,
       "draws": 9,
       "losses": 12,
-      "goalsFor": 29,
+      "goalsFor": 30,
       "goalsAgainst": 39,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
@@ -157,9 +157,9 @@
       "name": "Pisa",
       "wins": 1,
       "draws": 12,
-      "losses": 12,
+      "losses": 13,
       "goalsFor": 20,
-      "goalsAgainst": 42,
+      "goalsAgainst": 43,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
