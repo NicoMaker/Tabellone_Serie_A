@@ -110,11 +110,11 @@
     },
     {
       "name": "Como",
-      "wins": 12,
+      "wins": 13,
       "draws": 9,
       "losses": 5,
-      "goalsFor": 41,
-      "goalsAgainst": 19,
+      "goalsFor": 44,
+      "goalsAgainst": 20,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
     {
@@ -148,9 +148,9 @@
       "name": "Lecce",
       "wins": 6,
       "draws": 6,
-      "losses": 14,
-      "goalsFor": 17,
-      "goalsAgainst": 33,
+      "losses": 15,
+      "goalsFor": 18,
+      "goalsAgainst": 36,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
