@@ -67,9 +67,9 @@
       "name": "Lazio",
       "wins": 8,
       "draws": 10,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 26,
-      "goalsAgainst": 25,
+      "goalsAgainst": 27,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
@@ -92,10 +92,10 @@
     },
     {
       "name": "Torino",
-      "wins": 7,
+      "wins": 8,
       "draws": 6,
       "losses": 13,
-      "goalsFor": 25,
+      "goalsFor": 27,
       "goalsAgainst": 47,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
