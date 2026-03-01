@@ -20,10 +20,10 @@
     },
     {
       "name": "Milan",
-      "wins": 15,
+      "wins": 16,
       "draws": 9,
       "losses": 2,
-      "goalsFor": 41,
+      "goalsFor": 43,
       "goalsAgainst": 20,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
@@ -175,9 +175,9 @@
       "name": "Cremonese",
       "wins": 5,
       "draws": 9,
-      "losses": 12,
+      "losses": 13,
       "goalsFor": 21,
-      "goalsAgainst": 35,
+      "goalsAgainst": 37,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
   ]
