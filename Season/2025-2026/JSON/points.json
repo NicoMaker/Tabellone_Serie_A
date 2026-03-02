@@ -47,10 +47,10 @@
     },
     {
       "name": "Bologna",
-      "wins": 10,
+      "wins": 11,
       "draws": 6,
       "losses": 10,
-      "goalsFor": 35,
+      "goalsFor": 36,
       "goalsAgainst": 32,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
@@ -157,9 +157,9 @@
       "name": "Pisa",
       "wins": 1,
       "draws": 12,
-      "losses": 13,
+      "losses": 14,
       "goalsFor": 20,
-      "goalsAgainst": 43,
+      "goalsAgainst": 44,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
