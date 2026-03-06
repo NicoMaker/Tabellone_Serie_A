@@ -29,11 +29,11 @@
     },
     {
       "name": "Napoli",
-      "wins": 16,
+      "wins": 17,
       "draws": 5,
       "losses": 6,
-      "goalsFor": 41,
-      "goalsAgainst": 28,
+      "goalsFor": 43,
+      "goalsAgainst": 29,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
@@ -94,9 +94,9 @@
       "name": "Torino",
       "wins": 8,
       "draws": 6,
-      "losses": 13,
-      "goalsFor": 27,
-      "goalsAgainst": 47,
+      "losses": 14,
+      "goalsFor": 28,
+      "goalsAgainst": 49,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
