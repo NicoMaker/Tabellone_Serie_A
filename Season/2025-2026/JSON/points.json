@@ -49,9 +49,9 @@
       "name": "Bologna",
       "wins": 11,
       "draws": 6,
-      "losses": 10,
-      "goalsFor": 36,
-      "goalsAgainst": 32,
+      "losses": 11,
+      "goalsFor": 37,
+      "goalsAgainst": 34,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
@@ -75,7 +75,7 @@
     {
       "name": "Fiorentina",
       "wins": 5,
-      "draws": 9,
+      "draws": 10,
       "losses": 13,
       "goalsFor": 30,
       "goalsAgainst": 42,
@@ -119,11 +119,11 @@
     },
     {
       "name": "Verona",
-      "wins": 2,
+      "wins": 3,
       "draws": 9,
       "losses": 16,
-      "goalsFor": 20,
-      "goalsAgainst": 48,
+      "goalsFor": 22,
+      "goalsAgainst": 49,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
@@ -138,7 +138,7 @@
     {
       "name": "Parma",
       "wins": 8,
-      "draws": 9,
+      "draws": 10,
       "losses": 10,
       "goalsFor": 20,
       "goalsAgainst": 32,
