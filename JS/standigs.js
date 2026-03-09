@@ -42,7 +42,8 @@ async function loadTeamsData() {
     if (!zonesResponse.ok) throw new Error("Errore nel caricamento dei dati delle zone")
     zonesData = await zonesResponse.json()
 
-    loadTableData(teamsData.teams)
+    // Avvia sempre con ordinamento per punti
+    currentSortCriteria = "points"
     sortTable("points")
     generateLegend()
     updateFooterDate()
@@ -189,6 +190,14 @@ function sortTeamsByCriteria(teams, criteria) {
         return sortByGoalDifference(aGoalDifference, bGoalDifference)
       case "name":
         return sortByName(a, b)
+      case "goalsAgainst":
+        // Meno gol subiti = posizione migliore (ordine crescente)
+        if (a.goalsAgainst !== b.goalsAgainst) return a.goalsAgainst - b.goalsAgainst
+        return b.points - a.points
+      case "losses":
+        // Meno sconfitte = posizione migliore (ordine crescente)
+        if (a.losses !== b.losses) return a.losses - b.losses
+        return b.points - a.points
       default:
         return sortByOtherCriteria(a, b, criteria)
     }
