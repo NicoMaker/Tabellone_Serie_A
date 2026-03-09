@@ -65,11 +65,11 @@
     },
     {
       "name": "Lazio",
-      "wins": 8,
+      "wins": 9,
       "draws": 10,
       "losses": 9,
-      "goalsFor": 26,
-      "goalsAgainst": 27,
+      "goalsFor": 28,
+      "goalsAgainst": 28,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
@@ -166,9 +166,9 @@
       "name": "Sassuolo",
       "wins": 11,
       "draws": 5,
-      "losses": 11,
-      "goalsFor": 34,
-      "goalsAgainst": 36,
+      "losses": 12,
+      "goalsFor": 35,
+      "goalsAgainst": 38,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
