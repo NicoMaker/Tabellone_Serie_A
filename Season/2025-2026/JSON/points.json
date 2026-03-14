@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 14,
+      "wins": 15,
       "draws": 8,
       "losses": 6,
-      "goalsFor": 50,
+      "goalsFor": 51,
       "goalsAgainst": 28,
       "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 10,
       "draws": 6,
-      "losses": 12,
+      "losses": 13,
       "goalsFor": 33,
-      "goalsAgainst": 41,
+      "goalsAgainst": 42,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
     {
