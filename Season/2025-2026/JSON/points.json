@@ -58,9 +58,9 @@
       "name": "Roma",
       "wins": 16,
       "draws": 3,
-      "losses": 9,
-      "goalsFor": 38,
-      "goalsAgainst": 21,
+      "losses": 10,
+      "goalsFor": 39,
+      "goalsAgainst": 23,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
     {
@@ -110,11 +110,11 @@
     },
     {
       "name": "Como",
-      "wins": 14,
+      "wins": 15,
       "draws": 9,
       "losses": 5,
-      "goalsFor": 46,
-      "goalsAgainst": 21,
+      "goalsFor": 48,
+      "goalsAgainst": 22,
       "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
     },
     {
