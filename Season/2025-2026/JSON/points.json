@@ -101,10 +101,10 @@
     },
     {
       "name": "Genoa",
-      "wins": 7,
+      "wins": 8,
       "draws": 9,
       "losses": 12,
-      "goalsFor": 34,
+      "goalsFor": 36,
       "goalsAgainst": 40,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
@@ -121,9 +121,9 @@
       "name": "Verona",
       "wins": 3,
       "draws": 9,
-      "losses": 16,
+      "losses": 17,
       "goalsFor": 22,
-      "goalsAgainst": 49,
+      "goalsAgainst": 51,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
