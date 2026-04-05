@@ -47,11 +47,11 @@
     },
     {
       "name": "Bologna",
-      "wins": 12,
+      "wins": 13,
       "draws": 6,
       "losses": 12,
-      "goalsFor": 38,
-      "goalsAgainst": 36,
+      "goalsFor": 40,
+      "goalsAgainst": 37,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
@@ -175,9 +175,9 @@
       "name": "Cremonese",
       "wins": 6,
       "draws": 9,
-      "losses": 15,
-      "goalsFor": 25,
-      "goalsAgainst": 43,
+      "losses": 16,
+      "goalsFor": 26,
+      "goalsAgainst": 45,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
   ]
