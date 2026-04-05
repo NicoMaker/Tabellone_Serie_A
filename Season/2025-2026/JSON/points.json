@@ -92,10 +92,10 @@
     },
     {
       "name": "Torino",
-      "wins": 9,
+      "wins": 10,
       "draws": 6,
       "losses": 15,
-      "goalsFor": 34,
+      "goalsFor": 35,
       "goalsAgainst": 53,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
@@ -157,9 +157,9 @@
       "name": "Pisa",
       "wins": 2,
       "draws": 12,
-      "losses": 16,
+      "losses": 17,
       "goalsFor": 23,
-      "goalsAgainst": 54,
+      "goalsAgainst": 55,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
