@@ -38,10 +38,10 @@
     },
     {
       "name": "Atalanta",
-      "wins": 13,
+      "wins": 14,
       "draws": 11,
       "losses": 6,
-      "goalsFor": 41,
+      "goalsFor": 44,
       "goalsAgainst": 27,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
@@ -148,9 +148,9 @@
       "name": "Lecce",
       "wins": 7,
       "draws": 6,
-      "losses": 17,
+      "losses": 18,
       "goalsFor": 21,
-      "goalsAgainst": 40,
+      "goalsAgainst": 43,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
