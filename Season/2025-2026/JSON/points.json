@@ -56,10 +56,10 @@
     },
     {
       "name": "Roma",
-      "wins": 17,
+      "wins": 18,
       "draws": 3,
       "losses": 11,
-      "goalsFor": 42,
+      "goalsFor": 45,
       "goalsAgainst": 28,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
@@ -157,9 +157,9 @@
       "name": "Pisa",
       "wins": 2,
       "draws": 12,
-      "losses": 17,
+      "losses": 18,
       "goalsFor": 23,
-      "goalsAgainst": 55,
+      "goalsAgainst": 58,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
