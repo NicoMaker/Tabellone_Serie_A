@@ -22,9 +22,9 @@
       "name": "Milan",
       "wins": 18,
       "draws": 9,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 47,
-      "goalsAgainst": 24,
+      "goalsAgainst": 27,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png"
     },
     {
@@ -83,10 +83,10 @@
     },
     {
       "name": "Udinese",
-      "wins": 11,
+      "wins": 12,
       "draws": 7,
       "losses": 13,
-      "goalsFor": 35,
+      "goalsFor": 38,
       "goalsAgainst": 42,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
     },
