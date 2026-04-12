@@ -47,10 +47,10 @@
     },
     {
       "name": "Bologna",
-      "wins": 13,
+      "wins": 14,
       "draws": 6,
       "losses": 12,
-      "goalsFor": 40,
+      "goalsFor": 42,
       "goalsAgainst": 37,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
@@ -148,9 +148,9 @@
       "name": "Lecce",
       "wins": 7,
       "draws": 6,
-      "losses": 18,
+      "losses": 19,
       "goalsFor": 21,
-      "goalsAgainst": 43,
+      "goalsAgainst": 45,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
