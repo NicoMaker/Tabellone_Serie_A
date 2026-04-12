@@ -30,10 +30,10 @@
     {
       "name": "Napoli",
       "wins": 20,
-      "draws": 5,
+      "draws": 6,
       "losses": 6,
-      "goalsFor": 47,
-      "goalsAgainst": 30,
+      "goalsFor": 48,
+      "goalsAgainst": 31,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
@@ -138,10 +138,10 @@
     {
       "name": "Parma",
       "wins": 8,
-      "draws": 11,
+      "draws": 12,
       "losses": 12,
-      "goalsFor": 22,
-      "goalsAgainst": 39,
+      "goalsFor": 23,
+      "goalsAgainst": 40,
       "image": "https://vectorseek.com/wp-content/uploads/2023/06/Fc-Parma-Logo-Vector-730x730.jpg"
     },
     {
