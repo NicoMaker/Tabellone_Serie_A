@@ -101,11 +101,11 @@
     },
     {
       "name": "Genoa",
-      "wins": 9,
+      "wins": 10,
       "draws": 9,
       "losses": 14,
-      "goalsFor": 38,
-      "goalsAgainst": 45,
+      "goalsFor": 40,
+      "goalsAgainst": 46,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
     {
@@ -157,9 +157,9 @@
       "name": "Pisa",
       "wins": 2,
       "draws": 12,
-      "losses": 18,
-      "goalsFor": 23,
-      "goalsAgainst": 58,
+      "losses": 19,
+      "goalsFor": 24,
+      "goalsAgainst": 60,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
