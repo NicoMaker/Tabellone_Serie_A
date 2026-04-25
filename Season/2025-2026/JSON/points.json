@@ -49,17 +49,17 @@
       "name": "Bologna",
       "wins": 14,
       "draws": 6,
-      "losses": 13,
+      "losses": 14,
       "goalsFor": 42,
-      "goalsAgainst": 39,
+      "goalsAgainst": 41,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
       "name": "Roma",
-      "wins": 18,
+      "wins": 19,
       "draws": 4,
       "losses": 11,
-      "goalsFor": 46,
+      "goalsFor": 48,
       "goalsAgainst": 29,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
