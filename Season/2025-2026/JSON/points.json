@@ -40,9 +40,9 @@
       "name": "Atalanta",
       "wins": 14,
       "draws": 12,
-      "losses": 7,
-      "goalsFor": 45,
-      "goalsAgainst": 29,
+      "losses": 8,
+      "goalsFor": 47,
+      "goalsAgainst": 32,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
@@ -128,11 +128,11 @@
     },
     {
       "name": "Cagliari",
-      "wins": 8,
+      "wins": 9,
       "draws": 9,
       "losses": 16,
-      "goalsFor": 33,
-      "goalsAgainst": 47,
+      "goalsFor": 36,
+      "goalsAgainst": 49,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
