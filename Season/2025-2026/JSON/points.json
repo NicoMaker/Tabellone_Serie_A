@@ -146,20 +146,20 @@
     },
     {
       "name": "Lecce",
-      "wins": 7,
+      "wins": 8,
       "draws": 8,
       "losses": 19,
-      "goalsFor": 22,
-      "goalsAgainst": 46,
+      "goalsFor": 24,
+      "goalsAgainst": 47,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
       "name": "Pisa",
       "wins": 2,
       "draws": 12,
-      "losses": 20,
-      "goalsFor": 24,
-      "goalsAgainst": 61,
+      "losses": 21,
+      "goalsFor": 25,
+      "goalsAgainst": 63,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
