@@ -22,9 +22,9 @@
       "name": "Milan",
       "wins": 19,
       "draws": 10,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 48,
-      "goalsAgainst": 27,
+      "goalsAgainst": 29,
       "image": "https://icon2.cleanpng.com/20180525/ruv/avqpf2sk7.webp"
     },
     {
@@ -164,10 +164,10 @@
     },
     {
       "name": "Sassuolo",
-      "wins": 13,
+      "wins": 14,
       "draws": 7,
       "losses": 14,
-      "goalsFor": 41,
+      "goalsFor": 43,
       "goalsAgainst": 44,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
