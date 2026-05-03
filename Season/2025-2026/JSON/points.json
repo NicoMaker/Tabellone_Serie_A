@@ -3,10 +3,10 @@
     {
       "name": "Juventus",
       "wins": 18,
-      "draws": 10,
+      "draws": 11,
       "losses": 6,
-      "goalsFor": 57,
-      "goalsAgainst": 29,
+      "goalsFor": 58,
+      "goalsAgainst": 30,
       "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
@@ -120,10 +120,10 @@
     {
       "name": "Verona",
       "wins": 3,
-      "draws": 10,
+      "draws": 11,
       "losses": 21,
-      "goalsFor": 23,
-      "goalsAgainst": 56,
+      "goalsFor": 24,
+      "goalsAgainst": 57,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
