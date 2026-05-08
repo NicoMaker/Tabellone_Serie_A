@@ -92,11 +92,11 @@
     },
     {
       "name": "Torino",
-      "wins": 11,
+      "wins": 12,
       "draws": 8,
       "losses": 16,
-      "goalsFor": 39,
-      "goalsAgainst": 58,
+      "goalsFor": 41,
+      "goalsAgainst": 59,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
@@ -166,9 +166,9 @@
       "name": "Sassuolo",
       "wins": 14,
       "draws": 7,
-      "losses": 14,
-      "goalsFor": 43,
-      "goalsAgainst": 44,
+      "losses": 15,
+      "goalsFor": 44,
+      "goalsAgainst": 46,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
