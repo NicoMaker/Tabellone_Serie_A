@@ -157,9 +157,9 @@
       "name": "Pisa",
       "wins": 2,
       "draws": 12,
-      "losses": 21,
+      "losses": 22,
       "goalsFor": 25,
-      "goalsAgainst": 63,
+      "goalsAgainst": 66,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
@@ -173,10 +173,10 @@
     },
     {
       "name": "Cremonese",
-      "wins": 6,
+      "wins": 7,
       "draws": 10,
       "losses": 19,
-      "goalsFor": 27,
+      "goalsFor": 30,
       "goalsAgainst": 52,
       "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
     }
