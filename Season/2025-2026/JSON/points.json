@@ -31,9 +31,9 @@
       "name": "Napoli",
       "wins": 21,
       "draws": 7,
-      "losses": 7,
-      "goalsFor": 52,
-      "goalsAgainst": 33,
+      "losses": 8,
+      "goalsFor": 54,
+      "goalsAgainst": 36,
       "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
     },
     {
@@ -47,11 +47,11 @@
     },
     {
       "name": "Bologna",
-      "wins": 14,
+      "wins": 15,
       "draws": 7,
       "losses": 14,
-      "goalsFor": 42,
-      "goalsAgainst": 41,
+      "goalsFor": 45,
+      "goalsAgainst": 43,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
     {
