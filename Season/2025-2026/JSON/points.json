@@ -41,17 +41,17 @@
       "name": "Atalanta",
       "wins": 15,
       "draws": 13,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 50,
-      "goalsAgainst": 34,
+      "goalsAgainst": 35,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
       "name": "Bologna",
-      "wins": 15,
+      "wins": 16,
       "draws": 7,
       "losses": 14,
-      "goalsFor": 45,
+      "goalsFor": 46,
       "goalsAgainst": 43,
       "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
     },
