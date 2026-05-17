@@ -20,11 +20,11 @@
     },
     {
       "name": "Milan",
-      "wins": 19,
+      "wins": 20,
       "draws": 10,
       "losses": 7,
-      "goalsFor": 50,
-      "goalsAgainst": 32,
+      "goalsFor": 52,
+      "goalsAgainst": 33,
       "image": "https://icon2.cleanpng.com/20180525/ruv/avqpf2sk7.webp"
     },
     {
@@ -103,9 +103,9 @@
       "name": "Genoa",
       "wins": 10,
       "draws": 11,
-      "losses": 15,
-      "goalsFor": 40,
-      "goalsAgainst": 48,
+      "losses": 16,
+      "goalsFor": 41,
+      "goalsAgainst": 50,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
     },
     {
