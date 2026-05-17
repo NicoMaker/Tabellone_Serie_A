@@ -95,9 +95,9 @@
       "name": "Torino",
       "wins": 12,
       "draws": 8,
-      "losses": 16,
-      "goalsFor": 41,
-      "goalsAgainst": 59,
+      "losses": 17,
+      "goalsFor": 42,
+      "goalsAgainst": 61,
       "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
     },
     {
@@ -129,11 +129,11 @@
     },
     {
       "name": "Cagliari",
-      "wins": 9,
+      "wins": 10,
       "draws": 10,
       "losses": 17,
-      "goalsFor": 36,
-      "goalsAgainst": 51,
+      "goalsFor": 38,
+      "goalsAgainst": 52,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
@@ -147,11 +147,11 @@
     },
     {
       "name": "Lecce",
-      "wins": 8,
+      "wins": 9,
       "draws": 8,
       "losses": 20,
-      "goalsFor": 24,
-      "goalsAgainst": 48,
+      "goalsFor": 27,
+      "goalsAgainst": 50,
       "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
     },
     {
@@ -167,9 +167,9 @@
       "name": "Sassuolo",
       "wins": 14,
       "draws": 7,
-      "losses": 15,
-      "goalsFor": 44,
-      "goalsAgainst": 46,
+      "losses": 16,
+      "goalsFor": 46,
+      "goalsAgainst": 49,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
