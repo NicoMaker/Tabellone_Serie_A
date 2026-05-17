@@ -112,8 +112,8 @@ function getTeamZone(position) {
 
 function getZoneLabel(zone) {
   if (!zonesData.zones) return ""
-  
-  const zoneObj = zonesData.zones.find(z => z.name === zone)
+
+  const zoneObj = zonesData.zones.find((z) => z.name === zone)
   return zoneObj ? zoneObj.label : ""
 }
 
@@ -165,6 +165,52 @@ function loadTableData(teams) {
   })
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// TIEBREAKER — scontri diretti manuali da points.json
+//
+// Nel JSON aggiungi (opzionale):
+// "tiebreakers": [
+//   ["Milan", "Roma"],        ← Milan batte Roma (primo = vince)
+//   ["Como", "Juventus"]      ← Como batte Juventus
+// ]
+//
+// Funziona solo quando due squadre hanno gli stessi punti.
+// Se non c'è nessuna regola per una coppia, si usa la differenza reti.
+// ─────────────────────────────────────────────────────────────────────────────
+
+/**
+ * Dato un gruppo di squadre a pari punti, restituisce un indice di priorità
+ * basato sui tiebreakers manuali definiti nel JSON.
+ * Più basso = posizione migliore.
+ *
+ * L'algoritmo conta quante volte una squadra PERDE contro le altre del gruppo:
+ * chi perde di meno va davanti.
+ */
+function getTiebreakerScore(teamName, group) {
+  const tiebreakers = teamsData.tiebreakers || []
+  const groupNames = group.map((t) => t.name)
+
+  let losses = 0
+
+  groupNames.forEach((opponent) => {
+    if (opponent === teamName) return
+
+    // Cerca una regola che coinvolga questa coppia
+    const rule = tiebreakers.find(
+      (r) =>
+        (r[0] === teamName && r[1] === opponent) ||
+        (r[0] === opponent && r[1] === teamName)
+    )
+
+    if (rule) {
+      // r[0] è il vincitore, r[1] è il perdente
+      if (rule[1] === teamName) losses++
+    }
+  })
+
+  return losses
+}
+
 function sortTable(criteria) {
   currentSortCriteria = criteria
 
@@ -179,23 +225,29 @@ function sortTable(criteria) {
 }
 
 function sortTeamsByCriteria(teams, criteria) {
+  // Raggruppa per punti per poter calcolare i tiebreaker nel contesto corretto
+  const grouped = {}
+  teams.forEach((t) => {
+    const key = t.points
+    if (!grouped[key]) grouped[key] = []
+    grouped[key].push(t)
+  })
+
   return [...teams].sort((a, b) => {
     const aGoalDifference = a.goalsFor - a.goalsAgainst,
       bGoalDifference = b.goalsFor - b.goalsAgainst
 
     switch (criteria) {
       case "points":
-        return sortByPoints(a, b, aGoalDifference, bGoalDifference)
+        return sortByPoints(a, b, aGoalDifference, bGoalDifference, grouped)
       case "goalDifference":
         return sortByGoalDifference(aGoalDifference, bGoalDifference)
       case "name":
         return sortByName(a, b)
       case "goalsAgainst":
-        // Meno gol subiti = posizione migliore (ordine crescente)
         if (a.goalsAgainst !== b.goalsAgainst) return a.goalsAgainst - b.goalsAgainst
         return b.points - a.points
       case "losses":
-        // Meno sconfitte = posizione migliore (ordine crescente)
         if (a.losses !== b.losses) return a.losses - b.losses
         return b.points - a.points
       default:
@@ -204,10 +256,32 @@ function sortTeamsByCriteria(teams, criteria) {
   })
 }
 
-function sortByPoints(a, b, aGoalDifference, bGoalDifference) {
+function sortByPoints(a, b, aGoalDifference, bGoalDifference, grouped) {
+  // 1. Punti
   if (a.points !== b.points) return b.points - a.points
+
+  // 2. Scontri diretti (tiebreaker manuale) — solo se a pari punti
+  const group = grouped[a.points] || []
+  if (group.length > 1 && teamsData.tiebreakers && teamsData.tiebreakers.length > 0) {
+    const scoreA = getTiebreakerScore(a.name, group)
+    const scoreB = getTiebreakerScore(b.name, group)
+    if (scoreA !== scoreB) return scoreA - scoreB // meno sconfitte = meglio
+  }
+
+  // 3. Partite giocate (meno = meglio, ha una gara in mano)
   if (a.matchesPlayed !== b.matchesPlayed) return a.matchesPlayed - b.matchesPlayed
-  return bGoalDifference - aGoalDifference
+
+  // 4. Differenza reti globale
+  if (aGoalDifference !== bGoalDifference) return bGoalDifference - aGoalDifference
+
+  // 5. Gol fatti
+  if (a.goalsFor !== b.goalsFor) return b.goalsFor - a.goalsFor
+
+  // 6. Gol subiti
+  if (a.goalsAgainst !== b.goalsAgainst) return a.goalsAgainst - b.goalsAgainst
+
+  // 7. Alfabetico
+  return a.name.localeCompare(b.name)
 }
 
 const sortByGoalDifference = (aGoalDifference, bGoalDifference) => bGoalDifference - aGoalDifference
@@ -328,7 +402,7 @@ function searchTeams(term) {
 }
 
 // ===========================
-// WHATSAPP SHARE - CLASSIFICA COMPLETA SENZA EMOJI
+// WHATSAPP SHARE - CLASSIFICA COMPLETA
 // ===========================
 
 function shareStandingsOnWhatsApp() {
@@ -342,7 +416,7 @@ function shareStandingsOnWhatsApp() {
   const seasonTitle = seasonBadge ? seasonBadge.textContent.trim() : "Serie A"
   const seasonHasChampion = teamsData.champion && teamsData.champion.trim() !== ""
   const statusText = seasonHasChampion ? "*CLASSIFICA FINALE*" : "*CLASSIFICA ATTUALE*"
-  
+
   let dateText = ""
   if (seasonHasChampion && teamsData.endDate) {
     dateText = teamsData.endDate
@@ -366,7 +440,7 @@ function shareStandingsOnWhatsApp() {
     const zone = getTeamZone(position)
     const zoneLabel = getZoneLabel(zone)
     const zoneText = zoneLabel ? ` [${zoneLabel}]` : ""
-    
+
     message += `${position}. ${team.name}${zoneText}\n`
     message += `   Pt: ${team.points} | G: ${team.matchesPlayed} | V: ${team.wins} | P: ${team.draws} | S: ${team.losses}\n`
     message += `   GF: ${team.goalsFor} | GS: ${team.goalsAgainst} | DR: ${goalDiffText}\n\n`
