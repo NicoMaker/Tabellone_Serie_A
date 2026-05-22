@@ -40,10 +40,10 @@
     {
       "name": "Atalanta",
       "wins": 15,
-      "draws": 13,
+      "draws": 14,
       "losses": 9,
-      "goalsFor": 50,
-      "goalsAgainst": 35,
+      "goalsFor": 51,
+      "goalsAgainst": 36,
       "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
     },
     {
@@ -76,10 +76,10 @@
     {
       "name": "Fiorentina",
       "wins": 9,
-      "draws": 14,
+      "draws": 15,
       "losses": 14,
-      "goalsFor": 40,
-      "goalsAgainst": 49,
+      "goalsFor": 41,
+      "goalsAgainst": 50,
       "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
     },
     {
