@@ -66,11 +66,11 @@
     },
     {
       "name": "Lazio",
-      "wins": 13,
+      "wins": 14,
       "draws": 12,
       "losses": 12,
-      "goalsFor": 39,
-      "goalsAgainst": 39,
+      "goalsFor": 41,
+      "goalsAgainst": 40,
       "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
     },
     {
@@ -158,9 +158,9 @@
       "name": "Pisa",
       "wins": 2,
       "draws": 12,
-      "losses": 23,
-      "goalsFor": 25,
-      "goalsAgainst": 69,
+      "losses": 24,
+      "goalsFor": 26,
+      "goalsAgainst": 71,
       "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
     },
     {
