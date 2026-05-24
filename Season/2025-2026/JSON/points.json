@@ -23,9 +23,9 @@
       "name": "Milan",
       "wins": 20,
       "draws": 10,
-      "losses": 7,
-      "goalsFor": 52,
-      "goalsAgainst": 33,
+      "losses": 8,
+      "goalsFor": 53,
+      "goalsAgainst": 35,
       "image": "https://icon2.cleanpng.com/20180525/ruv/avqpf2sk7.webp"
     },
     {
@@ -57,10 +57,10 @@
     },
     {
       "name": "Roma",
-      "wins": 22,
+      "wins": 23,
       "draws": 4,
       "losses": 11,
-      "goalsFor": 57,
+      "goalsFor": 59,
       "goalsAgainst": 31,
       "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
     },
@@ -122,18 +122,18 @@
       "name": "Verona",
       "wins": 3,
       "draws": 12,
-      "losses": 22,
+      "losses": 23,
       "goalsFor": 25,
-      "goalsAgainst": 59,
+      "goalsAgainst": 61,
       "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
     },
     {
       "name": "Cagliari",
-      "wins": 10,
+      "wins": 11,
       "draws": 10,
       "losses": 17,
-      "goalsFor": 38,
-      "goalsAgainst": 52,
+      "goalsFor": 40,
+      "goalsAgainst": 53,
       "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
     },
     {
