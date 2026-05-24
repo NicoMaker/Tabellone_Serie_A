@@ -138,10 +138,10 @@
     },
     {
       "name": "Parma",
-      "wins": 10,
+      "wins": 11,
       "draws": 12,
       "losses": 15,
-      "goalsFor": 27,
+      "goalsFor": 28,
       "goalsAgainst": 46,
       "image": "https://vectorseek.com/wp-content/uploads/2023/06/Fc-Parma-Logo-Vector-730x730.jpg"
     },
@@ -167,9 +167,9 @@
       "name": "Sassuolo",
       "wins": 14,
       "draws": 7,
-      "losses": 16,
+      "losses": 17,
       "goalsFor": 46,
-      "goalsAgainst": 49,
+      "goalsAgainst": 50,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
     },
     {
