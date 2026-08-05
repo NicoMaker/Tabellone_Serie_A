@@ -1,5 +1,10 @@
 {
-  "tiebreakers": [["Milan", "Roma"]],
+  "tiebreakers": [
+    [
+      "Milan",
+      "Roma"
+    ]
+  ],
   "teams": [
     {
       "name": "Juventus",
@@ -8,7 +13,7 @@
       "losses": 7,
       "goalsFor": 61,
       "goalsAgainst": 34,
-      "image": "https://th.bing.com/th/id/R.3c4e3112a463ae8efe8a7a0c8e40cd13?rik=Ji35bOsYUptvGg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fJuventus-logo.png&ehk=6AHrWJ53F1JKUolXY%2boYs%2fQOABq%2b2XD6U8%2fmMNXAR5c%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+      "image": "../../Img/Juventus.jpg"
     },
     {
       "name": "Inter",
@@ -17,7 +22,7 @@
       "losses": 5,
       "goalsFor": 89,
       "goalsAgainst": 35,
-      "image": "https://1.bp.blogspot.com/-5O5g_eGrFf4/YCPz5WuqebI/AAAAAAAB9kg/Ma15EUix1agY164NEhK6j2wcIXUxx02lQCLcBGAsYHQ/w400-h371/Inter%2Bde%2BMil%25C3%25A3o%2B-%2BITA%2B-%2BNOVO%2BOFICIAL.jpg"
+      "image": "../../Img/Inter.jpg"
     },
     {
       "name": "Milan",
@@ -26,7 +31,7 @@
       "losses": 8,
       "goalsFor": 53,
       "goalsAgainst": 35,
-      "image": "https://icon2.cleanpng.com/20180525/ruv/avqpf2sk7.webp"
+      "image": "../../Img/Milan.jpg"
     },
     {
       "name": "Napoli",
@@ -35,7 +40,7 @@
       "losses": 8,
       "goalsFor": 58,
       "goalsAgainst": 36,
-      "image": "https://ih1.redbubble.net/image.2130082874.2309/st,small,507x507-pad,600x600,f8f8f8.jpg"
+      "image": "../../Img/Napoli.jpg"
     },
     {
       "name": "Atalanta",
@@ -44,7 +49,7 @@
       "losses": 9,
       "goalsFor": 51,
       "goalsAgainst": 36,
-      "image": "https://i.pinimg.com/originals/65/e1/90/65e190658337a21ba81ee6bfe28722b6.png"
+      "image": "../../Img/Atalanta.jpg"
     },
     {
       "name": "Bologna",
@@ -53,7 +58,7 @@
       "losses": 14,
       "goalsFor": 49,
       "goalsAgainst": 46,
-      "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/bologna-1024x1024.png"
+      "image": "../../Img/Bologna.jpg"
     },
     {
       "name": "Roma",
@@ -62,7 +67,7 @@
       "losses": 11,
       "goalsFor": 59,
       "goalsAgainst": 31,
-      "image": "https://logodetimes.com/times/roma/logo-roma-4096.png"
+      "image": "../../Img/Roma.jpg"
     },
     {
       "name": "Lazio",
@@ -71,7 +76,7 @@
       "losses": 12,
       "goalsFor": 41,
       "goalsAgainst": 40,
-      "image": "https://i.pinimg.com/originals/0d/af/05/0daf05305998bb24576d3f918a5cb38e.png"
+      "image": "../../Img/Lazio.jpg"
     },
     {
       "name": "Fiorentina",
@@ -80,7 +85,7 @@
       "losses": 14,
       "goalsFor": 41,
       "goalsAgainst": 50,
-      "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1010111.png?v=11606382302"
+      "image": "../../Img/Fiorentina.jpg"
     },
     {
       "name": "Udinese",
@@ -89,7 +94,7 @@
       "losses": 16,
       "goalsFor": 45,
       "goalsAgainst": 48,
-      "image": "https://www.pennantsmuseum.com/wp-content/uploads/2022/04/udinese.png"
+      "image": "../../Img/Udinese.jpg"
     },
     {
       "name": "Torino",
@@ -98,7 +103,7 @@
       "losses": 17,
       "goalsFor": 44,
       "goalsAgainst": 63,
-      "image": "https://www.seriebnews.com/wp-content/uploads/logo_torino.png"
+      "image": "../../Img/Torino.jpg"
     },
     {
       "name": "Genoa",
@@ -107,7 +112,7 @@
       "losses": 17,
       "goalsFor": 41,
       "goalsAgainst": 51,
-      "image": "https://www.tuttocampo.it/Web/Images/Teams/Original/1009562.png?v4"
+      "image": "../../Img/Genoa.jpg"
     },
     {
       "name": "Como",
@@ -116,7 +121,7 @@
       "losses": 7,
       "goalsFor": 65,
       "goalsAgainst": 29,
-      "image": "https://th.bing.com/th/id/OIP.Kn-YVDGu5C1iimFCbIYZmgHaHq?rs=1&pid=ImgDetMain"
+      "image": "../../Img/Como.jpg"
     },
     {
       "name": "Verona",
@@ -125,7 +130,7 @@
       "losses": 23,
       "goalsFor": 25,
       "goalsAgainst": 61,
-      "image": "https://img-prod.sportmediaset.mediaset.it/images/2020/06/01/081053035-9909184b-63be-4f3d-89d7-f79420b5ff5f.png"
+      "image": "../../Img/Verona.jpg"
     },
     {
       "name": "Cagliari",
@@ -134,7 +139,7 @@
       "losses": 17,
       "goalsFor": 40,
       "goalsAgainst": 53,
-      "image": "https://th.bing.com/th/id/OIP.orn1BJkEFVaaWCOGf_CiKgHaHa?rs=1&pid=ImgDetMain"
+      "image": "../../Img/Cagliari.jpg"
     },
     {
       "name": "Parma",
@@ -143,7 +148,7 @@
       "losses": 15,
       "goalsFor": 28,
       "goalsAgainst": 46,
-      "image": "https://vectorseek.com/wp-content/uploads/2023/06/Fc-Parma-Logo-Vector-730x730.jpg"
+      "image": "../../Img/Parma.jpg"
     },
     {
       "name": "Lecce",
@@ -152,7 +157,7 @@
       "losses": 20,
       "goalsFor": 28,
       "goalsAgainst": 50,
-      "image": "https://th.bing.com/th/id/OIP.LzvtpDdNPPiICmB5c0MmFwHaI7?rs=1&pid=ImgDetMain"
+      "image": "../../Img/Lecce.jpg"
     },
     {
       "name": "Pisa",
@@ -161,7 +166,7 @@
       "losses": 24,
       "goalsFor": 26,
       "goalsAgainst": 71,
-      "image": "https://live.staticflickr.com/4705/40587642862_1f77a65b53_b.jpg"
+      "image": "../../Img/Pisa.jpg"
     },
     {
       "name": "Sassuolo",
@@ -170,7 +175,7 @@
       "losses": 17,
       "goalsFor": 46,
       "goalsAgainst": 50,
-      "image": "https://toppng.com/uploads/preview/us-sassuolo-calcio-current-vector-logo-11573728920zy6jfcuddw.png"
+      "image": "../../Img/Sassuolo.jpg"
     },
     {
       "name": "Cremonese",
@@ -179,7 +184,7 @@
       "losses": 20,
       "goalsFor": 32,
       "goalsAgainst": 56,
-      "image": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png"
+      "image": "../../Img/Cremonese.jpg"
     }
   ]
 }

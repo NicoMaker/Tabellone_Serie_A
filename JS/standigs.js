@@ -6,6 +6,30 @@ let teamsData = [],
   currentFilter = "all",
   searchTerm = ""
 
+// --- Gestione Tema (dark/light, come in Risultati) ---
+function initTheme() {
+  const themeToggle = document.getElementById("theme-toggle")
+  if (!themeToggle) return
+
+  const savedTheme = localStorage.getItem("theme") || "dark"
+  applyTheme(savedTheme)
+
+  themeToggle.addEventListener("click", () => {
+    const isLight = document.documentElement.classList.contains("light")
+    const newTheme = isLight ? "dark" : "light"
+    applyTheme(newTheme)
+    localStorage.setItem("theme", newTheme)
+  })
+}
+
+function applyTheme(theme) {
+  document.documentElement.classList.toggle("light", theme === "light")
+  const themeToggle = document.getElementById("theme-toggle")
+  if (!themeToggle) return
+  const icon = themeToggle.querySelector(".theme-icon")
+  if (icon) icon.textContent = theme === "light" ? "🌙" : "🌞"
+}
+
 // Function to calculate points and total matches
 function updateTeamStats(teams) {
   teams.forEach((team) => {
@@ -143,7 +167,7 @@ function loadTableData(teams) {
     positionCell.classList.add("pos-col")
 
     const teamCell = row.insertCell()
-    teamCell.innerHTML = `<img src="${team.image}" alt="${team.name}" width="36" height="36"> ${team.name}`
+    teamCell.innerHTML = `<img src="${team.image}" alt="${team.name}" class="team-logo-small"> ${team.name}`
     teamCell.classList.add("team-col")
 
     const pointsCell = row.insertCell()
@@ -455,6 +479,8 @@ function shareStandingsOnWhatsApp() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  initTheme()
+
   const buttons = document.querySelectorAll(".filter-btn")
   buttons.forEach((button) => {
     button.addEventListener("click", function () {

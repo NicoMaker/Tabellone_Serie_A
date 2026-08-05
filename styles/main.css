@@ -1,31 +1,9 @@
-:root {
-  --primary: #0a1628;
-  --primary-light: #1e3a5f;
-  --accent: #3b82f6;
-  --accent-hover: #2563eb;
-  --secondary: #e4032e;
-  --background: #0f172a;
-  --surface: #1e293b;
-  --surface-light: #334155;
-  --text: #f1f5f9;
-  --text-muted: #94a3b8;
-  --border: #334155;
-  --success: #10b981;
-  --warning: #f59e0b;
-  --whatsapp: #25d366;
-  --whatsapp-hover: #1da851;
-
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --radius-xl: 24px;
-
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.5);
-
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
+/* ===================================================================
+   SERIE A · ARCHIVIO STAGIONI
+   Direzione: identità broadcast ufficiale Lega Serie A — fondo scuro,
+   verde acceso, tipografia condensata bold e il taglio diagonale che
+   la lega usa in loghi, grafiche TV e social.
+   =================================================================== */
 
 * {
   margin: 0;
@@ -33,309 +11,509 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: var(--background);
-  color: var(--text);
-  line-height: 1.6;
-  min-height: 100vh;
-  position: relative;
-  overflow-x: hidden;
+:root {
+  /* --- Tema scuro (default) --- */
+  --bg-primary: #060a13;
+  --bg-secondary: #0c1220;
+  --bg-card: #111827;
+  --bg-card-alt: #171f30;
+
+  --text-primary: #f2f5fa;
+  --text-secondary: #8791a8;
+  --text-champion: #ffcc33;
+
+  --border: rgba(255, 255, 255, 0.09);
+  --shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+
+  --ink-on-accent: #06150e;
+
+  --accent-green: #21e28a;
+  --accent-green-deep: #0fae63;
+  --accent-red: #ff4757;
+  --accent-gold: #ffcc33;
+
+  --gradient-green: linear-gradient(115deg, #21e28a 0%, #0fae63 100%);
+
+  --grid-opacity: 0.05;
+  --cut: polygon(0 0, 100% 0, 100% 100%, 4% 100%);
+
+  --font-display: "Rajdhani", sans-serif;
+  --font-body: "Inter", sans-serif;
 }
 
-.background-gradient {
+:root.light {
+  /* --- Tema chiaro --- */
+  --bg-primary: #eef1f6;
+  --bg-secondary: #e1e7ef;
+  --bg-card: #ffffff;
+  --bg-card-alt: #eef1f6;
+
+  --text-primary: #0a1020;
+  --text-secondary: #5b6478;
+  --text-champion: #a3760a;
+
+  --border: rgba(10, 16, 32, 0.12);
+  --shadow: 0 16px 34px rgba(10, 20, 40, 0.12);
+
+  --ink-on-accent: #ffffff;
+
+  --accent-green: #0fae63;
+  --accent-green-deep: #0b7d48;
+  --accent-red: #d6293b;
+  --accent-gold: #a3760a;
+
+  --gradient-green: linear-gradient(115deg, #16c273 0%, #0b7d48 100%);
+
+  --grid-opacity: 0.05;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Sfondo: griglia tecnica sottile, non un blob gradiente --- */
+.bg-animation {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(228, 3, 46, 0.1) 0%, transparent 50%);
-  pointer-events: none;
+  inset: 0;
   z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(currentColor 1px, transparent 1px),
+    linear-gradient(90deg, currentColor 1px, transparent 1px);
+  background-size: 42px 42px;
+  color: var(--text-primary);
+  opacity: var(--grid-opacity);
+  mask-image: linear-gradient(to bottom, black 0%, black 25%, transparent 70%);
 }
 
 .container {
+  position: relative;
+  z-index: 1;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 20px;
 }
 
-/* Header */
-.main-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: rgba(15, 23, 42, 0.8);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
-  padding: 20px 0;
-}
+/* ===================== HEADER ===================== */
 
-.header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.logo-section {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.logo-icon {
-  font-size: 32px;
-  animation: rotate 20s linear infinite;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.logo-text {
-  font-size: 24px;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--accent), var(--secondary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* Hero Section */
-.hero-section {
-  padding: 80px 0 40px;
+header {
+  padding: 44px 0 26px;
   text-align: center;
   position: relative;
-  z-index: 1;
 }
 
-.hero-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.hero-title {
-  font-size: 56px;
-  font-weight: 800;
-  margin-bottom: 16px;
-  background: linear-gradient(135deg, #fff, var(--text-muted));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  letter-spacing: -0.02em;
-}
-
-.hero-subtitle {
-  font-size: 20px;
-  color: var(--text-muted);
-  margin-bottom: 48px;
-}
-
-.hero-logo {
-  display: inline-block;
-  padding: 24px;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border-radius: var(--radius-xl);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: var(--shadow-lg);
-  transition: var(--transition);
-}
-
-.hero-logo:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
-}
-
-.hero-logo img {
-  width: 200px;
-  height: auto;
-  display: block;
-  border-radius: var(--radius-md);
-}
-
-/* WhatsApp Share Section */
-.whatsapp-share-seasons-section {
-  position: relative;
-  z-index: 1;
-  padding: 0 0 40px;
-}
-
-.whatsapp-share-seasons-section .container {
-  display: flex;
-  justify-content: center;
-}
-
-.whatsapp-share-btn {
+.header-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
-  width: 100%;
-  background: var(--whatsapp);
-  color: white;
-  padding: 14px 28px;
-  border: none;
-  border-radius: var(--radius-md);
-  font-size: 16px;
+  gap: 16px;
+}
+
+.title-wrap {
+  text-align: center;
+}
+
+.actions-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-content h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.4rem, 7vw, 4.4rem);
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  animation: slideDown 0.7s ease-out;
+}
+
+.title-text {
+  position: relative;
+}
+
+.brand-logo {
+  height: clamp(30px, 5vw, 44px);
+  width: auto;
+  flex-shrink: 0;
+  background: #ffffff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
+}
+
+.header-content p {
+  font-size: clamp(0.78rem, 1.6vw, 0.95rem);
+  color: var(--text-secondary);
   font-weight: 600;
-  font-family: inherit;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 10px;
+  animation: slideDown 0.7s ease-out 0.15s both;
+}
+
+.header-content p .dateline {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  opacity: 0.7;
+}
+
+.icon-button {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  transition: var(--transition);
-  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+  text-decoration: none;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    background 0.2s ease;
 }
 
-.whatsapp-share-btn:hover {
-  background: var(--whatsapp-hover);
+.icon-button:hover {
+  border-color: var(--accent-green);
+  background: var(--bg-card-alt);
+  transform: translateY(-1px);
+}
+
+.icon-button:focus-visible,
+button:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--accent-green);
+  outline-offset: 2px;
+}
+
+.theme-icon {
+  font-size: 1.05rem;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Il "taglio" — barra diagonale, firma grafica della Lega Serie A */
+.tricolore-bar {
+  display: block;
+  height: 8px;
+  width: 210px;
+  margin: 20px auto 0;
+  background: var(--gradient-green);
+  clip-path: polygon(4% 0, 100% 0, 96% 100%, 0 100%);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(33, 226, 138, 0.22);
+}
+
+.tricolore-bar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.45),
+    transparent
+  );
+  transform: translateX(-100%);
+  animation: cut-shimmer 3.2s ease-in-out infinite;
+}
+
+@keyframes cut-shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* ===================== WHATSAPP BUTTON (condiviso) ===================== */
+
+.whatsapp-share-section {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  background: linear-gradient(135deg, #25d366 0%, #1a9c4d 100%);
+  color: #ffffff;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: var(--font-body);
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.whatsapp-btn:hover {
+  filter: brightness(1.06);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.32);
 }
 
-.whatsapp-share-btn:active {
+.whatsapp-btn:active {
   transform: translateY(0);
 }
 
-.whatsapp-icon {
-  width: 24px;
-  height: 24px;
+.whatsapp-btn svg {
+  flex-shrink: 0;
 }
 
-/* Main Content */
-.main-content {
-  padding: 20px 0 100px;
-  position: relative;
-  z-index: 1;
-}
-
-.seasons-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 24px;
-}
-
-.loading-state {
-  grid-column: 1 / -1;
-  display: flex;
-  flex-direction: column;
+.whatsapp-day-btn {
+  display: inline-flex;
   align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #25d366 0%, #1a9c4d 100%);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 7px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    filter 0.2s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.22);
+}
+
+.whatsapp-day-btn:hover {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+}
+
+.whatsapp-standings-section {
+  padding: 0 0 12px 0;
+  display: flex;
   justify-content: center;
-  padding: 80px 20px;
-  gap: 20px;
 }
 
-.spinner {
-  width: 48px;
-  height: 48px;
-  border: 4px solid rgba(59, 130, 246, 0.2);
-  border-top-color: var(--accent);
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
+.day-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
+@media (max-width: 768px) {
+  .whatsapp-btn {
+    padding: 13px 20px;
+    font-size: 0.9rem;
+  }
+  .whatsapp-day-btn {
+    font-size: 0.78rem;
+    padding: 6px 12px;
+  }
+  .whatsapp-day-btn span {
+    display: none;
   }
 }
 
-.loading-state p {
-  color: var(--text-muted);
-  font-size: 16px;
+/* ===================== GRIGLIA STAGIONI ===================== */
+
+.seasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  padding-bottom: 20px;
 }
 
-/* Season Card */
+.loading-message {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
 .season-card {
-  background: var(--surface);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  background: var(--bg-card);
+  border-radius: 10px;
   border: 1px solid var(--border);
-  transition: var(--transition);
   text-decoration: none;
   color: inherit;
-  display: block;
   position: relative;
-}
-
-.season-card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(228, 3, 46, 0.1));
-  opacity: 0;
-  transition: var(--transition);
-  z-index: 0;
+  overflow: hidden;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+  min-height: 196px;
 }
 
 .season-card:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--shadow-lg);
-  border-color: var(--accent);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+  border-color: var(--accent-green);
 }
 
-.season-card:hover::before {
-  opacity: 1;
+.season-card-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 26px 20px 22px 24px;
+  min-width: 0;
 }
 
-.season-card-header {
-  position: relative;
-  height: 180px;
-  background: linear-gradient(135deg, var(--primary-light), var(--surface-light));
+.crest-wrap {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  border: 1px solid var(--border);
 }
 
-.season-card-header img {
-  width: 120px;
-  height: auto;
-  object-fit: contain;
-  transition: var(--transition);
+.crest-wrap--champion {
+  border: 2px solid var(--accent-gold);
+  box-shadow:
+    0 0 0 3px rgba(255, 204, 51, 0.16),
+    0 6px 16px rgba(0, 0, 0, 0.22);
   position: relative;
-  z-index: 1;
-  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
 }
 
-.season-card:hover .season-card-header img {
-  transform: scale(1.1);
-}
-
-.season-year {
+.crest-wrap--champion::after {
+  content: "🏆";
   position: absolute;
-  top: 16px;
-  left: 16px;
-  background: var(--accent);
-  color: white;
-  padding: 8px 16px;
-  border-radius: var(--radius-md);
+  bottom: -6px;
+  right: -6px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--accent-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  border: 2px solid var(--bg-card);
+}
+
+.season-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.season-card-body {
+  min-width: 0;
+  text-align: left;
+}
+
+.season-tag {
+  display: block;
+  font-size: 0.68rem;
   font-weight: 700;
-  font-size: 14px;
-  z-index: 2;
-  box-shadow: var(--shadow-md);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-green);
+  margin-bottom: 6px;
+}
+
+.season-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+  line-height: 1.05;
 }
 
 .current-badge {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  background: var(--success);
-  color: white;
-  padding: 6px 12px;
-  border-radius: var(--radius-md);
-  font-size: 12px;
-  font-weight: 600;
-  z-index: 2;
-  box-shadow: var(--shadow-md);
-  animation: pulse 2s ease-in-out infinite;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent-red);
+  color: #ffffff;
+  padding: 4px 12px 4px 10px;
+  clip-path: var(--cut);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.current-badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  animation: pulse 1.6s ease-in-out infinite;
 }
 
 @keyframes pulse {
@@ -344,116 +522,125 @@ body {
     opacity: 1;
   }
   50% {
-    opacity: 0.7;
+    opacity: 0.25;
   }
-}
-
-.season-card-content {
-  padding: 24px;
-  position: relative;
-  z-index: 1;
-}
-
-.season-card-content h3 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 12px;
 }
 
 .champion-badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: linear-gradient(135deg, #fbbf24, #f59e0b);
-  color: #78350f;
+  background: rgba(255, 204, 51, 0.13);
+  color: var(--text-champion);
   padding: 6px 14px;
-  border-radius: var(--radius-md);
-  font-size: 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
   font-weight: 700;
-  margin-bottom: 12px;
-  box-shadow: 0 4px 12px rgba(251, 191, 36, 0.3);
+  border: 1px solid rgba(255, 204, 51, 0.4);
 }
 
 .champion-badge::before {
   content: "🏆";
-  font-size: 16px;
+  font-size: 1rem;
+}
+
+/* Il taglio: cursore/divisore diagonale che separa lo stemma dalla scheda */
+.ticket-perforation {
+  width: 0;
+  border-left: 1px solid var(--border);
+  flex-shrink: 0;
+  transform: skewX(-8deg);
+}
+
+/* Blocco diagonale con l'anno — la firma grafica della card */
+.ticket-stub {
+  flex-shrink: 0;
+  width: 58px;
+  background: var(--gradient-green);
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0 16px 10px;
+}
+
+.ticket-stub-year {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-on-accent);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
 }
 
 .error-message {
   grid-column: 1 / -1;
+  background-color: var(--bg-card);
+  color: var(--text-secondary);
+  padding: 40px;
+  border-radius: 10px;
   text-align: center;
-  padding: 60px 20px;
-  color: var(--secondary);
+  font-size: 1rem;
+  border: 1px dashed var(--border);
 }
 
-/* Footer */
-.main-footer {
-  background: rgba(15, 23, 42, 0.8);
-  backdrop-filter: blur(12px);
+/* ===================== FOOTER ===================== */
+
+footer {
+  margin: 60px 0 30px;
+  padding-top: 20px;
   border-top: 1px solid var(--border);
-  padding: 32px 0;
   text-align: center;
-  position: relative;
-  z-index: 1;
 }
 
-.main-footer p {
-  color: var(--text-muted);
-  font-size: 14px;
+.copyright {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
 }
 
-/* Responsive */
+/* ===================== RESPONSIVE ===================== */
+
 @media (max-width: 768px) {
-  .hero-title {
-    font-size: 36px;
-  }
-
-  .hero-subtitle {
-    font-size: 16px;
-  }
-
-  .hero-logo img {
-    width: 150px;
-  }
-
-  .whatsapp-share-btn {
-    padding: 14px 20px;
-    font-size: 15px;
-  }
-
-  .seasons-grid {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 16px;
-  }
-
-  .season-card-header {
-    height: 140px;
-  }
-
-  .season-card-header img {
-    width: 90px;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-section {
-    padding: 40px 0 20px;
-  }
-
-  .hero-title {
-    font-size: 28px;
-  }
-
-  .whatsapp-share-seasons-section {
-    padding: 0 0 30px;
-  }
-
-  .whatsapp-icon {
-    width: 20px;
-    height: 20px;
+  .header-row {
+    flex-direction: column;
+    text-align: center;
+    gap: 14px;
   }
 
   .seasons-grid {
     grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .season-card-main {
+    padding: 22px 16px 20px 20px;
+    gap: 14px;
+  }
+
+  .crest-wrap {
+    width: 58px;
+    height: 58px;
+  }
+
+  .season-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .season-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .seasons-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ticket-stub {
+    width: 46px;
   }
 }

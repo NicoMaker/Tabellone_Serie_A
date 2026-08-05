@@ -4,22 +4,24 @@
       "year": "2026-2027",
       "title": "Serie A 2026-2027",
       "logo": "https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg",
-      "url": "season/2026-2027/index.html",
+      "url": "Season/2026-2027/index.html",
       "champion": ""
     },
     {
       "year": "2025-2026",
       "title": "Serie A 2025-2026",
       "logo": "https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg",
-      "url": "season/2025-2026/index.html",
-      "champion": "Inter"
+      "url": "Season/2025-2026/index.html",
+      "champion": "Inter",
+      "championLogo": "Img/Inter.jpg"
     },
     {
       "year": "2024-2025",
       "title": "Serie A 2024-2025",
       "champion": "Napoli",
+      "championLogo": "Img/Napoli.jpg",
       "logo": "https://www.calciomagazine.net/wp-content/uploads/2024/07/serie-a-enilive-logo.jpg",
-      "url": "season/2024-2025/index.html"
+      "url": "Season/2024-2025/index.html"
     }
   ]
 }

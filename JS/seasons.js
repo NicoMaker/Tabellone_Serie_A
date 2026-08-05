@@ -1,140 +1,187 @@
-// Function to create a season card HTML
-function createSeasonCard(season, isCurrent) {
-  const currentBadge = isCurrent
-    ? '<div class="current-badge">In corso</div>'
-    : "";
-  const championBadge = season.champion
-    ? `<div class="champion-badge">${season.champion}</div>`
-    : "";
+class SerieATabelloneApp {
+  constructor() {
+    this.seasonsGrid = document.getElementById("seasonsGrid");
+    this.themeToggle = document.getElementById("theme-toggle");
+    this.seasonsData = null;
+  }
 
-  return `
-        <a href="${season.url}" class="season-card">
-            ${currentBadge}
-            <div class="season-card-header">
-                <div class="season-year">${season.year}</div>
-                <img src="${season.logo}" alt="Stagione ${season.year}">
-            </div>
-            <div class="season-card-content">
-                ${championBadge}
-                <h3>${season.title}</h3>
-            </div>
-        </a>
-    `;
-}
+  init() {
+    console.log("Inizializzazione Tabellone - Archivio Stagioni");
+    this.initTheme();
+    this.loadSeasons();
+    this.initOnlineStatusHandling();
+    this.initWhatsAppButton();
+  }
 
-// Function to load and display seasons from JSON file
-async function loadSeasons() {
-  const seasonsGrid = document.getElementById("seasonsGrid");
+  // --- Gestione Tema ---
+  initTheme() {
+    const savedTheme = localStorage.getItem("theme") || "dark";
+    this.applyTheme(savedTheme);
 
-  try {
-    const response = await fetch("data/seasons-data.json");
-
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-
-    const data = await response.json();
-    seasonsGrid.innerHTML = "";
-
-    const sortedSeasons = data.seasons.sort((a, b) => {
-      const yearA = Number.parseInt(a.year.split("-")[0]);
-      const yearB = Number.parseInt(b.year.split("-")[0]);
-      return yearB - yearA;
+    this.themeToggle.addEventListener("click", () => {
+      const currentTheme = document.documentElement.classList.contains("light")
+        ? "light"
+        : "dark";
+      const newTheme = currentTheme === "light" ? "dark" : "light";
+      this.applyTheme(newTheme);
+      localStorage.setItem("theme", newTheme);
     });
+  }
 
-    if (sortedSeasons.length === 0) {
-      seasonsGrid.innerHTML =
-        '<div class="error-message">Nessuna stagione trovata.</div>';
+  applyTheme(theme) {
+    document.documentElement.classList.toggle("light", theme === "light");
+    this.updateThemeIcon(theme);
+  }
+
+  updateThemeIcon(theme) {
+    if (!this.themeToggle) return;
+    const icon = this.themeToggle.querySelector(".theme-icon");
+    icon && (icon.textContent = theme === "light" ? "🌙" : "🌞");
+  }
+
+  // --- Caricamento e Rendering ---
+  createSeasonCard(season, isCurrent) {
+    const statusBadge = isCurrent
+      ? '<div class="current-badge">In corso</div>'
+      : season.champion
+        ? `<div class="champion-badge">${season.champion}</div>`
+        : "";
+
+    // Se la stagione ha un campione, mostra lo stemma della squadra
+    // vincitrice al posto del logo generico Serie A (come in Risultati).
+    const hasChampionCrest = Boolean(season.champion && season.championLogo);
+    const crestSrc = hasChampionCrest ? season.championLogo : season.logo;
+    const crestAlt = hasChampionCrest
+      ? `Scudetto ${season.champion}`
+      : `Stagione ${season.year}`;
+    const crestClass = hasChampionCrest
+      ? "crest-wrap crest-wrap--champion"
+      : "crest-wrap";
+
+    return `
+      <a href="${season.url}" class="season-card">
+        <div class="season-card-main">
+          <div class="${crestClass}">
+            <img src="${crestSrc}" alt="${crestAlt}" class="season-logo">
+          </div>
+          <div class="season-card-body">
+            <span class="season-tag">Tabellone</span>
+            <h3 class="season-title">${season.title}</h3>
+            ${statusBadge}
+          </div>
+        </div>
+        <div class="ticket-perforation" aria-hidden="true"></div>
+        <div class="ticket-stub">
+          <span class="ticket-stub-year">${season.year}</span>
+        </div>
+      </a>
+    `;
+  }
+
+  async loadSeasons() {
+    try {
+      const response = await fetch("data/seasons-data.json");
+      if (!response.ok) {
+        throw new Error(`Errore HTTP: ${response.status}`);
+      }
+
+      const data = await response.json();
+      const sortedSeasons = data.seasons.sort((a, b) => {
+        const yearA = parseInt(a.year.split("-")[0], 10);
+        const yearB = parseInt(b.year.split("-")[0], 10);
+        return yearB - yearA;
+      });
+
+      if (sortedSeasons.length === 0) {
+        this.seasonsGrid.innerHTML =
+          '<div class="error-message">Nessuna stagione trovata.</div>';
+        return;
+      }
+
+      this.seasonsData = sortedSeasons;
+
+      const seasonsHtml = sortedSeasons
+        .map((season, index) => {
+          if (!("champion" in season)) {
+            season.champion = null;
+          }
+          const isCurrent = index === 0 && !season.champion;
+          return this.createSeasonCard(season, isCurrent);
+        })
+        .join("");
+
+      this.seasonsGrid.innerHTML = seasonsHtml;
+      console.log(`Caricate ${sortedSeasons.length} stagioni con successo`);
+    } catch (error) {
+      console.error("Errore nel caricamento delle stagioni:", error);
+      let errorMessage =
+        "Si è verificato un errore imprevisto durante il caricamento delle stagioni.";
+      if (error instanceof TypeError) {
+        errorMessage =
+          "Impossibile caricare i dati. Verifica la connessione o che il file `seasons-data.json` esista.";
+      } else if (error instanceof SyntaxError) {
+        errorMessage =
+          "Il file dei dati (`seasons-data.json`) sembra essere corrotto.";
+      }
+      this.seasonsGrid.innerHTML = `<div class="error-message">${errorMessage}</div>`;
+    }
+  }
+
+  // --- Condivisione WhatsApp ---
+  initWhatsAppButton() {
+    const whatsappBtn = document.getElementById("whatsapp-share-seasons-btn");
+    if (whatsappBtn) {
+      whatsappBtn.addEventListener("click", () => this.shareSeasonsOnWhatsApp());
+    }
+  }
+
+  shareSeasonsOnWhatsApp() {
+    if (!this.seasonsData || this.seasonsData.length === 0) {
+      alert("Carica prima i dati delle stagioni!");
       return;
     }
 
-    sortedSeasons.forEach((season, index) => {
-      if (!("champion" in season)) {
-        season.champion = null;
-      }
+    let message = "*SERIE A - TABELLONE ARCHIVIO STAGIONI*\n";
+    message += `Riepilogo completo\n`;
+    message += `${"=".repeat(40)}\n\n`;
 
-      const isCurrent = index === 0 && season.champion === null;
-      seasonsGrid.innerHTML += createSeasonCard(season, isCurrent);
+    this.seasonsData.forEach((season) => {
+      const statusText = season.champion ? "COMPLETATA" : "IN CORSO";
+      const championText = season.champion ? `\n   Campione: ${season.champion}` : "";
+
+      message += `*${season.year}* - ${statusText}${championText}\n\n`;
     });
 
-    console.log(`Caricate ${sortedSeasons.length} stagioni con successo`);
-    
-    // Store seasons data globally for WhatsApp share
-    window.seasonsData = sortedSeasons;
-  } catch (error) {
-    console.error("Errore nel caricamento delle stagioni:", error);
-    let errorMessage = "Errore nel caricamento delle stagioni.";
+    message += `${"=".repeat(40)}\n`;
+    message += `Tabellone Serie A - ${this.seasonsData.length} stagioni disponibili`;
 
-    if (error.name === "TypeError" && error.message.includes("fetch")) {
-      errorMessage =
-        "Impossibile caricare il file seasons-data.json. Verifica che il file esista.";
-    } else if (error.name === "SyntaxError") {
-      errorMessage = "Il file JSON contiene errori di sintassi.";
-    } else if (error.message.includes("404")) {
-      errorMessage = "File seasons-data.json non trovato.";
-    }
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappURL = `https://wa.me/?text=${encodedMessage}`;
+    window.open(whatsappURL, "_blank");
+  }
 
-    seasonsGrid.innerHTML = `<div class="error-message">${errorMessage}</div>`;
+  // --- Gestione Eventi ---
+  initOnlineStatusHandling() {
+    window.addEventListener("online", () => {
+      console.log("Connessione ripristinata");
+      this.loadSeasons();
+    });
+
+    window.addEventListener("offline", () => {
+      console.log("Connessione persa");
+    });
   }
 }
 
-// ===========================
-// WHATSAPP SHARE - RIEPILOGO STAGIONI
-// ===========================
-
-function shareSeasonsOnWhatsApp() {
-  if (!window.seasonsData || window.seasonsData.length === 0) {
-    alert("Carica prima i dati delle stagioni!");
-    return;
-  }
-
-  const seasons = window.seasonsData;
-  
-  let message = "*SERIE A - ARCHIVIO STAGIONI*\n";
-  message += `Riepilogo completo\n`;
-  message += `${"=".repeat(40)}\n\n`;
-
-  seasons.forEach((season) => {
-    const statusText = season.champion ? "COMPLETATA" : "IN CORSO";
-    const championText = season.champion ? `\n   Campione: ${season.champion}` : "";
-    
-    message += `*${season.year}* - ${statusText}${championText}\n\n`;
-  });
-
-  message += `${"=".repeat(40)}\n`;
-  message += `Serie A Archive - ${seasons.length} stagioni disponibili`;
-
-  const encodedMessage = encodeURIComponent(message);
-  const whatsappURL = `https://wa.me/?text=${encodedMessage}`;
-  window.open(whatsappURL, "_blank");
-}
-
-// Initialize
+// Inizializzazione
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("Inizializzazione pagina Generale Stagioni");
-  loadSeasons();
-  
-  // Event listener per pulsante WhatsApp
-  const whatsappButton = document.getElementById("whatsapp-share-seasons-btn");
-  if (whatsappButton) {
-    whatsappButton.addEventListener("click", shareSeasonsOnWhatsApp);
-  }
+  const app = new SerieATabelloneApp();
+  app.init();
 });
 
-// Online/offline status
-window.addEventListener("online", () => {
-  console.log("Connessione ripristinata");
-  loadSeasons();
-});
-
-window.addEventListener("offline", () => {
-  console.log("Connessione persa");
-});
-
-document.querySelector(".main-footer .container").innerHTML = `
-    <p>&copy; ${new Date().getFullYear()} Serie A Archive. Tutti i diritti riservati.</p>
-`;
-
-document.getElementById("currentYear").innerHTML = `
-    <p>&copy; ${new Date().getFullYear()} Serie A Archive. Tutti i diritti riservati.</p>
-`;
+document.getElementById("footer").innerHTML = `
+  <footer>
+      <div class="copyright">
+          © ${new Date().getFullYear()} Tabellone Serie A. Tutti i diritti riservati.
+      </div>
+  </footer>`;
