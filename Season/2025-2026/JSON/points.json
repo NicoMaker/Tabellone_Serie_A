@@ -1,10 +1,5 @@
 {
-  "tiebreakers": [
-    [
-      "Milan",
-      "Roma"
-    ]
-  ],
+  "tiebreakers": [["Milan", "Roma"]],
   "teams": [
     {
       "name": "Juventus",
