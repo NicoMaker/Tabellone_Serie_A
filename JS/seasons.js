@@ -68,6 +68,7 @@ class SerieATabelloneApp {
             <span class="season-tag">Tabellone</span>
             <h3 class="season-title">${season.title}</h3>
             ${statusBadge}
+            <span class="season-cta">Vai alla stagione <span class="season-cta-arrow" aria-hidden="true">→</span></span>
           </div>
         </div>
         <div class="ticket-perforation" aria-hidden="true"></div>
