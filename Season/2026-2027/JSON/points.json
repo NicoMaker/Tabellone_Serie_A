@@ -11,11 +11,11 @@
     },
     {
       "name": "Inter",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 1,
       "image": "../../Img/Inter.jpg"
     },
     {
@@ -84,10 +84,10 @@
     {
       "name": "Udinese",
       "wins": 0,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
       "image": "../../Img/Udinese.jpg"
     },
     {
@@ -111,10 +111,10 @@
     {
       "name": "Como",
       "wins": 0,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
       "image": "../../Img/Como.jpg"
     },
     {
@@ -175,9 +175,9 @@
       "name": "Monza",
       "wins": 0,
       "draws": 0,
-      "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
+      "losses": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 4,
       "image": "../../Img/Monza.png"
     }
   ]
