@@ -29,10 +29,10 @@
     },
     {
       "name": "Napoli",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 0,
+      "goalsFor": 2,
       "goalsAgainst": 0,
       "image": "../../Img/Napoli.jpg"
     },
@@ -103,9 +103,9 @@
       "name": "Genoa",
       "wins": 0,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsAgainst": 2,
       "image": "../../Img/Genoa.jpg"
     },
     {
@@ -119,10 +119,10 @@
     },
     {
       "name": "Cagliari",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 0,
+      "goalsFor": 1,
       "goalsAgainst": 0,
       "image": "../../Img/Cagliari.jpg"
     },
@@ -130,9 +130,9 @@
       "name": "Parma",
       "wins": 0,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsAgainst": 1,
       "image": "../../Img/Parma.jpg"
     },
     {
