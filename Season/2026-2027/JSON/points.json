@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 0,
+      "wins": 2,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 0,
+      "goalsFor": 1,
       "goalsAgainst": 0,
       "image": "../../Img/Juventus.jpg"
     },
@@ -137,10 +137,10 @@
     },
     {
       "name": "Lecce",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 0,
+      "goalsFor": 2,
       "goalsAgainst": 0,
       "image": "../../Img/Lecce.jpg"
     },
@@ -157,18 +157,18 @@
       "name": "Venezia",
       "wins": 0,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsAgainst": 2,
       "image": "../../Img/Venezia.jpeg"
     },
     {
       "name": "Frosinone",
       "wins": 0,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsAgainst": 1,
       "image": "../../Img/Frosinone.webp"
     },
     {
