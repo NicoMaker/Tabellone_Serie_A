@@ -20,11 +20,11 @@
     },
     {
       "name": "Milan",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 1,
       "image": "../../Img/Milan.jpg"
     },
     {
@@ -38,11 +38,11 @@
     },
     {
       "name": "Atalanta",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 1,
       "image": "../../Img/Atalanta.jpg"
     },
     {
@@ -94,9 +94,9 @@
       "name": "Torino",
       "wins": 0,
       "draws": 0,
-      "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
+      "losses": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
       "image": "../../Img/Torino.jpg"
     },
     {
@@ -148,9 +148,9 @@
       "name": "Sassuolo",
       "wins": 0,
       "draws": 0,
-      "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
+      "losses": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
       "image": "../../Img/Sassuolo.jpg"
     },
     {
