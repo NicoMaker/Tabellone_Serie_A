@@ -49,26 +49,26 @@
       "name": "Bologna",
       "wins": 0,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsAgainst": 1,
       "image": "../../Img/Bologna.jpg"
     },
     {
       "name": "Roma",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 0,
+      "goalsFor": 4,
       "goalsAgainst": 0,
       "image": "../../Img/Roma.jpg"
     },
     {
       "name": "Lazio",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 0,
+      "goalsFor": 1,
       "goalsAgainst": 0,
       "image": "../../Img/Lazio.jpg"
     },
@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 0,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "goalsFor": 0,
-      "goalsAgainst": 0,
+      "goalsAgainst": 4,
       "image": "../../Img/Fiorentina.jpg"
     },
     {
