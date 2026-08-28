@@ -2,7 +2,7 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 2,
+      "wins": 1,
       "draws": 0,
       "losses": 0,
       "goalsFor": 1,
@@ -20,10 +20,10 @@
     },
     {
       "name": "Milan",
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 2,
+      "goalsFor": 4,
       "goalsAgainst": 1,
       "image": "../../Img/Milan.jpg"
     },
@@ -157,9 +157,9 @@
       "name": "Venezia",
       "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 0,
-      "goalsAgainst": 2,
+      "goalsAgainst": 4,
       "image": "../../Img/Venezia.jpeg"
     },
     {
