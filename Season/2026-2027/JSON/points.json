@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 1,
+      "goalsFor": 3,
       "goalsAgainst": 0,
       "image": "../../Img/Juventus.jpg"
     },
@@ -130,9 +130,9 @@
       "name": "Parma",
       "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 0,
-      "goalsAgainst": 1,
+      "goalsAgainst": 3,
       "image": "../../Img/Parma.jpg"
     },
     {
