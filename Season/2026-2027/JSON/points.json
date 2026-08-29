@@ -76,27 +76,27 @@
       "name": "Fiorentina",
       "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 0,
-      "goalsAgainst": 4,
+      "goalsAgainst": 7,
       "image": "../../Img/Fiorentina.jpg"
     },
     {
       "name": "Udinese",
-      "wins": 0,
+      "wins": 1,
       "draws": 1,
       "losses": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 3,
       "image": "../../Img/Udinese.jpg"
     },
     {
       "name": "Torino",
       "wins": 0,
       "draws": 0,
-      "losses": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 2,
+      "losses": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
       "image": "../../Img/Torino.jpg"
     },
     {
@@ -146,11 +146,11 @@
     },
     {
       "name": "Sassuolo",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 3,
       "image": "../../Img/Sassuolo.jpg"
     },
     {
@@ -164,10 +164,10 @@
     },
     {
       "name": "Frosinone",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 1,
-      "goalsFor": 0,
+      "goalsFor": 3,
       "goalsAgainst": 1,
       "image": "../../Img/Frosinone.webp"
     },
@@ -175,9 +175,9 @@
       "name": "Monza",
       "wins": 0,
       "draws": 0,
-      "losses": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 4,
+      "losses": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 7,
       "image": "../../Img/Monza.png"
     }
   ]
