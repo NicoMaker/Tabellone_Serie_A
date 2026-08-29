@@ -1,0 +1,20 @@
+/* ===================================================================
+   RESPONSIVE — Stagione
+   =================================================================== */
+
+/* ===================== RESPONSIVE ===================== */
+
+@media (max-width: 768px) {
+  .header-wrapper {
+    justify-content: center;
+  }
+
+  .header-content {
+    order: -1;
+    width: 100%;
+  }
+
+  .filter-buttons {
+    justify-content: center;
+  }
+}

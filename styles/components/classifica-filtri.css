@@ -1,0 +1,123 @@
+/* ===================================================================
+   COMPONENT — Ricerca, filtri per zona, info ordinamento
+   =================================================================== */
+
+/* ===================== SEZIONE TABELLA ===================== */
+
+.controls-section,
+.legend-section,
+.table-section {
+  max-width: 1400px;
+  margin: 0 auto 18px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.search-wrapper {
+  margin-bottom: 14px;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  color: var(--text-secondary);
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px 12px 40px;
+  border-radius: 8px;
+  border: 1.5px solid var(--border);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-family: var(--font-body);
+  font-weight: 500;
+  outline: none;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.search-input::placeholder {
+  color: var(--text-secondary);
+}
+
+.search-input:focus {
+  border-color: var(--accent-green);
+  box-shadow: 0 0 0 3px rgba(33, 226, 138, 0.16);
+}
+
+.filter-section {
+  margin-bottom: 12px;
+}
+
+.filter-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 8px 14px;
+  background: var(--bg-secondary);
+  border: 1.5px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-body);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.filter-btn:hover {
+  border-color: var(--accent-green);
+  color: var(--text-primary);
+}
+
+.filter-btn:active {
+  transform: scale(0.97);
+}
+
+.filter-btn.selected {
+  background: var(--accent-green) !important;
+  border-color: var(--accent-green) !important;
+  color: var(--ink-on-accent) !important;
+}
+
+.sorting-info {
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.sorting-info span {
+  font-weight: 700;
+  color: var(--accent-green);
+}

@@ -1,0 +1,97 @@
+/* ===================================================================
+   COMPONENT — Header pagina Stagione (back button, logo, badge)
+   =================================================================== */
+
+/* ===================== HEADER STAGIONE ===================== */
+
+.app-header {
+  padding: 34px 0 26px;
+  position: relative;
+}
+
+.header-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.85rem;
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.back-button:hover {
+  border-color: var(--accent-green);
+  background: var(--bg-card-alt);
+  transform: translateY(-1px);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.serie-logo {
+  height: clamp(30px, 5vw, 44px);
+  width: auto;
+  background: #ffffff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title-container h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  line-height: 1.05;
+}
+
+.season-badge {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: clamp(0.72rem, 1.6vw, 0.85rem);
+  color: var(--text-secondary);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.theme-toggle-wrap {
+  flex-shrink: 0;
+}

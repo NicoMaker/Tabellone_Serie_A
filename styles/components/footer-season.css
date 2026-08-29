@@ -1,0 +1,16 @@
+/* ===================================================================
+   COMPONENT — Footer pagina Stagione
+   =================================================================== */
+
+/* ===================== FOOTER PAGINA STAGIONE ===================== */
+
+.app-footer {
+  max-width: 1400px;
+  margin: 40px auto 30px;
+  padding: 20px 20px 0;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+}
