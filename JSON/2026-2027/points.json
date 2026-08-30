@@ -11,10 +11,10 @@
     },
     {
       "name": "Inter",
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 4,
+      "goalsFor": 5,
       "goalsAgainst": 1,
       "image": "../../Img/Inter.jpg"
     },
@@ -65,10 +65,10 @@
     },
     {
       "name": "Lazio",
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 1,
+      "goalsFor": 2,
       "goalsAgainst": 0,
       "image": "../../Img/Lazio.jpg"
     },
@@ -103,9 +103,9 @@
       "name": "Genoa",
       "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 0,
-      "goalsAgainst": 2,
+      "goalsAgainst": 3,
       "image": "../../Img/Genoa.jpg"
     },
     {
@@ -121,9 +121,9 @@
       "name": "Cagliari",
       "wins": 1,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "goalsFor": 1,
-      "goalsAgainst": 0,
+      "goalsAgainst": 1,
       "image": "../../Img/Cagliari.jpg"
     },
     {
