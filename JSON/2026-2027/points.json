@@ -38,10 +38,10 @@
     },
     {
       "name": "Atalanta",
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 2,
+      "goalsFor": 3,
       "goalsAgainst": 1,
       "image": "../../Img/Atalanta.jpg"
     },
@@ -49,9 +49,9 @@
       "name": "Bologna",
       "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 0,
-      "goalsAgainst": 1,
+      "goalsAgainst": 2,
       "image": "../../Img/Bologna.jpg"
     },
     {
