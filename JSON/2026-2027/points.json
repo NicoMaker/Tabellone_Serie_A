@@ -56,10 +56,10 @@
     },
     {
       "name": "Roma",
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 4,
+      "goalsFor": 8,
       "goalsAgainst": 0,
       "image": "../../Img/Roma.jpg"
     },
@@ -139,9 +139,9 @@
       "name": "Lecce",
       "wins": 1,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "goalsFor": 2,
-      "goalsAgainst": 0,
+      "goalsAgainst": 4,
       "image": "../../Img/Lecce.jpg"
     },
     {
