@@ -103,18 +103,18 @@
       "name": "Genoa",
       "wins": 0,
       "draws": 0,
-      "losses": 2,
-      "goalsFor": 0,
-      "goalsAgainst": 3,
+      "losses": 3,
+      "goalsFor": 1,
+      "goalsAgainst": 7,
       "image": "../../Img/Genoa.jpg"
     },
     {
       "name": "Como",
-      "wins": 1,
+      "wins": 2,
       "draws": 1,
       "losses": 0,
-      "goalsFor": 3,
-      "goalsAgainst": 2,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
       "image": "../../Img/Como.jpg"
     },
     {
