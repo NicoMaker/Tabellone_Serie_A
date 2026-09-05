@@ -100,14 +100,18 @@ Object.assign(StandingsApp.prototype, {
   sortTable(criteria) {
     this.currentSortCriteria = criteria;
 
-    const sortedTeams = this.sortTeamsByCriteria(this.teamsData.teams, criteria),
+    const sortedTeams = this.sortTeamsByCriteria(
+        this.teamsData.teams,
+        criteria,
+      ),
       filteredTeams = this.filterTeamsBySearchTerm(sortedTeams);
 
     this.loadTableData(filteredTeams);
     this.highlightSelectedButton(criteria);
     this.displaySortingCriteria(criteria);
 
-    if (this.currentFilter !== "all") this.filterTableByZone(this.currentFilter);
+    if (this.currentFilter !== "all")
+      this.filterTableByZone(this.currentFilter);
   },
 
   sortTeamsByCriteria(teams, criteria) {
@@ -177,7 +181,8 @@ Object.assign(StandingsApp.prototype, {
     if (a.goalsFor !== b.goalsFor) return b.goalsFor - a.goalsFor;
 
     // 6. Gol subiti
-    if (a.goalsAgainst !== b.goalsAgainst) return a.goalsAgainst - b.goalsAgainst;
+    if (a.goalsAgainst !== b.goalsAgainst)
+      return a.goalsAgainst - b.goalsAgainst;
 
     // 7. Alfabetico
     return a.name.localeCompare(b.name);

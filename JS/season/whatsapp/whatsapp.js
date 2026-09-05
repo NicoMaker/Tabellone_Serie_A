@@ -8,7 +8,10 @@ Object.assign(StandingsApp.prototype, {
       return;
     }
 
-    const sortedTeams = this.sortTeamsByCriteria(this.teamsData.teams, "points");
+    const sortedTeams = this.sortTeamsByCriteria(
+      this.teamsData.teams,
+      "points",
+    );
     const seasonBadge = document.querySelector(".season-badge");
     const seasonTitle = seasonBadge
       ? seasonBadge.textContent.trim()
