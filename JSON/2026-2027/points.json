@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 0,
       "draws": 0,
-      "losses": 2,
-      "goalsFor": 0,
-      "goalsAgainst": 7,
+      "losses": 3,
+      "goalsFor": 1,
+      "goalsAgainst": 8,
       "image": "../../Img/Fiorentina.jpg"
     },
     {
@@ -92,11 +92,11 @@
     },
     {
       "name": "Torino",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 2,
-      "goalsFor": 2,
-      "goalsAgainst": 4,
+      "goalsFor": 4,
+      "goalsAgainst": 5,
       "image": "../../Img/Torino.jpg"
     },
     {
