@@ -82,6 +82,7 @@
   min-width: 66px;
   font-weight: 800;
   color: var(--accent-green);
+  background: rgba(33, 226, 138, 0.16);
 }
 
 .matches-col,
