@@ -40,9 +40,9 @@
       "name": "Atalanta",
       "wins": 2,
       "draws": 0,
-      "losses": 0,
-      "goalsFor": 3,
-      "goalsAgainst": 1,
+      "losses": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 3,
       "image": "../../Img/Atalanta.jpg"
     },
     {
@@ -56,11 +56,11 @@
     },
     {
       "name": "Roma",
-      "wins": 2,
+      "wins": 3,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 8,
-      "goalsAgainst": 0,
+      "goalsFor": 9,
+      "goalsAgainst": 1,
       "image": "../../Img/Roma.jpg"
     },
     {
