@@ -1,4 +1,4 @@
-/* ===================================================================
+ì/* ===================================================================
    COMPONENT — Tabella classifica
    =================================================================== */
 
@@ -77,12 +77,13 @@
   margin-right: 10px;
 }
 
-.pts-col {
+/* ===================== COLONNA PTS TUTTA VERDE ===================== */
+/* Intestazione e celle della colonna punti - solo testo verde, senza sfondo */
+.standings-table .pts-col {
   width: 66px;
   min-width: 66px;
   font-weight: 800;
-  color: var(--accent-green);
-  background: rgba(33, 226, 138, 0.16);
+  color: var(--accent-green) !important;
 }
 
 .matches-col,
@@ -96,7 +97,6 @@
   min-width: 76px;
   font-weight: 800;
 }
-
 
 .standings-table tbody tr {
   transition: background 0.2s ease;
