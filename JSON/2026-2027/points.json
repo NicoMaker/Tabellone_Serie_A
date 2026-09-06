@@ -129,10 +129,10 @@
     {
       "name": "Parma",
       "wins": 0,
-      "draws": 0,
+      "draws": 1,
       "losses": 2,
-      "goalsFor": 0,
-      "goalsAgainst": 3,
+      "goalsFor": 1,
+      "goalsAgainst": 4,
       "image": "Img/Parma.jpg"
     },
     {
@@ -157,27 +157,27 @@
       "name": "Venezia",
       "wins": 0,
       "draws": 0,
-      "losses": 2,
-      "goalsFor": 0,
-      "goalsAgainst": 4,
+      "losses": 3,
+      "goalsFor": 2,
+      "goalsAgainst": 7,
       "image": "Img/Venezia.jpeg"
     },
     {
       "name": "Frosinone",
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
       "losses": 1,
-      "goalsFor": 3,
-      "goalsAgainst": 1,
+      "goalsFor": 6,
+      "goalsAgainst": 3,
       "image": "Img/Frosinone.webp"
     },
     {
       "name": "Monza",
       "wins": 0,
-      "draws": 0,
+      "draws": 1,
       "losses": 2,
-      "goalsFor": 3,
-      "goalsAgainst": 7,
+      "goalsFor": 4,
+      "goalsAgainst": 8,
       "image": "Img/Monza.png"
     }
   ]
