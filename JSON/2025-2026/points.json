@@ -8,7 +8,7 @@
       "losses": 7,
       "goalsFor": 61,
       "goalsAgainst": 34,
-      "image": "../../Img/Juventus.jpg"
+      "image": "Img/Juventus.jpg"
     },
     {
       "name": "Inter",
@@ -17,7 +17,7 @@
       "losses": 5,
       "goalsFor": 89,
       "goalsAgainst": 35,
-      "image": "../../Img/Inter.jpg"
+      "image": "Img/Inter.jpg"
     },
     {
       "name": "Milan",
@@ -26,7 +26,7 @@
       "losses": 8,
       "goalsFor": 53,
       "goalsAgainst": 35,
-      "image": "../../Img/Milan.jpg"
+      "image": "Img/Milan.jpg"
     },
     {
       "name": "Napoli",
@@ -35,7 +35,7 @@
       "losses": 8,
       "goalsFor": 58,
       "goalsAgainst": 36,
-      "image": "../../Img/Napoli.jpg"
+      "image": "Img/Napoli.jpg"
     },
     {
       "name": "Atalanta",
@@ -44,7 +44,7 @@
       "losses": 9,
       "goalsFor": 51,
       "goalsAgainst": 36,
-      "image": "../../Img/Atalanta.jpg"
+      "image": "Img/Atalanta.jpg"
     },
     {
       "name": "Bologna",
@@ -53,7 +53,7 @@
       "losses": 14,
       "goalsFor": 49,
       "goalsAgainst": 46,
-      "image": "../../Img/Bologna.jpg"
+      "image": "Img/Bologna.jpg"
     },
     {
       "name": "Roma",
@@ -62,7 +62,7 @@
       "losses": 11,
       "goalsFor": 59,
       "goalsAgainst": 31,
-      "image": "../../Img/Roma.jpg"
+      "image": "Img/Roma.jpg"
     },
     {
       "name": "Lazio",
@@ -71,7 +71,7 @@
       "losses": 12,
       "goalsFor": 41,
       "goalsAgainst": 40,
-      "image": "../../Img/Lazio.jpg"
+      "image": "Img/Lazio.jpg"
     },
     {
       "name": "Fiorentina",
@@ -80,7 +80,7 @@
       "losses": 14,
       "goalsFor": 41,
       "goalsAgainst": 50,
-      "image": "../../Img/Fiorentina.jpg"
+      "image": "Img/Fiorentina.jpg"
     },
     {
       "name": "Udinese",
@@ -89,7 +89,7 @@
       "losses": 16,
       "goalsFor": 45,
       "goalsAgainst": 48,
-      "image": "../../Img/Udinese.jpg"
+      "image": "Img/Udinese.jpg"
     },
     {
       "name": "Torino",
@@ -98,7 +98,7 @@
       "losses": 17,
       "goalsFor": 44,
       "goalsAgainst": 63,
-      "image": "../../Img/Torino.jpg"
+      "image": "Img/Torino.jpg"
     },
     {
       "name": "Genoa",
@@ -107,7 +107,7 @@
       "losses": 17,
       "goalsFor": 41,
       "goalsAgainst": 51,
-      "image": "../../Img/Genoa.jpg"
+      "image": "Img/Genoa.jpg"
     },
     {
       "name": "Como",
@@ -116,7 +116,7 @@
       "losses": 7,
       "goalsFor": 65,
       "goalsAgainst": 29,
-      "image": "../../Img/Como.jpg"
+      "image": "Img/Como.jpg"
     },
     {
       "name": "Verona",
@@ -125,7 +125,7 @@
       "losses": 23,
       "goalsFor": 25,
       "goalsAgainst": 61,
-      "image": "../../Img/Verona.jpg"
+      "image": "Img/Verona.jpg"
     },
     {
       "name": "Cagliari",
@@ -134,7 +134,7 @@
       "losses": 17,
       "goalsFor": 40,
       "goalsAgainst": 53,
-      "image": "../../Img/Cagliari.jpg"
+      "image": "Img/Cagliari.jpg"
     },
     {
       "name": "Parma",
@@ -143,7 +143,7 @@
       "losses": 15,
       "goalsFor": 28,
       "goalsAgainst": 46,
-      "image": "../../Img/Parma.jpg"
+      "image": "Img/Parma.jpg"
     },
     {
       "name": "Lecce",
@@ -152,7 +152,7 @@
       "losses": 20,
       "goalsFor": 28,
       "goalsAgainst": 50,
-      "image": "../../Img/Lecce.jpg"
+      "image": "Img/Lecce.jpg"
     },
     {
       "name": "Pisa",
@@ -161,7 +161,7 @@
       "losses": 24,
       "goalsFor": 26,
       "goalsAgainst": 71,
-      "image": "../../Img/Pisa.jpg"
+      "image": "Img/Pisa.jpg"
     },
     {
       "name": "Sassuolo",
@@ -170,7 +170,7 @@
       "losses": 17,
       "goalsFor": 46,
       "goalsAgainst": 50,
-      "image": "../../Img/Sassuolo.jpg"
+      "image": "Img/Sassuolo.jpg"
     },
     {
       "name": "Cremonese",
@@ -179,7 +179,7 @@
       "losses": 20,
       "goalsFor": 32,
       "goalsAgainst": 56,
-      "image": "../../Img/Cremonese.jpg"
+      "image": "Img/Cremonese.jpg"
     }
   ]
 }

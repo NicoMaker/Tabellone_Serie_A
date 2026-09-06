@@ -28,7 +28,7 @@ Object.assign(StandingsApp.prototype, {
       positionCell.classList.add("pos-col");
 
       const teamCell = row.insertCell();
-      teamCell.innerHTML = `<img src="${team.image}" alt="${team.name}" class="team-logo-small"> ${team.name}`;
+      teamCell.innerHTML = `<img src="../../${team.image}" alt="${team.name}" class="team-logo-small"> ${team.name}`;
       teamCell.classList.add("team-col");
 
       const pointsCell = row.insertCell();
