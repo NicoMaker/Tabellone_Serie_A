@@ -48,10 +48,10 @@
     {
       "name": "Bologna",
       "wins": 0,
-      "draws": 0,
+      "draws": 1,
       "losses": 2,
-      "goalsFor": 0,
-      "goalsAgainst": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
       "image": "Img/Bologna.jpg"
     },
     {
@@ -147,10 +147,10 @@
     {
       "name": "Sassuolo",
       "wins": 1,
-      "draws": 0,
+      "draws": 1,
       "losses": 1,
-      "goalsFor": 3,
-      "goalsAgainst": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 5,
       "image": "Img/Sassuolo.jpg"
     },
     {
