@@ -72,7 +72,7 @@ class StandingsApp {
 
       this.updateTeamStats(this.teamsData.teams);
 
-      const labelsResponse = await fetch("../../data/criteri.json");
+      const labelsResponse = await fetch("data/criteri.json");
       if (!labelsResponse.ok)
         throw new Error("Errore nel caricamento delle etichette");
       this.criteriaLabels = await labelsResponse.json();
