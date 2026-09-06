@@ -3,10 +3,10 @@
     {
       "name": "Juventus",
       "wins": 2,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
-      "goalsFor": 3,
-      "goalsAgainst": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 1,
       "image": "Img/Juventus.jpg"
     },
     {
@@ -21,10 +21,10 @@
     {
       "name": "Milan",
       "wins": 2,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 2,
       "image": "Img/Milan.jpg"
     },
     {
