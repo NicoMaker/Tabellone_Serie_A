@@ -65,11 +65,11 @@
     },
     {
       "name": "Lazio",
-      "wins": 2,
+      "wins": 3,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 1,
       "image": "Img/Lazio.jpg"
     },
     {
@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 1,
       "draws": 1,
-      "losses": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
+      "losses": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 5,
       "image": "Img/Udinese.jpg"
     },
     {
