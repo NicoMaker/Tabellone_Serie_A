@@ -65,11 +65,11 @@
     },
     {
       "name": "Lazio",
-      "wins": 2,
+      "wins": 3,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 1,
       "image": "Img/Lazio.jpg"
     },
     {
@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 1,
       "draws": 1,
-      "losses": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
+      "losses": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 5,
       "image": "Img/Udinese.jpg"
     },
     {
@@ -119,10 +119,10 @@
     },
     {
       "name": "Cagliari",
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
       "losses": 1,
-      "goalsFor": 1,
+      "goalsFor": 2,
       "goalsAgainst": 1,
       "image": "Img/Cagliari.jpg"
     },
@@ -139,9 +139,9 @@
       "name": "Lecce",
       "wins": 1,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 2,
-      "goalsAgainst": 4,
+      "goalsAgainst": 5,
       "image": "Img/Lecce.jpg"
     },
     {
