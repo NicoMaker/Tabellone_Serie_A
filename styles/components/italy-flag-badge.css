@@ -1,13 +1,12 @@
 /* ===================================================================
-   BANDIERA ITALIANA — tricolore a riga (stessa firma grafica della
-   .tricolore-bar), mostrato sopra la classifica e le card stagioni.
+   BANDIERA ITALIANA — tricolore a riga, a piena larghezza, mostrato
+   sopra la classifica e le card stagioni.
    =================================================================== */
 
 .italy-flag-badge {
   display: block;
-  height: 8px;
-  width: 210px;
-  margin: 0 auto;
+  height: 7px;
+  width: 100%;
   background: linear-gradient(
     90deg,
     #008c45 0%,
@@ -17,10 +16,9 @@
     #cd212a 66.666%,
     #cd212a 100%
   );
-  clip-path: polygon(4% 0, 100% 0, 96% 100%, 0 100%);
   position: relative;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22);
   flex-shrink: 0;
 }
 
@@ -38,23 +36,18 @@
   animation: cut-shimmer 3.2s ease-in-out infinite;
 }
 
-/* Sopra la classifica */
+/* Sopra la classifica — stessa larghezza massima delle sezioni sotto */
 .italy-flag-badge--section {
+  max-width: 1400px;
+  height: 8px;
   margin: 0 auto 16px;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-/* Sopra ogni card stagione, nella pagina generale (versione più stretta) */
-.italy-flag-badge--card {
-  width: 150px;
-  height: 7px;
-}
-
+/* Sopra ogni card stagione, nella pagina generale */
 .season-card-wrap {
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-
-.season-card-wrap > .italy-flag-badge {
-  margin: 0 auto;
 }
