@@ -40,9 +40,9 @@
       "name": "Atalanta",
       "wins": 2,
       "draws": 0,
-      "losses": 1,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
+      "losses": 2,
+      "goalsFor": 5,
+      "goalsAgainst": 5,
       "image": "Img/Atalanta.jpg"
     },
     {
@@ -119,11 +119,11 @@
     },
     {
       "name": "Cagliari",
-      "wins": 2,
+      "wins": 3,
       "draws": 0,
       "losses": 1,
-      "goalsFor": 2,
-      "goalsAgainst": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 2,
       "image": "Img/Cagliari.jpg"
     },
     {
