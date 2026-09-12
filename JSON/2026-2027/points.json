@@ -102,10 +102,10 @@
     {
       "name": "Genoa",
       "wins": 0,
-      "draws": 0,
+      "draws": 1,
       "losses": 3,
-      "goalsFor": 1,
-      "goalsAgainst": 7,
+      "goalsFor": 2,
+      "goalsAgainst": 8,
       "image": "Img/Genoa.jpg"
     },
     {
@@ -165,10 +165,10 @@
     {
       "name": "Frosinone",
       "wins": 2,
-      "draws": 0,
+      "draws": 1,
       "losses": 1,
-      "goalsFor": 6,
-      "goalsAgainst": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 4,
       "image": "Img/Frosinone.webp"
     },
     {
