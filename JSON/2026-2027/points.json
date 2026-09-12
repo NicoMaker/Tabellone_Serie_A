@@ -21,10 +21,10 @@
     {
       "name": "Milan",
       "wins": 2,
-      "draws": 1,
+      "draws": 2,
       "losses": 0,
-      "goalsFor": 5,
-      "goalsAgainst": 2,
+      "goalsFor": 7,
+      "goalsAgainst": 4,
       "image": "Img/Milan.jpg"
     },
     {
@@ -66,10 +66,10 @@
     {
       "name": "Lazio",
       "wins": 3,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 1,
+      "goalsFor": 6,
+      "goalsAgainst": 3,
       "image": "Img/Lazio.jpg"
     },
     {
