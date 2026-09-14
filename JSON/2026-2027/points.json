@@ -56,10 +56,10 @@
     },
     {
       "name": "Roma",
-      "wins": 3,
+      "wins": 4,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 10,
+      "goalsFor": 12,
       "goalsAgainst": 1,
       "image": "Img/Roma.jpg"
     },
@@ -94,9 +94,9 @@
       "name": "Torino",
       "wins": 1,
       "draws": 0,
-      "losses": 2,
+      "losses": 3,
       "goalsFor": 4,
-      "goalsAgainst": 5,
+      "goalsAgainst": 7,
       "image": "Img/Torino.jpg"
     },
     {
@@ -110,11 +110,11 @@
     },
     {
       "name": "Como",
-      "wins": 2,
+      "wins": 3,
       "draws": 1,
       "losses": 0,
-      "goalsFor": 7,
-      "goalsAgainst": 3,
+      "goalsFor": 9,
+      "goalsAgainst": 4,
       "image": "Img/Como.jpg"
     },
     {
@@ -130,9 +130,9 @@
       "name": "Parma",
       "wins": 0,
       "draws": 1,
-      "losses": 2,
-      "goalsFor": 1,
-      "goalsAgainst": 4,
+      "losses": 3,
+      "goalsFor": 2,
+      "goalsAgainst": 6,
       "image": "Img/Parma.jpg"
     },
     {
