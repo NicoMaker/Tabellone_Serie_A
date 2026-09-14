@@ -11,11 +11,11 @@
     },
     {
       "name": "Inter",
-      "wins": 3,
+      "wins": 4,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 8,
-      "goalsAgainst": 3,
+      "goalsFor": 13,
+      "goalsAgainst": 6,
       "image": "Img/Inter.jpg"
     },
     {
@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 1,
       "draws": 1,
-      "losses": 1,
-      "goalsFor": 5,
-      "goalsAgainst": 5,
+      "losses": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 10,
       "image": "Img/Udinese.jpg"
     },
     {
