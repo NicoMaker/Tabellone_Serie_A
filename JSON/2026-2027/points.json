@@ -148,9 +148,9 @@
       "name": "Sassuolo",
       "wins": 2,
       "draws": 1,
-      "losses": 1,
-      "goalsFor": 8,
-      "goalsAgainst": 7,
+      "losses": 2,
+      "goalsFor": 9,
+      "goalsAgainst": 9,
       "image": "Img/Sassuolo.jpg"
     },
     {
@@ -173,11 +173,11 @@
     },
     {
       "name": "Monza",
-      "wins": 0,
+      "wins": 1,
       "draws": 1,
       "losses": 3,
-      "goalsFor": 6,
-      "goalsAgainst": 11,
+      "goalsFor": 8,
+      "goalsAgainst": 12,
       "image": "Img/Monza.png"
     }
   ]
