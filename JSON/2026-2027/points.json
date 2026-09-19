@@ -12,10 +12,10 @@
     {
       "name": "Inter",
       "wins": 4,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
-      "goalsFor": 13,
-      "goalsAgainst": 6,
+      "goalsFor": 15,
+      "goalsAgainst": 8,
       "image": "Img/Inter.jpg"
     },
     {
@@ -57,10 +57,10 @@
     {
       "name": "Roma",
       "wins": 4,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
-      "goalsFor": 12,
-      "goalsAgainst": 1,
+      "goalsFor": 14,
+      "goalsAgainst": 3,
       "image": "Img/Roma.jpg"
     },
     {
