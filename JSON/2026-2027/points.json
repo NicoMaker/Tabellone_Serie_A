@@ -65,10 +65,10 @@
     },
     {
       "name": "Lazio",
-      "wins": 3,
+      "wins": 4,
       "draws": 1,
       "losses": 0,
-      "goalsFor": 6,
+      "goalsFor": 8,
       "goalsAgainst": 3,
       "image": "Img/Lazio.jpg"
     },
@@ -157,9 +157,9 @@
       "name": "Venezia",
       "wins": 0,
       "draws": 0,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 4,
-      "goalsAgainst": 11,
+      "goalsAgainst": 13,
       "image": "Img/Venezia.jpeg"
     },
     {
