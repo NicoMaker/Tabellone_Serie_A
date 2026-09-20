@@ -103,18 +103,18 @@
       "name": "Genoa",
       "wins": 0,
       "draws": 1,
-      "losses": 3,
-      "goalsFor": 2,
-      "goalsAgainst": 8,
+      "losses": 4,
+      "goalsFor": 3,
+      "goalsAgainst": 10,
       "image": "Img/Genoa.jpg"
     },
     {
       "name": "Como",
       "wins": 3,
       "draws": 1,
-      "losses": 0,
+      "losses": 1,
       "goalsFor": 9,
-      "goalsAgainst": 4,
+      "goalsAgainst": 6,
       "image": "Img/Como.jpg"
     },
     {
@@ -128,11 +128,11 @@
     },
     {
       "name": "Parma",
-      "wins": 0,
+      "wins": 1,
       "draws": 1,
       "losses": 3,
-      "goalsFor": 2,
-      "goalsAgainst": 6,
+      "goalsFor": 4,
+      "goalsAgainst": 7,
       "image": "Img/Parma.jpg"
     },
     {
@@ -164,10 +164,10 @@
     },
     {
       "name": "Frosinone",
-      "wins": 2,
+      "wins": 3,
       "draws": 1,
       "losses": 1,
-      "goalsFor": 7,
+      "goalsFor": 9,
       "goalsAgainst": 4,
       "image": "Img/Frosinone.webp"
     },
