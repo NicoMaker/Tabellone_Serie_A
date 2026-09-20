@@ -20,10 +20,10 @@
     },
     {
       "name": "Milan",
-      "wins": 2,
+      "wins": 3,
       "draws": 2,
       "losses": 0,
-      "goalsFor": 7,
+      "goalsFor": 10,
       "goalsAgainst": 4,
       "image": "Img/Milan.jpg"
     },
@@ -139,9 +139,9 @@
       "name": "Lecce",
       "wins": 2,
       "draws": 0,
-      "losses": 2,
+      "losses": 3,
       "goalsFor": 5,
-      "goalsAgainst": 7,
+      "goalsAgainst": 10,
       "image": "Img/Lecce.jpg"
     },
     {
