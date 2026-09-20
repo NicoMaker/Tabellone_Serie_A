@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 2,
+      "wins": 3,
       "draws": 1,
       "losses": 1,
-      "goalsFor": 6,
+      "goalsFor": 8,
       "goalsAgainst": 4,
       "image": "Img/Juventus.jpg"
     },
@@ -40,9 +40,9 @@
       "name": "Atalanta",
       "wins": 2,
       "draws": 0,
-      "losses": 2,
+      "losses": 3,
       "goalsFor": 5,
-      "goalsAgainst": 5,
+      "goalsAgainst": 7,
       "image": "Img/Atalanta.jpg"
     },
     {
