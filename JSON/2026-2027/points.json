@@ -11,10 +11,10 @@
     },
     {
       "name": "Inter",
-      "wins": 4,
+      "wins": 5,
       "draws": 1,
       "losses": 0,
-      "goalsFor": 15,
+      "goalsFor": 18,
       "goalsAgainst": 8,
       "image": "Img/Inter.jpg"
     },
@@ -130,9 +130,9 @@
       "name": "Parma",
       "wins": 1,
       "draws": 1,
-      "losses": 3,
+      "losses": 4,
       "goalsFor": 4,
-      "goalsAgainst": 7,
+      "goalsAgainst": 10,
       "image": "Img/Parma.jpg"
     },
     {
