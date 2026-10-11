@@ -21,10 +21,10 @@
     {
       "name": "Milan",
       "wins": 3,
-      "draws": 2,
+      "draws": 3,
       "losses": 0,
-      "goalsFor": 10,
-      "goalsAgainst": 4,
+      "goalsFor": 11,
+      "goalsAgainst": 5,
       "image": "Img/Milan.jpg"
     },
     {
@@ -147,10 +147,10 @@
     {
       "name": "Sassuolo",
       "wins": 2,
-      "draws": 1,
+      "draws": 2,
       "losses": 2,
-      "goalsFor": 9,
-      "goalsAgainst": 9,
+      "goalsFor": 10,
+      "goalsAgainst": 10,
       "image": "Img/Sassuolo.jpg"
     },
     {
