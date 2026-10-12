@@ -85,18 +85,18 @@
       "name": "Udinese",
       "wins": 1,
       "draws": 1,
-      "losses": 3,
-      "goalsFor": 8,
-      "goalsAgainst": 11,
+      "losses": 4,
+      "goalsFor": 9,
+      "goalsAgainst": 13,
       "image": "Img/Udinese.jpg"
     },
     {
       "name": "Torino",
-      "wins": 1,
+      "wins": 2,
       "draws": 1,
       "losses": 3,
-      "goalsFor": 5,
-      "goalsAgainst": 8,
+      "goalsFor": 7,
+      "goalsAgainst": 9,
       "image": "Img/Torino.jpg"
     },
     {
