@@ -38,11 +38,11 @@
     },
     {
       "name": "Atalanta",
-      "wins": 2,
+      "wins": 3,
       "draws": 0,
       "losses": 3,
-      "goalsFor": 5,
-      "goalsAgainst": 7,
+      "goalsFor": 8,
+      "goalsAgainst": 8,
       "image": "Img/Atalanta.jpg"
     },
     {
@@ -157,9 +157,9 @@
       "name": "Venezia",
       "wins": 0,
       "draws": 0,
-      "losses": 5,
-      "goalsFor": 4,
-      "goalsAgainst": 13,
+      "losses": 6,
+      "goalsFor": 5,
+      "goalsAgainst": 16,
       "image": "Img/Venezia.jpeg"
     },
     {
