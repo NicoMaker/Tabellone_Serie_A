@@ -148,9 +148,9 @@
       "name": "Sassuolo",
       "wins": 2,
       "draws": 2,
-      "losses": 2,
-      "goalsFor": 10,
-      "goalsAgainst": 10,
+      "losses": 3,
+      "goalsFor": 12,
+      "goalsAgainst": 14,
       "image": "Img/Sassuolo.jpg"
     },
     {
@@ -164,11 +164,11 @@
     },
     {
       "name": "Frosinone",
-      "wins": 3,
+      "wins": 4,
       "draws": 1,
       "losses": 2,
-      "goalsFor": 9,
-      "goalsAgainst": 7,
+      "goalsFor": 13,
+      "goalsAgainst": 9,
       "image": "Img/Frosinone.webp"
     },
     {
