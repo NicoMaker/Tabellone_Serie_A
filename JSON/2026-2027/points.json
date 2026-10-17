@@ -11,11 +11,11 @@
     },
     {
       "name": "Inter",
-      "wins": 5,
+      "wins": 6,
       "draws": 1,
       "losses": 0,
-      "goalsFor": 18,
-      "goalsAgainst": 8,
+      "goalsFor": 21,
+      "goalsAgainst": 9,
       "image": "Img/Inter.jpg"
     },
     {
@@ -49,9 +49,9 @@
       "name": "Bologna",
       "wins": 1,
       "draws": 2,
-      "losses": 3,
-      "goalsFor": 5,
-      "goalsAgainst": 7,
+      "losses": 4,
+      "goalsFor": 6,
+      "goalsAgainst": 10,
       "image": "Img/Bologna.jpg"
     },
     {
