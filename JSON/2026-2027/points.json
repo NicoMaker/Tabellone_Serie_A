@@ -31,9 +31,9 @@
       "name": "Napoli",
       "wins": 3,
       "draws": 1,
-      "losses": 2,
+      "losses": 3,
       "goalsFor": 10,
-      "goalsAgainst": 6,
+      "goalsAgainst": 7,
       "image": "Img/Napoli.jpg"
     },
     {
@@ -155,10 +155,10 @@
     },
     {
       "name": "Venezia",
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
       "losses": 6,
-      "goalsFor": 5,
+      "goalsFor": 6,
       "goalsAgainst": 16,
       "image": "Img/Venezia.jpeg"
     },
