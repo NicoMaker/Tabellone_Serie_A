@@ -56,10 +56,10 @@
     },
     {
       "name": "Roma",
-      "wins": 4,
+      "wins": 5,
       "draws": 2,
       "losses": 0,
-      "goalsFor": 14,
+      "goalsFor": 16,
       "goalsAgainst": 3,
       "image": "Img/Roma.jpg"
     },
@@ -103,9 +103,9 @@
       "name": "Genoa",
       "wins": 1,
       "draws": 1,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 5,
-      "goalsAgainst": 11,
+      "goalsAgainst": 13,
       "image": "Img/Genoa.jpg"
     },
     {
