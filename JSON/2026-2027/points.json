@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 1,
       "draws": 1,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 9,
-      "goalsAgainst": 13,
+      "goalsAgainst": 16,
       "image": "Img/Udinese.jpg"
     },
     {
@@ -137,10 +137,10 @@
     },
     {
       "name": "Lecce",
-      "wins": 2,
+      "wins": 3,
       "draws": 0,
       "losses": 4,
-      "goalsFor": 6,
+      "goalsFor": 9,
       "goalsAgainst": 12,
       "image": "Img/Lecce.jpg"
     },
