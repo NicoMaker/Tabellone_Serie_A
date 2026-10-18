@@ -20,11 +20,11 @@
     },
     {
       "name": "Milan",
-      "wins": 3,
+      "wins": 4,
       "draws": 3,
       "losses": 0,
-      "goalsFor": 11,
-      "goalsAgainst": 5,
+      "goalsFor": 14,
+      "goalsAgainst": 7,
       "image": "Img/Milan.jpg"
     },
     {
@@ -40,9 +40,9 @@
       "name": "Atalanta",
       "wins": 3,
       "draws": 0,
-      "losses": 3,
-      "goalsFor": 8,
-      "goalsAgainst": 8,
+      "losses": 4,
+      "goalsFor": 10,
+      "goalsAgainst": 11,
       "image": "Img/Atalanta.jpg"
     },
     {
