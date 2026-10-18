@@ -4,9 +4,9 @@
       "name": "Juventus",
       "wins": 3,
       "draws": 2,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 9,
-      "goalsAgainst": 5,
+      "goalsAgainst": 8,
       "image": "Img/Juventus.jpg"
     },
     {
@@ -65,10 +65,10 @@
     },
     {
       "name": "Lazio",
-      "wins": 5,
+      "wins": 6,
       "draws": 1,
       "losses": 0,
-      "goalsFor": 11,
+      "goalsFor": 14,
       "goalsAgainst": 4,
       "image": "Img/Lazio.jpg"
     },
