@@ -121,9 +121,9 @@
       "name": "Cagliari",
       "wins": 4,
       "draws": 1,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 6,
-      "goalsAgainst": 3,
+      "goalsAgainst": 7,
       "image": "Img/Cagliari.jpg"
     },
     {
@@ -173,10 +173,10 @@
     },
     {
       "name": "Monza",
-      "wins": 1,
+      "wins": 2,
       "draws": 1,
       "losses": 4,
-      "goalsFor": 9,
+      "goalsFor": 13,
       "goalsAgainst": 15,
       "image": "Img/Monza.png"
     }
