@@ -47,10 +47,10 @@
     },
     {
       "name": "Bologna",
-      "wins": 1,
+      "wins": 2,
       "draws": 2,
       "losses": 4,
-      "goalsFor": 6,
+      "goalsFor": 8,
       "goalsAgainst": 10,
       "image": "Img/Bologna.jpg"
     },
@@ -110,10 +110,10 @@
     },
     {
       "name": "Como",
-      "wins": 4,
+      "wins": 5,
       "draws": 2,
       "losses": 1,
-      "goalsFor": 12,
+      "goalsFor": 14,
       "goalsAgainst": 7,
       "image": "Img/Como.jpg"
     },
@@ -121,9 +121,9 @@
       "name": "Cagliari",
       "wins": 4,
       "draws": 1,
-      "losses": 2,
+      "losses": 3,
       "goalsFor": 6,
-      "goalsAgainst": 7,
+      "goalsAgainst": 9,
       "image": "Img/Cagliari.jpg"
     },
     {
@@ -148,9 +148,9 @@
       "name": "Sassuolo",
       "wins": 2,
       "draws": 2,
-      "losses": 3,
+      "losses": 4,
       "goalsFor": 12,
-      "goalsAgainst": 14,
+      "goalsAgainst": 16,
       "image": "Img/Sassuolo.jpg"
     },
     {
