@@ -65,11 +65,11 @@
     },
     {
       "name": "Lazio",
-      "wins": 6,
+      "wins": 7,
       "draws": 1,
       "losses": 0,
-      "goalsFor": 14,
-      "goalsAgainst": 4,
+      "goalsFor": 16,
+      "goalsAgainst": 5,
       "image": "Img/Lazio.jpg"
     },
     {
@@ -130,9 +130,9 @@
       "name": "Parma",
       "wins": 1,
       "draws": 1,
-      "losses": 5,
-      "goalsFor": 4,
-      "goalsAgainst": 13,
+      "losses": 6,
+      "goalsFor": 5,
+      "goalsAgainst": 15,
       "image": "Img/Parma.jpg"
     },
     {
