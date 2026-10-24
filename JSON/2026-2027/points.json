@@ -30,10 +30,10 @@
     {
       "name": "Napoli",
       "wins": 3,
-      "draws": 1,
+      "draws": 2,
       "losses": 3,
-      "goalsFor": 10,
-      "goalsAgainst": 7,
+      "goalsFor": 13,
+      "goalsAgainst": 10,
       "image": "Img/Napoli.jpg"
     },
     {
@@ -57,10 +57,10 @@
     {
       "name": "Roma",
       "wins": 5,
-      "draws": 2,
+      "draws": 3,
       "losses": 0,
-      "goalsFor": 16,
-      "goalsAgainst": 3,
+      "goalsFor": 19,
+      "goalsAgainst": 6,
       "image": "Img/Roma.jpg"
     },
     {
