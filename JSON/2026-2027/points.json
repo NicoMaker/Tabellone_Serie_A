@@ -39,10 +39,10 @@
     {
       "name": "Atalanta",
       "wins": 3,
-      "draws": 0,
+      "draws": 1,
       "losses": 4,
-      "goalsFor": 10,
-      "goalsAgainst": 11,
+      "goalsFor": 14,
+      "goalsAgainst": 15,
       "image": "Img/Atalanta.jpg"
     },
     {
@@ -101,10 +101,10 @@
     },
     {
       "name": "Genoa",
-      "wins": 1,
+      "wins": 2,
       "draws": 1,
       "losses": 5,
-      "goalsFor": 5,
+      "goalsFor": 6,
       "goalsAgainst": 13,
       "image": "Img/Genoa.jpg"
     },
@@ -157,18 +157,18 @@
       "name": "Venezia",
       "wins": 1,
       "draws": 0,
-      "losses": 6,
+      "losses": 7,
       "goalsFor": 6,
-      "goalsAgainst": 16,
+      "goalsAgainst": 17,
       "image": "Img/Venezia.jpeg"
     },
     {
       "name": "Frosinone",
       "wins": 4,
-      "draws": 1,
+      "draws": 2,
       "losses": 2,
-      "goalsFor": 13,
-      "goalsAgainst": 9,
+      "goalsFor": 17,
+      "goalsAgainst": 13,
       "image": "Img/Frosinone.webp"
     },
     {
