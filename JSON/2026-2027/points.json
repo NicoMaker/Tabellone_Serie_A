@@ -20,10 +20,10 @@
     },
     {
       "name": "Milan",
-      "wins": 4,
+      "wins": 5,
       "draws": 3,
       "losses": 0,
-      "goalsFor": 14,
+      "goalsFor": 16,
       "goalsAgainst": 7,
       "image": "Img/Milan.jpg"
     },
@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 1,
       "draws": 1,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 9,
-      "goalsAgainst": 16,
+      "goalsAgainst": 18,
       "image": "Img/Udinese.jpg"
     },
     {
