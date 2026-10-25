@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 3,
+      "wins": 4,
       "draws": 2,
       "losses": 2,
-      "goalsFor": 9,
+      "goalsFor": 11,
       "goalsAgainst": 8,
       "image": "Img/Juventus.jpg"
     },
@@ -139,9 +139,9 @@
       "name": "Lecce",
       "wins": 3,
       "draws": 0,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 9,
-      "goalsAgainst": 12,
+      "goalsAgainst": 14,
       "image": "Img/Lecce.jpg"
     },
     {
