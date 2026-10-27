@@ -56,11 +56,11 @@
     },
     {
       "name": "Roma",
-      "wins": 5,
+      "wins": 6,
       "draws": 3,
       "losses": 0,
-      "goalsFor": 19,
-      "goalsAgainst": 6,
+      "goalsFor": 23,
+      "goalsAgainst": 8,
       "image": "Img/Roma.jpg"
     },
     {
@@ -121,9 +121,9 @@
       "name": "Cagliari",
       "wins": 4,
       "draws": 1,
-      "losses": 3,
-      "goalsFor": 6,
-      "goalsAgainst": 9,
+      "losses": 4,
+      "goalsFor": 8,
+      "goalsAgainst": 13,
       "image": "Img/Cagliari.jpg"
     },
     {
