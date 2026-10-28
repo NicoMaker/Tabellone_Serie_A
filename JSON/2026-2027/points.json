@@ -11,10 +11,10 @@
     },
     {
       "name": "Inter",
-      "wins": 7,
+      "wins": 8,
       "draws": 1,
       "losses": 0,
-      "goalsFor": 23,
+      "goalsFor": 25,
       "goalsAgainst": 10,
       "image": "Img/Inter.jpg"
     },
@@ -22,9 +22,9 @@
       "name": "Milan",
       "wins": 5,
       "draws": 3,
-      "losses": 0,
-      "goalsFor": 16,
-      "goalsAgainst": 7,
+      "losses": 1,
+      "goalsFor": 18,
+      "goalsAgainst": 11,
       "image": "Img/Milan.jpg"
     },
     {
@@ -47,11 +47,11 @@
     },
     {
       "name": "Bologna",
-      "wins": 2,
+      "wins": 3,
       "draws": 2,
       "losses": 4,
-      "goalsFor": 8,
-      "goalsAgainst": 10,
+      "goalsFor": 12,
+      "goalsAgainst": 12,
       "image": "Img/Bologna.jpg"
     },
     {
@@ -84,7 +84,7 @@
     {
       "name": "Udinese",
       "wins": 1,
-      "draws": 1,
+      "draws": 2,
       "losses": 6,
       "goalsFor": 9,
       "goalsAgainst": 18,
@@ -129,7 +129,7 @@
     {
       "name": "Parma",
       "wins": 1,
-      "draws": 1,
+      "draws": 2,
       "losses": 6,
       "goalsFor": 5,
       "goalsAgainst": 15,
@@ -157,9 +157,9 @@
       "name": "Venezia",
       "wins": 1,
       "draws": 0,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 6,
-      "goalsAgainst": 17,
+      "goalsAgainst": 19,
       "image": "Img/Venezia.jpeg"
     },
     {
