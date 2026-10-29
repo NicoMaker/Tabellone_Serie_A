@@ -139,9 +139,9 @@
       "name": "Lecce",
       "wins": 3,
       "draws": 0,
-      "losses": 5,
-      "goalsFor": 9,
-      "goalsAgainst": 14,
+      "losses": 6,
+      "goalsFor": 10,
+      "goalsAgainst": 19,
       "image": "Img/Lecce.jpg"
     },
     {
@@ -164,11 +164,11 @@
     },
     {
       "name": "Frosinone",
-      "wins": 4,
+      "wins": 5,
       "draws": 2,
       "losses": 2,
-      "goalsFor": 17,
-      "goalsAgainst": 13,
+      "goalsFor": 22,
+      "goalsAgainst": 14,
       "image": "Img/Frosinone.webp"
     },
     {
