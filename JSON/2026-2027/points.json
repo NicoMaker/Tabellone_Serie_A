@@ -39,10 +39,10 @@
     {
       "name": "Atalanta",
       "wins": 3,
-      "draws": 1,
+      "draws": 2,
       "losses": 4,
-      "goalsFor": 14,
-      "goalsAgainst": 15,
+      "goalsFor": 16,
+      "goalsAgainst": 17,
       "image": "Img/Atalanta.jpg"
     },
     {
@@ -75,10 +75,10 @@
     {
       "name": "Fiorentina",
       "wins": 1,
-      "draws": 1,
+      "draws": 2,
       "losses": 6,
-      "goalsFor": 9,
-      "goalsAgainst": 19,
+      "goalsFor": 11,
+      "goalsAgainst": 21,
       "image": "Img/Fiorentina.jpg"
     },
     {
