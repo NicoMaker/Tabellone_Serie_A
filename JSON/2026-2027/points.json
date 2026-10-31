@@ -13,18 +13,18 @@
       "name": "Inter",
       "wins": 8,
       "draws": 1,
-      "losses": 0,
-      "goalsFor": 25,
-      "goalsAgainst": 10,
+      "losses": 1,
+      "goalsFor": 26,
+      "goalsAgainst": 13,
       "image": "Img/Inter.jpg"
     },
     {
       "name": "Milan",
-      "wins": 5,
+      "wins": 6,
       "draws": 3,
       "losses": 1,
-      "goalsFor": 18,
-      "goalsAgainst": 11,
+      "goalsFor": 21,
+      "goalsAgainst": 12,
       "image": "Img/Milan.jpg"
     },
     {
