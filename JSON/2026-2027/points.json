@@ -56,11 +56,11 @@
     },
     {
       "name": "Roma",
-      "wins": 6,
+      "wins": 7,
       "draws": 3,
       "losses": 0,
-      "goalsFor": 23,
-      "goalsAgainst": 8,
+      "goalsFor": 28,
+      "goalsAgainst": 10,
       "image": "Img/Roma.jpg"
     },
     {
@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 1,
       "draws": 2,
-      "losses": 6,
-      "goalsFor": 9,
-      "goalsAgainst": 18,
+      "losses": 7,
+      "goalsFor": 11,
+      "goalsAgainst": 23,
       "image": "Img/Udinese.jpg"
     },
     {
