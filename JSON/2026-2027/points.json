@@ -110,10 +110,10 @@
     },
     {
       "name": "Como",
-      "wins": 6,
+      "wins": 7,
       "draws": 2,
       "losses": 1,
-      "goalsFor": 17,
+      "goalsFor": 18,
       "goalsAgainst": 8,
       "image": "Img/Como.jpg"
     },
@@ -157,9 +157,9 @@
       "name": "Venezia",
       "wins": 1,
       "draws": 0,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 6,
-      "goalsAgainst": 19,
+      "goalsAgainst": 20,
       "image": "Img/Venezia.jpeg"
     },
     {
