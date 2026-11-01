@@ -65,11 +65,11 @@
     },
     {
       "name": "Lazio",
-      "wins": 8,
+      "wins": 9,
       "draws": 1,
       "losses": 0,
-      "goalsFor": 22,
-      "goalsAgainst": 7,
+      "goalsFor": 24,
+      "goalsAgainst": 8,
       "image": "Img/Lazio.jpg"
     },
     {
@@ -94,9 +94,9 @@
       "name": "Torino",
       "wins": 4,
       "draws": 1,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 14,
-      "goalsAgainst": 14,
+      "goalsAgainst": 16,
       "image": "Img/Torino.jpg"
     },
     {
@@ -121,9 +121,9 @@
       "name": "Cagliari",
       "wins": 4,
       "draws": 1,
-      "losses": 4,
-      "goalsFor": 8,
-      "goalsAgainst": 13,
+      "losses": 5,
+      "goalsFor": 9,
+      "goalsAgainst": 15,
       "image": "Img/Cagliari.jpg"
     },
     {
@@ -164,10 +164,10 @@
     },
     {
       "name": "Frosinone",
-      "wins": 5,
+      "wins": 6,
       "draws": 2,
       "losses": 2,
-      "goalsFor": 22,
+      "goalsFor": 24,
       "goalsAgainst": 14,
       "image": "Img/Frosinone.webp"
     },
