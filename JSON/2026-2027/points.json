@@ -101,11 +101,11 @@
     },
     {
       "name": "Genoa",
-      "wins": 3,
+      "wins": 4,
       "draws": 1,
       "losses": 5,
-      "goalsFor": 8,
-      "goalsAgainst": 13,
+      "goalsFor": 10,
+      "goalsAgainst": 14,
       "image": "Img/Genoa.jpg"
     },
     {
@@ -139,9 +139,9 @@
       "name": "Lecce",
       "wins": 3,
       "draws": 0,
-      "losses": 6,
-      "goalsFor": 10,
-      "goalsAgainst": 19,
+      "losses": 7,
+      "goalsFor": 11,
+      "goalsAgainst": 21,
       "image": "Img/Lecce.jpg"
     },
     {
