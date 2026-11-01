@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Juventus",
-      "wins": 4,
+      "wins": 5,
       "draws": 2,
       "losses": 3,
-      "goalsFor": 11,
+      "goalsFor": 13,
       "goalsAgainst": 10,
       "image": "Img/Juventus.jpg"
     },
@@ -31,9 +31,9 @@
       "name": "Napoli",
       "wins": 4,
       "draws": 2,
-      "losses": 3,
+      "losses": 4,
       "goalsFor": 17,
-      "goalsAgainst": 11,
+      "goalsAgainst": 13,
       "image": "Img/Napoli.jpg"
     },
     {
