@@ -40,9 +40,9 @@
       "name": "Atalanta",
       "wins": 3,
       "draws": 2,
-      "losses": 4,
+      "losses": 5,
       "goalsFor": 16,
-      "goalsAgainst": 17,
+      "goalsAgainst": 20,
       "image": "Img/Atalanta.jpg"
     },
     {
@@ -128,10 +128,10 @@
     },
     {
       "name": "Parma",
-      "wins": 1,
+      "wins": 2,
       "draws": 2,
       "losses": 6,
-      "goalsFor": 5,
+      "goalsFor": 8,
       "goalsAgainst": 15,
       "image": "Img/Parma.jpg"
     },
