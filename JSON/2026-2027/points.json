@@ -74,11 +74,11 @@
     },
     {
       "name": "Fiorentina",
-      "wins": 1,
+      "wins": 2,
       "draws": 2,
       "losses": 6,
-      "goalsFor": 11,
-      "goalsAgainst": 21,
+      "goalsFor": 15,
+      "goalsAgainst": 23,
       "image": "Img/Fiorentina.jpg"
     },
     {
@@ -148,9 +148,9 @@
       "name": "Sassuolo",
       "wins": 2,
       "draws": 2,
-      "losses": 5,
-      "goalsFor": 14,
-      "goalsAgainst": 22,
+      "losses": 6,
+      "goalsFor": 16,
+      "goalsAgainst": 26,
       "image": "Img/Sassuolo.jpg"
     },
     {
