@@ -85,9 +85,9 @@
       "name": "Udinese",
       "wins": 1,
       "draws": 2,
-      "losses": 7,
-      "goalsFor": 11,
-      "goalsAgainst": 23,
+      "losses": 8,
+      "goalsFor": 12,
+      "goalsAgainst": 25,
       "image": "Img/Udinese.jpg"
     },
     {
@@ -155,11 +155,11 @@
     },
     {
       "name": "Venezia",
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
       "losses": 9,
-      "goalsFor": 6,
-      "goalsAgainst": 20,
+      "goalsFor": 8,
+      "goalsAgainst": 21,
       "image": "Img/Venezia.jpeg"
     },
     {
