@@ -47,11 +47,11 @@
     },
     {
       "name": "Bologna",
-      "wins": 4,
+      "wins": 5,
       "draws": 2,
       "losses": 4,
-      "goalsFor": 14,
-      "goalsAgainst": 13,
+      "goalsFor": 16,
+      "goalsAgainst": 14,
       "image": "Img/Bologna.jpg"
     },
     {
@@ -130,9 +130,9 @@
       "name": "Parma",
       "wins": 2,
       "draws": 2,
-      "losses": 6,
-      "goalsFor": 8,
-      "goalsAgainst": 15,
+      "losses": 7,
+      "goalsFor": 9,
+      "goalsAgainst": 17,
       "image": "Img/Parma.jpg"
     },
     {
