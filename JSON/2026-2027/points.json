@@ -56,10 +56,10 @@
     },
     {
       "name": "Roma",
-      "wins": 7,
+      "wins": 8,
       "draws": 3,
       "losses": 0,
-      "goalsFor": 28,
+      "goalsFor": 31,
       "goalsAgainst": 10,
       "image": "Img/Roma.jpg"
     },
@@ -148,9 +148,9 @@
       "name": "Sassuolo",
       "wins": 2,
       "draws": 2,
-      "losses": 6,
+      "losses": 7,
       "goalsFor": 16,
-      "goalsAgainst": 26,
+      "goalsAgainst": 29,
       "image": "Img/Sassuolo.jpg"
     },
     {
