@@ -11,10 +11,10 @@
     },
     {
       "name": "Inter",
-      "wins": 8,
+      "wins": 9,
       "draws": 1,
       "losses": 1,
-      "goalsFor": 26,
+      "goalsFor": 28,
       "goalsAgainst": 13,
       "image": "Img/Inter.jpg"
     },
@@ -112,9 +112,9 @@
       "name": "Como",
       "wins": 7,
       "draws": 2,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 18,
-      "goalsAgainst": 8,
+      "goalsAgainst": 10,
       "image": "Img/Como.jpg"
     },
     {
