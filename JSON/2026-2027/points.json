@@ -30,10 +30,10 @@
     {
       "name": "Napoli",
       "wins": 4,
-      "draws": 2,
+      "draws": 3,
       "losses": 4,
-      "goalsFor": 17,
-      "goalsAgainst": 13,
+      "goalsFor": 18,
+      "goalsAgainst": 14,
       "image": "Img/Napoli.jpg"
     },
     {
@@ -66,10 +66,10 @@
     {
       "name": "Lazio",
       "wins": 9,
-      "draws": 1,
+      "draws": 2,
       "losses": 0,
-      "goalsFor": 24,
-      "goalsAgainst": 8,
+      "goalsFor": 25,
+      "goalsAgainst": 9,
       "image": "Img/Lazio.jpg"
     },
     {
