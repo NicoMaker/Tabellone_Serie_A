@@ -3,10 +3,10 @@
     {
       "name": "Juventus",
       "wins": 5,
-      "draws": 2,
+      "draws": 3,
       "losses": 3,
-      "goalsFor": 13,
-      "goalsAgainst": 10,
+      "goalsFor": 15,
+      "goalsAgainst": 12,
       "image": "Img/Juventus.jpg"
     },
     {
@@ -75,10 +75,10 @@
     {
       "name": "Fiorentina",
       "wins": 2,
-      "draws": 2,
+      "draws": 3,
       "losses": 6,
-      "goalsFor": 15,
-      "goalsAgainst": 23,
+      "goalsFor": 17,
+      "goalsAgainst": 25,
       "image": "Img/Fiorentina.jpg"
     },
     {
