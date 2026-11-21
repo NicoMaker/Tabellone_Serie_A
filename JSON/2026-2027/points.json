@@ -65,10 +65,10 @@
     },
     {
       "name": "Lazio",
-      "wins": 9,
+      "wins": 10,
       "draws": 2,
       "losses": 0,
-      "goalsFor": 25,
+      "goalsFor": 28,
       "goalsAgainst": 9,
       "image": "Img/Lazio.jpg"
     },
@@ -110,10 +110,10 @@
     },
     {
       "name": "Como",
-      "wins": 7,
+      "wins": 8,
       "draws": 2,
       "losses": 2,
-      "goalsFor": 18,
+      "goalsFor": 20,
       "goalsAgainst": 10,
       "image": "Img/Como.jpg"
     },
@@ -121,9 +121,9 @@
       "name": "Cagliari",
       "wins": 5,
       "draws": 1,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 10,
-      "goalsAgainst": 15,
+      "goalsAgainst": 17,
       "image": "Img/Cagliari.jpg"
     },
     {
@@ -139,9 +139,9 @@
       "name": "Lecce",
       "wins": 3,
       "draws": 1,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 12,
-      "goalsAgainst": 22,
+      "goalsAgainst": 25,
       "image": "Img/Lecce.jpg"
     },
     {
