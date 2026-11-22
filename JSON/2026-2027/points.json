@@ -12,10 +12,10 @@
     {
       "name": "Inter",
       "wins": 9,
-      "draws": 1,
+      "draws": 2,
       "losses": 1,
-      "goalsFor": 28,
-      "goalsAgainst": 13,
+      "goalsFor": 32,
+      "goalsAgainst": 17,
       "image": "Img/Inter.jpg"
     },
     {
@@ -39,10 +39,10 @@
     {
       "name": "Atalanta",
       "wins": 4,
-      "draws": 2,
+      "draws": 3,
       "losses": 5,
-      "goalsFor": 17,
-      "goalsAgainst": 20,
+      "goalsFor": 21,
+      "goalsAgainst": 24,
       "image": "Img/Atalanta.jpg"
     },
     {
