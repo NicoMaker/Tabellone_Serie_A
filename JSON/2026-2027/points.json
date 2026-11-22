@@ -20,11 +20,11 @@
     },
     {
       "name": "Milan",
-      "wins": 7,
+      "wins": 8,
       "draws": 3,
       "losses": 1,
-      "goalsFor": 23,
-      "goalsAgainst": 13,
+      "goalsFor": 28,
+      "goalsAgainst": 14,
       "image": "Img/Milan.jpg"
     },
     {
@@ -166,9 +166,9 @@
       "name": "Frosinone",
       "wins": 6,
       "draws": 2,
-      "losses": 3,
-      "goalsFor": 24,
-      "goalsAgainst": 15,
+      "losses": 4,
+      "goalsFor": 25,
+      "goalsAgainst": 20,
       "image": "Img/Frosinone.webp"
     },
     {
