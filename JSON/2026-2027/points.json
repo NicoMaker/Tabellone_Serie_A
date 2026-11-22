@@ -48,10 +48,10 @@
     {
       "name": "Bologna",
       "wins": 5,
-      "draws": 2,
+      "draws": 3,
       "losses": 4,
-      "goalsFor": 16,
-      "goalsAgainst": 14,
+      "goalsFor": 17,
+      "goalsAgainst": 15,
       "image": "Img/Bologna.jpg"
     },
     {
@@ -84,10 +84,10 @@
     {
       "name": "Udinese",
       "wins": 1,
-      "draws": 2,
+      "draws": 3,
       "losses": 8,
-      "goalsFor": 12,
-      "goalsAgainst": 25,
+      "goalsFor": 13,
+      "goalsAgainst": 26,
       "image": "Img/Udinese.jpg"
     },
     {
@@ -101,10 +101,10 @@
     },
     {
       "name": "Genoa",
-      "wins": 4,
+      "wins": 5,
       "draws": 1,
       "losses": 6,
-      "goalsFor": 11,
+      "goalsFor": 13,
       "goalsAgainst": 16,
       "image": "Img/Genoa.jpg"
     },
@@ -148,9 +148,9 @@
       "name": "Sassuolo",
       "wins": 2,
       "draws": 2,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 16,
-      "goalsAgainst": 29,
+      "goalsAgainst": 31,
       "image": "Img/Sassuolo.jpg"
     },
     {
