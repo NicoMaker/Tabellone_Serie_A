@@ -76,9 +76,9 @@
       "name": "Fiorentina",
       "wins": 2,
       "draws": 3,
-      "losses": 6,
+      "losses": 7,
       "goalsFor": 17,
-      "goalsAgainst": 25,
+      "goalsAgainst": 29,
       "image": "Img/Fiorentina.jpg"
     },
     {
@@ -173,10 +173,10 @@
     },
     {
       "name": "Monza",
-      "wins": 2,
+      "wins": 3,
       "draws": 1,
       "losses": 8,
-      "goalsFor": 17,
+      "goalsFor": 20,
       "goalsAgainst": 25,
       "image": "Img/Monza.png"
     }
