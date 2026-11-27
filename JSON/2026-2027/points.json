@@ -48,7 +48,7 @@
     {
       "name": "Bologna",
       "wins": 5,
-      "draws": 3,
+      "draws": 4,
       "losses": 4,
       "goalsFor": 17,
       "goalsAgainst": 15,
@@ -156,7 +156,7 @@
     {
       "name": "Venezia",
       "wins": 2,
-      "draws": 0,
+      "draws": 1,
       "losses": 10,
       "goalsFor": 8,
       "goalsAgainst": 25,
