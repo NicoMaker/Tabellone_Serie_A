@@ -130,9 +130,9 @@
       "name": "Parma",
       "wins": 2,
       "draws": 2,
-      "losses": 8,
+      "losses": 9,
       "goalsFor": 10,
-      "goalsAgainst": 22,
+      "goalsAgainst": 25,
       "image": "Img/Parma.jpg"
     },
     {
@@ -164,10 +164,10 @@
     },
     {
       "name": "Frosinone",
-      "wins": 6,
+      "wins": 7,
       "draws": 2,
       "losses": 4,
-      "goalsFor": 25,
+      "goalsFor": 28,
       "goalsAgainst": 20,
       "image": "Img/Frosinone.webp"
     },
